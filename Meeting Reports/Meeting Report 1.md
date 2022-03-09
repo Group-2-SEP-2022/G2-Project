@@ -15,7 +15,7 @@ The planet of FSTM is under crisis. The villain took our dean away and he attack
 
 ## Program Design From Developers' Viewpoint
 The classes of this game contains Professors, PoképrofBalls, Rooms, etc.
-![image](Documents/software-engineering-project/classdiagram.png "Title")
+![classdiagram1](classdiagram1.png)
 
 ## Feasibility
 - Scope of the game: This game is run on the mobile phones with Android system.
