@@ -1,6 +1,7 @@
 # Meeting 1
 Time: 7 March 2022, 14:00-17:00.
-Location: Luxembourg Learning Center
+Participants: Joris LEFONDEUR, Pol KIHN, Yinghan LING
+Location: Luxembourg Learning Center GW 2.14
 
 ## Preparation
 We created an organization on Github and added all the teammates and Prof. Müller to the organization.
