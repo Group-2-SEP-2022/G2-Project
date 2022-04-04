@@ -1,6 +1,6 @@
 # Meeting 1
-Time: 7 March 2022, 14:00-17:00.
-Participants: Joris LEFONDEUR, Pol KIHN, Yinghan LING
+Time: 7 March 2022, 14:00-17:00.\
+Participants: Joris LEFONDEUR, Pol KIHN, Yinghan LING\
 Location: Luxembourg Learning Center GW 2.14
 
 ## Preparation
