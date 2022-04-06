@@ -1,7 +1,8 @@
 # Meeting 2
 Time: 18 March 2022, 14:00-16:00. \
 Participants: Joris LEFONDEUR, Pol KIHN, Yinghan LING.\
-Location: Luxembourg Learning Center GW 3.15
+Location: Luxembourg Learning Center GW 3.15\
+Documented by Yinghan LING.
 
 ## Preparation
 Tasks List
