@@ -1,0 +1,656 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'fr' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/joris/Documents/GitHub/PokeProf/pokeprof
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57260
+Successfully changed project path to: C:/Users/joris/Documents/GitHub/PokeProf/pokeprof
+C:/Users/joris/Documents/GitHub/PokeProf/pokeprof
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 72.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/joris/Documents/GitHub/PokeProf/pokeprof/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   
+    VRAM:     8151 MB
+    Driver:   30.0.15002.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001287 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.533 seconds
+Domain Reload Profiling:
+	ReloadAssembly (533ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (421ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.6 MB.
+System memory in use after: 157.8 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4061.
+Total: 3.501600 ms (FindLiveObjects: 0.296100 ms CreateObjectMapping: 0.089600 ms MarkObjects: 3.036500 ms  DeleteObjects: 0.078700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Pokedex/New Folder
+  artifactKey: Guid(79b72f8d9b28de7438d0d8e6bff8c417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/New Folder using Guid(79b72f8d9b28de7438d0d8e6bff8c417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2eeaa5c82db741a7c711a46541b3a8') in 0.012999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.760835 seconds.
+  path: Assets/Scenes/Pokedex/Engineering
+  artifactKey: Guid(79b72f8d9b28de7438d0d8e6bff8c417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Engineering using Guid(79b72f8d9b28de7438d0d8e6bff8c417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccd3fc8597bb90f87d8c5ccfbbf0229') in 0.009570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.896584 seconds.
+  path: Assets/Scenes/Pokedex/Mathematics/Ivan Nourdin.unity
+  artifactKey: Guid(b1790860adb181d418d63b4ca08f526d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Mathematics/Ivan Nourdin.unity using Guid(b1790860adb181d418d63b4ca08f526d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652b9fa368e9f09f3b6449f6b95aee59') in 0.010575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.507907 seconds.
+  path: Assets/Scenes/Pokedex/Mathematics/Ivan Nourdin 1.unity
+  artifactKey: Guid(e700fcb3cd14b3b419140796698cc63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Mathematics/Ivan Nourdin 1.unity using Guid(e700fcb3cd14b3b419140796698cc63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2963fd3e5bcc4dc00f03eafa518600') in 0.006379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.917442 seconds.
+  path: Assets/Scenes/Pokedex/Mathematics/Giovanni PECCATI 1.unity
+  artifactKey: Guid(44e1962524113b9408e09127b4c08e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Mathematics/Giovanni PECCATI 1.unity using Guid(44e1962524113b9408e09127b4c08e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0b18192d9f8d55aa420478e5595ea8') in 0.004951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.654513 seconds.
+  path: Assets/Pokedex/Card/Engineering/E-cd-Frank-SCHOLZEN-FrontSprite.png
+  artifactKey: Guid(b9b7e6a10a43ed94b812d252be56472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokedex/Card/Engineering/E-cd-Frank-SCHOLZEN-FrontSprite.png using Guid(b9b7e6a10a43ed94b812d252be56472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b24fefd2d89e336c0d14aa3430fb1f') in 0.096040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.039960 seconds.
+  path: Assets/Scenes/Pokedex/Engineering/Frank SCHOLZEN.unity
+  artifactKey: Guid(e700fcb3cd14b3b419140796698cc63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Engineering/Frank SCHOLZEN.unity using Guid(e700fcb3cd14b3b419140796698cc63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b9852eed4a9b8b317575c0ff26fd43') in 0.005004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.013425 seconds.
+  path: Assets/Pokedex/Card/Engineering/E-hod-Stephan-LEYER-FrontSprite.png
+  artifactKey: Guid(45ebdec64cb36484998b3cce9b56b81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokedex/Card/Engineering/E-hod-Stephan-LEYER-FrontSprite.png using Guid(45ebdec64cb36484998b3cce9b56b81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577768f824916e5f32bec225ca2aab76') in 0.013574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.739066 seconds.
+  path: Assets/Scenes/Pokedex/Engineering/Stephan-LEYER.unity
+  artifactKey: Guid(44e1962524113b9408e09127b4c08e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Engineering/Stephan-LEYER.unity using Guid(44e1962524113b9408e09127b4c08e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419aa069905e4c8f655dcdab64501ca5') in 0.005204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.129227 seconds.
+  path: Assets/Scenes/Pokedex/Engineering/Stephan LEYER.unity
+  artifactKey: Guid(44e1962524113b9408e09127b4c08e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Engineering/Stephan LEYER.unity using Guid(44e1962524113b9408e09127b4c08e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b97df0f7d492e99e518fe45cc9715e5') in 0.005621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.648046 seconds.
+  path: Assets/Scenes/Pokedex/Engineering/Frank SCHOLZEN.unity
+  artifactKey: Guid(e700fcb3cd14b3b419140796698cc63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Engineering/Frank SCHOLZEN.unity using Guid(e700fcb3cd14b3b419140796698cc63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83623589a4738c4aa3dcc7dc7edbb7d') in 0.002048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.087498 seconds.
+  path: Assets/Scenes/Pokedex/Engineering/Stephan LEYER.unity
+  artifactKey: Guid(44e1962524113b9408e09127b4c08e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Engineering/Stephan LEYER.unity using Guid(44e1962524113b9408e09127b4c08e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e23b3a6693625b8ecc922911b16460') in 0.002088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.113909 seconds.
+  path: Assets/Scenes/Pokedex/Engineering 1
+  artifactKey: Guid(77a201df6c1d8444cb5759dd0cfd2980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Engineering 1 using Guid(77a201df6c1d8444cb5759dd0cfd2980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58cda26190e92df5f2cd6244b1ec792') in 0.004791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.838947 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science
+  artifactKey: Guid(77a201df6c1d8444cb5759dd0cfd2980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science using Guid(77a201df6c1d8444cb5759dd0cfd2980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7062b624b72a9cfabf02c49dfbeb656c') in 0.008227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.889846 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Frank SCHOLZEN.unity
+  artifactKey: Guid(b86af30d2ef6d0d4f8aad75b4f8a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Frank SCHOLZEN.unity using Guid(b86af30d2ef6d0d4f8aad75b4f8a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f97ffe6818539e564c8a38db541a8dc') in 0.001988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.574035 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCC0.unity
+  artifactKey: Guid(b86af30d2ef6d0d4f8aad75b4f8a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCC0.unity using Guid(b86af30d2ef6d0d4f8aad75b4f8a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d0da1c606b90f96d49368d7a949034') in 0.005150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.963501 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Stephan LEYER.unity
+  artifactKey: Guid(0498bb6a890f0834b81dd9d390f562f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Stephan LEYER.unity using Guid(0498bb6a890f0834b81dd9d390f562f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e73fa1e5c0a7eea491731808e639dc') in 0.002111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.873621 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCCA.unity
+  artifactKey: Guid(b86af30d2ef6d0d4f8aad75b4f8a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCCA.unity using Guid(b86af30d2ef6d0d4f8aad75b4f8a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1dd861167172566438e5569a634d4f') in 0.004871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.985393 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Sjouke MAUW.unity
+  artifactKey: Guid(0498bb6a890f0834b81dd9d390f562f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Sjouke MAUW.unity using Guid(0498bb6a890f0834b81dd9d390f562f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b2532126bc7093b4cc7f6116673979') in 0.004634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.811453 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCCA 1.unity
+  artifactKey: Guid(94120dc6a6dad8c40875440a4ac70d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCCA 1.unity using Guid(94120dc6a6dad8c40875440a4ac70d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b816395b7d365478afd0eee426cd52') in 0.005062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.460476 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/THEOBALD.unity
+  artifactKey: Guid(94120dc6a6dad8c40875440a4ac70d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/THEOBALD.unity using Guid(94120dc6a6dad8c40875440a4ac70d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165e8de276dce6b1bf12ea1088f30af0') in 0.005090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.919273 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Martin THEOBALD.unity
+  artifactKey: Guid(94120dc6a6dad8c40875440a4ac70d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Martin THEOBALD.unity using Guid(94120dc6a6dad8c40875440a4ac70d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc800fec550893837cfb23415aeda103') in 0.005244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.757899 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCCA 1.unity
+  artifactKey: Guid(1995116c34e754b49afe4c364c3290ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCCA 1.unity using Guid(1995116c34e754b49afe4c364c3290ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7e755f04a323f7810136ea446a9f1c') in 0.004508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.296194 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Volker MÜLLER.unity
+  artifactKey: Guid(1995116c34e754b49afe4c364c3290ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Volker MÜLLER.unity using Guid(1995116c34e754b49afe4c364c3290ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cbcf3d21a9adb2e5217918ce113bc1') in 0.009330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.856920 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Volker MÜLLER.unity
+  artifactKey: Guid(1995116c34e754b49afe4c364c3290ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Volker MÜLLER.unity using Guid(1995116c34e754b49afe4c364c3290ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b65034fbfa557319ce4b74f0226e4a0') in 0.002141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.086534 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCCA.unity
+  artifactKey: Guid(b86af30d2ef6d0d4f8aad75b4f8a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCCA.unity using Guid(b86af30d2ef6d0d4f8aad75b4f8a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f6f7769c5e40b6bfcd4e870bc184e0') in 0.002239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.744834 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Martin THEOBALD.unity
+  artifactKey: Guid(94120dc6a6dad8c40875440a4ac70d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Martin THEOBALD.unity using Guid(94120dc6a6dad8c40875440a4ac70d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706daa9320fb3a22025d1e5f7e1e5523') in 0.002063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.853278 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Martin THEOBALD.unity
+  artifactKey: Guid(94120dc6a6dad8c40875440a4ac70d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Martin THEOBALD.unity using Guid(94120dc6a6dad8c40875440a4ac70d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d8e6546a2523836ef448061ab632a9') in 0.001982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.298554 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Sjouke MAUW.unity
+  artifactKey: Guid(0498bb6a890f0834b81dd9d390f562f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Sjouke MAUW.unity using Guid(0498bb6a890f0834b81dd9d390f562f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac002ceeb0bdc24973d6d5b91896929') in 0.001911 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003651 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (935ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.8 MB.
+System memory in use after: 150.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4070.
+Total: 3.687000 ms (FindLiveObjects: 0.279700 ms CreateObjectMapping: 0.091500 ms MarkObjects: 3.289900 ms  DeleteObjects: 0.025100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.296793 seconds.
+  path: Assets/Scenes/Pokedex/New Folder
+  artifactKey: Guid(ca30a6bda7735de48a8bbecfaed8af0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/New Folder using Guid(ca30a6bda7735de48a8bbecfaed8af0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fac14ad910385e8f88ee213a4fa2d78') in 0.005706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.608538 seconds.
+  path: Assets/Scenes/Pokedex/Biology & Medecine
+  artifactKey: Guid(ca30a6bda7735de48a8bbecfaed8af0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Biology & Medecine using Guid(ca30a6bda7735de48a8bbecfaed8af0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952c4c7ddc9562fc1cfa822ac7593b05') in 0.008338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.039275 seconds.
+  path: Assets/Scenes/Pokedex/Engineering/Frank SCHOLZEN.unity
+  artifactKey: Guid(e700fcb3cd14b3b419140796698cc63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Engineering/Frank SCHOLZEN.unity using Guid(e700fcb3cd14b3b419140796698cc63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24baaedc51fa281eaf6ac5cca20d91b') in 0.004113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.761771 seconds.
+  path: Assets/Scenes/Pokedex/Engineering/Frank SCHOLZEN 1.unity
+  artifactKey: Guid(6b159982abe8254408ed2db923d155a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Engineering/Frank SCHOLZEN 1.unity using Guid(6b159982abe8254408ed2db923d155a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588d43e0d3c856a4d9c2cc4dd1ed3beb') in 0.005006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.415029 seconds.
+  path: Assets/Scenes/Pokedex/Engineering/Stephan LEYER 1.unity
+  artifactKey: Guid(6d2dd1008c782fa43b21e30cd3432293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Engineering/Stephan LEYER 1.unity using Guid(6d2dd1008c782fa43b21e30cd3432293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991cd8c32cb10778f16e7b9896d48212') in 0.005243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.075552 seconds.
+  path: Assets/Scenes/Pokedex/Biology & Medecine/Frank SCHOLZEN 2.unity
+  artifactKey: Guid(1e9449eb398458c4c81a48ace235ebae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Biology & Medecine/Frank SCHOLZEN 2.unity using Guid(1e9449eb398458c4c81a48ace235ebae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24ecb25cafb3eb8fcdc62d972390060') in 0.004825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.532628 seconds.
+  path: Assets/Scenes/Pokedex/Biology & Medecine/Frank SCHOLZEN 2.unity
+  artifactKey: Guid(044ce0cd01e14bf4ab390df8d0c43a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Biology & Medecine/Frank SCHOLZEN 2.unity using Guid(044ce0cd01e14bf4ab390df8d0c43a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818d466ec5fd03b5eb9e2442efd1e191') in 0.002007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.644783 seconds.
+  path: Assets/Scenes/Pokedex/Biology & Medecine/Gilbert MASSARD.unity
+  artifactKey: Guid(6b159982abe8254408ed2db923d155a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Biology & Medecine/Gilbert MASSARD.unity using Guid(6b159982abe8254408ed2db923d155a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336af1c86cce3df922a2e6aff8f51e28') in 0.005098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.245741 seconds.
+  path: Assets/Scenes/Pokedex/Biology & Medecine/Jean Luc BUEB.unity
+  artifactKey: Guid(044ce0cd01e14bf4ab390df8d0c43a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Biology & Medecine/Jean Luc BUEB.unity using Guid(044ce0cd01e14bf4ab390df8d0c43a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43063e394c191a53005e7e70a970dd07') in 0.005115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.413460 seconds.
+  path: Assets/Scenes/Pokedex/Biology & Medecine/Iris BEHRMANN.unity
+  artifactKey: Guid(6d2dd1008c782fa43b21e30cd3432293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Biology & Medecine/Iris BEHRMANN.unity using Guid(6d2dd1008c782fa43b21e30cd3432293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173e06647a6dedbf7bc918ce84ad742d') in 0.005237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.326803 seconds.
+  path: Assets/Scenes/Pokedex/Biology & Medecine/Gilbert MASSARD.unity
+  artifactKey: Guid(6b159982abe8254408ed2db923d155a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Biology & Medecine/Gilbert MASSARD.unity using Guid(6b159982abe8254408ed2db923d155a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e16ffd8e7dd83af09e48e2679da0c38') in 0.002124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.935920 seconds.
+  path: Assets/Scenes/Pokedex/Biology & Medecine/Iris BEHRMANN.unity
+  artifactKey: Guid(6d2dd1008c782fa43b21e30cd3432293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Biology & Medecine/Iris BEHRMANN.unity using Guid(6d2dd1008c782fa43b21e30cd3432293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374668efba7473cb4928d3fa00ee01ab') in 0.002075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.616526 seconds.
+  path: Assets/Scenes/Pokedex/Biology & Medecine/Jean Luc BUEB.unity
+  artifactKey: Guid(044ce0cd01e14bf4ab390df8d0c43a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Biology & Medecine/Jean Luc BUEB.unity using Guid(044ce0cd01e14bf4ab390df8d0c43a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477fbb406afd9a33bc88239d8bb3c357') in 0.001823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.378374 seconds.
+  path: Assets/Plugins/Animated Sprite Outline/Assets/Textures/Sprites/UnityChan.png
+  artifactKey: Guid(c4c29975fcab02c47a1bbd2ea47df3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Animated Sprite Outline/Assets/Textures/Sprites/UnityChan.png using Guid(c4c29975fcab02c47a1bbd2ea47df3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6cd7fb8a546eb923756696985dab4e') in 0.059135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Plugins/Animated Sprite Outline/Assets/Textures/Sprites/UnityChan_Transparent.png
+  artifactKey: Guid(fa2954c80f90ec448b1ab5ad08c430f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Animated Sprite Outline/Assets/Textures/Sprites/UnityChan_Transparent.png using Guid(fa2954c80f90ec448b1ab5ad08c430f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616b5c6cf58ae42258bd0a23e3348b25') in 0.022772 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004335 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (932ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (772ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.9 MB.
+System memory in use after: 150.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4076.
+Total: 3.471600 ms (FindLiveObjects: 0.333300 ms CreateObjectMapping: 0.094100 ms MarkObjects: 3.018100 ms  DeleteObjects: 0.025100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Domain Reload Profiling:
+	ReloadAssembly (932ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (778ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.9 MB.
+System memory in use after: 150.2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4079.
+Total: 3.140800 ms (FindLiveObjects: 0.279200 ms CreateObjectMapping: 0.089200 ms MarkObjects: 2.747500 ms  DeleteObjects: 0.024100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 410.320377 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Sjouke MAUW.unity
+  artifactKey: Guid(0498bb6a890f0834b81dd9d390f562f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Sjouke MAUW.unity using Guid(0498bb6a890f0834b81dd9d390f562f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493d23ee95b9cd987e6c46f960042b50') in 0.006095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.276544 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Volker MÜLLER.unity
+  artifactKey: Guid(1995116c34e754b49afe4c364c3290ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Volker MÜLLER.unity using Guid(1995116c34e754b49afe4c364c3290ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7d0d735fa6f7cdb9c5e87629076203') in 0.004811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.725723 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCCA.unity
+  artifactKey: Guid(b86af30d2ef6d0d4f8aad75b4f8a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCCA.unity using Guid(b86af30d2ef6d0d4f8aad75b4f8a63bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8ba393d557643ce19d7b03714d73c7') in 0.004515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.790371 seconds.
+  path: Assets/Scenes/Pokedex/Computer Science/Volker MÜLLER.unity
+  artifactKey: Guid(1995116c34e754b49afe4c364c3290ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Computer Science/Volker MÜLLER.unity using Guid(1995116c34e754b49afe4c364c3290ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769290cb94b6a0def22a65db4dfe66e7') in 0.002215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.351379 seconds.
+  path: Assets/Scenes/Pokedex/Pokedex.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pokedex/Pokedex.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dd5a3e0f12ae6ea429705af5a5372a') in 0.008776 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (940ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.0 MB.
+System memory in use after: 150.2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4082.
+Total: 3.698100 ms (FindLiveObjects: 0.314500 ms CreateObjectMapping: 0.092500 ms MarkObjects: 3.263100 ms  DeleteObjects: 0.027100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
