@@ -13,7 +13,7 @@ public enum CardState
 public class CardFlipping : MonoBehaviour{
  public GameObject mFront;
  public GameObject mBack;
- public float mTime = 1f;
+ public float mTime = 1.5f;
  private bool isActive = false;
 
  public void Init()
