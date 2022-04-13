@@ -9,45 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Pokedex.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Pokedex/Mathematics/Ivan Nourdin.unity
-    guid: b1790860adb181d418d63b4ca08f526d
-  - enabled: 1
-    path: Assets/Scenes/Pokedex/Mathematics/Giovanni PECCATI.unity
-    guid: 016f49298697bf74496c97d1fa906a29
-  - enabled: 1
-    path: Assets/Scenes/Pokedex/Physics/Anupam SENGUPTA.unity
-    guid: d10d679ba2b1169468ce796bc9dde2e5
-  - enabled: 1
-    path: Assets/Scenes/Pokedex/Physics/Alexandre TKATCHENKO.unity
-    guid: 10ef385d17b21874a989b24d7c55547f
-  - enabled: 1
-    path: Assets/Scenes/Pokedex/Engineering/Frank SCHOLZEN.unity
-    guid: e700fcb3cd14b3b419140796698cc63b
-  - enabled: 1
-    path: Assets/Scenes/Pokedex/Engineering/Stephan LEYER.unity
-    guid: 44e1962524113b9408e09127b4c08e88
-  - enabled: 1
-    path: "Assets/Scenes/Pokedex/Computer Science/Volker M\xDCLLER.unity"
-    guid: 1995116c34e754b49afe4c364c3290ce
-  - enabled: 1
-    path: Assets/Scenes/Pokedex/Computer Science/Alfredo CAPOZUCCA.unity
-    guid: b86af30d2ef6d0d4f8aad75b4f8a63bf
-  - enabled: 1
-    path: Assets/Scenes/Pokedex/Computer Science/Martin THEOBALD.unity
-    guid: 94120dc6a6dad8c40875440a4ac70d79
-  - enabled: 1
-    path: Assets/Scenes/Pokedex/Computer Science/Sjouke MAUW.unity
-    guid: 0498bb6a890f0834b81dd9d390f562f4
-  - enabled: 1
-    path: Assets/Scenes/Pokedex/Biology & Medecine/Gilbert MASSARD.unity
-    guid: 6b159982abe8254408ed2db923d155a3
-  - enabled: 1
-    path: Assets/Scenes/Pokedex/Biology & Medecine/Jean Luc BUEB.unity
-    guid: 044ce0cd01e14bf4ab390df8d0c43a60
-  - enabled: 1
-    path: Assets/Scenes/Pokedex/Biology & Medecine/Iris BEHRMANN.unity
-    guid: 6d2dd1008c782fa43b21e30cd3432293
-  - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 8d24b4d7c58c2dd4187b8ab656d19ae8
   - enabled: 1
