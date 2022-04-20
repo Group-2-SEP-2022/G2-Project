@@ -1,0 +1,425 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'fr' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/joris/Documents/GitHub/PokeProf/pokeprof
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57418
+Successfully changed project path to: C:/Users/joris/Documents/GitHub/PokeProf/pokeprof
+C:/Users/joris/Documents/GitHub/PokeProf/pokeprof
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 77.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/joris/Documents/GitHub/PokeProf/pokeprof/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   
+    VRAM:     8151 MB
+    Driver:   30.0.15002.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001904 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.575 seconds
+Domain Reload Profiling:
+	ReloadAssembly (575ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007471 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1225ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.9 MB.
+System memory in use after: 160.1 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4087.
+Total: 3.816300 ms (FindLiveObjects: 0.394000 ms CreateObjectMapping: 0.177600 ms MarkObjects: 3.166700 ms  DeleteObjects: 0.076800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Game/Items
+  artifactKey: Guid(dea42f7d5c7ce9242bb911a2aa4bd766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items using Guid(dea42f7d5c7ce9242bb911a2aa4bd766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fddec13eb26a7a89cad3ccc89cb53b') in 0.012538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.144044 seconds.
+  path: Assets/Game/Items/bm-simple-pokeball.png
+  artifactKey: Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/bm-simple-pokeball.png using Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f61d6600329a956c5fd856a7e91110c') in 0.111670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Game/Items/m-special-pokeball.png
+  artifactKey: Guid(0af4fececba24df46b094174281a9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/m-special-pokeball.png using Guid(0af4fececba24df46b094174281a9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5a69dbcb12155288950b0cc2e4e862') in 0.013992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Game/Items/p-simple-pokeball.png
+  artifactKey: Guid(536ed0f0e8dc9ac469847129eaf89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/p-simple-pokeball.png using Guid(536ed0f0e8dc9ac469847129eaf89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd900bd8bf21fa46ecf52d7c56e12083a') in 0.012244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Game/Items/cs-special-pokeball.png
+  artifactKey: Guid(ddd2d19ca33b94e4d88187c315ad3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/cs-special-pokeball.png using Guid(ddd2d19ca33b94e4d88187c315ad3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270980e20fc38085d8181421fe949809') in 0.011898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Game/Items/e-simple-pokeball.png
+  artifactKey: Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/e-simple-pokeball.png using Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2746d38f5ba34a5b81fe2ae7d198f9ec') in 0.011941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Game/Items/bm-special-pokeball.png
+  artifactKey: Guid(a8b486eb2226d8b4a85562101d854ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/bm-special-pokeball.png using Guid(a8b486eb2226d8b4a85562101d854ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c426eec3ea40451c286417ad99810a0a') in 0.011511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Game/Items/p-special-pokeball.png
+  artifactKey: Guid(acce080ba8dda8449a689e35a7f6a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/p-special-pokeball.png using Guid(acce080ba8dda8449a689e35a7f6a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924c156113f9c379cd70ee8c1c9b0fbe') in 0.011945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Game/Items/m-simple-pokeball.png
+  artifactKey: Guid(e94c02ef4d1d1cc448bff8e81e51a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/m-simple-pokeball.png using Guid(e94c02ef4d1d1cc448bff8e81e51a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6061f57f886bfc344309341b4d86d67f') in 0.011809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Game/Items/e-special-pokeball.png
+  artifactKey: Guid(bfaa44c42a1a9864e8c8c912b4ad0d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/e-special-pokeball.png using Guid(bfaa44c42a1a9864e8c8c912b4ad0d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cb4b49468bb3bde67f407f93209308') in 0.012315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Game/Items/cs-simple-pokeball.png
+  artifactKey: Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/cs-simple-pokeball.png using Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a028cfc14aa01136e8af0b8028bc9462') in 0.011576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.161031 seconds.
+  path: Assets/Game/Items/bm-simple-pokeball.png
+  artifactKey: Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/bm-simple-pokeball.png using Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbabe8d8e8be32f990646d5e77fde96d') in 0.009677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.892236 seconds.
+  path: Assets/Game/Items/bm-special-pokeball.png
+  artifactKey: Guid(a8b486eb2226d8b4a85562101d854ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/bm-special-pokeball.png using Guid(a8b486eb2226d8b4a85562101d854ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a734c9b7bbea8657b82698d256fb10') in 0.008033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.438853 seconds.
+  path: Assets/Game/Items/bm-simple-pokeball.png
+  artifactKey: Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/bm-simple-pokeball.png using Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e33164f24f85bcb9f3d94bf583d8a8a') in 0.008202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.603438 seconds.
+  path: Assets/Game/Items/cs-simple-pokeball.png
+  artifactKey: Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/cs-simple-pokeball.png using Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bd375c1fdd624257b258a785e25e84') in 0.008129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.862090 seconds.
+  path: Assets/Game/Items/cs-special-pokeball.png
+  artifactKey: Guid(ddd2d19ca33b94e4d88187c315ad3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/cs-special-pokeball.png using Guid(ddd2d19ca33b94e4d88187c315ad3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2baea4249c189c327db677d5dd0b6996') in 0.009131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.667635 seconds.
+  path: Assets/Game/Items/e-simple-pokeball.png
+  artifactKey: Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/e-simple-pokeball.png using Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2fc06779d10eb77a65efb37c37ffa3') in 0.009794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.341793 seconds.
+  path: Assets/Game/Items/e-special-pokeball.png
+  artifactKey: Guid(bfaa44c42a1a9864e8c8c912b4ad0d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/e-special-pokeball.png using Guid(bfaa44c42a1a9864e8c8c912b4ad0d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90c87f4ebddfa4ba7cacf05270848c1') in 0.007855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.273189 seconds.
+  path: Assets/Game/Items/m-simple-pokeball.png
+  artifactKey: Guid(e94c02ef4d1d1cc448bff8e81e51a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/m-simple-pokeball.png using Guid(e94c02ef4d1d1cc448bff8e81e51a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1c4f42e139fb6d93c44b37960ce2fd') in 0.007834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.844062 seconds.
+  path: Assets/Game/Items/m-special-pokeball.png
+  artifactKey: Guid(0af4fececba24df46b094174281a9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/m-special-pokeball.png using Guid(0af4fececba24df46b094174281a9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63234b05f6cc64cad9f79384acf2a05') in 0.008045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.694324 seconds.
+  path: Assets/Game/Items/p-simple-pokeball.png
+  artifactKey: Guid(536ed0f0e8dc9ac469847129eaf89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/p-simple-pokeball.png using Guid(536ed0f0e8dc9ac469847129eaf89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac8b5a10c25057110709a2d0d2723ca') in 0.008117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.005555 seconds.
+  path: Assets/Game/Items/p-special-pokeball.png
+  artifactKey: Guid(acce080ba8dda8449a689e35a7f6a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/p-special-pokeball.png using Guid(acce080ba8dda8449a689e35a7f6a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0533706a80306a3d82d94a58b0a0466c') in 0.007968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.434319 seconds.
+  path: Assets/Game/Items/bm-simple-pokeball.png
+  artifactKey: Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/bm-simple-pokeball.png using Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f7f54bb53c04480d5a33e53a7f756a') in 0.051966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.283406 seconds.
+  path: Assets/Game/Items/bm-special-pokeball.png
+  artifactKey: Guid(a8b486eb2226d8b4a85562101d854ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/bm-special-pokeball.png using Guid(a8b486eb2226d8b4a85562101d854ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5a80dc01538d0f128f5ba0484e67fc') in 0.048818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.103686 seconds.
+  path: Assets/Game/Items/cs-simple-pokeball.png
+  artifactKey: Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/cs-simple-pokeball.png using Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8fbfeb0e421c0fad1034c5edddcf1e') in 0.045865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.432591 seconds.
+  path: Assets/Game/Items/cs-special-pokeball.png
+  artifactKey: Guid(ddd2d19ca33b94e4d88187c315ad3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/cs-special-pokeball.png using Guid(ddd2d19ca33b94e4d88187c315ad3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5065ed64b30b9aa0950a81861b60f26c') in 0.045200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1180.555524 seconds.
+  path: Assets/Game/Items/bm-simple-pokeball.png
+  artifactKey: Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/bm-simple-pokeball.png using Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7b0585f5926281a3bd27d3848a99fb') in 0.012106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Game/Items/p-simple-pokeball.png
+  artifactKey: Guid(536ed0f0e8dc9ac469847129eaf89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/p-simple-pokeball.png using Guid(536ed0f0e8dc9ac469847129eaf89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15b9fecad3cbf4ca16517ca73ec086a') in 0.009950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Game/Items/e-simple-pokeball.png
+  artifactKey: Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/e-simple-pokeball.png using Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799bded0e1301cfd3755f8a897a06915') in 0.011437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Game/Items/m-simple-pokeball.png
+  artifactKey: Guid(e94c02ef4d1d1cc448bff8e81e51a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/m-simple-pokeball.png using Guid(e94c02ef4d1d1cc448bff8e81e51a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b07672c039b445d292f125f5609c81') in 0.010136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Game/Items/cs-simple-pokeball.png
+  artifactKey: Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/cs-simple-pokeball.png using Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5363bd10b131456240da9e33127c1097') in 0.010828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.307526 seconds.
+  path: Assets/Game/Items/bm-simple-pokeball.png
+  artifactKey: Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/bm-simple-pokeball.png using Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ea999db0c36625438c4855be50d1ee') in 0.008462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.525799 seconds.
+  path: Assets/Game/Items/bm-simple-pokeball.png
+  artifactKey: Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/bm-simple-pokeball.png using Guid(712d9dc63eb8eba49be8ea4de01ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce275538621d22e74e845d3cefb3c4a') in 0.047624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.020770 seconds.
+  path: Assets/Game/Items/cs-simple-pokeball.png
+  artifactKey: Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/cs-simple-pokeball.png using Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f463fbfa8f3b6f88de5c6333a0dcc641') in 0.008474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.846414 seconds.
+  path: Assets/Game/Items/cs-simple-pokeball.png
+  artifactKey: Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/cs-simple-pokeball.png using Guid(cab5031a06632ef43b4e5930b34694f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d9291c68f419ca3973f3c3eab10dc6') in 0.047477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.711891 seconds.
+  path: Assets/Game/Items/e-simple-pokeball.png
+  artifactKey: Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/e-simple-pokeball.png using Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b01d74c0cb307210c767496505bece') in 0.008339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.930857 seconds.
+  path: Assets/Game/Items/m-simple-pokeball.png
+  artifactKey: Guid(e94c02ef4d1d1cc448bff8e81e51a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/m-simple-pokeball.png using Guid(e94c02ef4d1d1cc448bff8e81e51a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460a9382d52757e8af26de58d0e366bb') in 0.008653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.339700 seconds.
+  path: Assets/Game/Items/p-simple-pokeball.png
+  artifactKey: Guid(536ed0f0e8dc9ac469847129eaf89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/p-simple-pokeball.png using Guid(536ed0f0e8dc9ac469847129eaf89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7ea325aa11ed569abad715db5c347d') in 0.008257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.719335 seconds.
+  path: Assets/Game/Items/p-special-pokeball.png
+  artifactKey: Guid(acce080ba8dda8449a689e35a7f6a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/p-special-pokeball.png using Guid(acce080ba8dda8449a689e35a7f6a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d943e9f2eb7e5c83d95d665203af516') in 0.045484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.799328 seconds.
+  path: Assets/Game/Items/p-simple-pokeball.png
+  artifactKey: Guid(536ed0f0e8dc9ac469847129eaf89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/p-simple-pokeball.png using Guid(536ed0f0e8dc9ac469847129eaf89c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95822f1b37e52b31013f72996e86ff8b') in 0.044330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.739691 seconds.
+  path: Assets/Game/Items/m-special-pokeball.png
+  artifactKey: Guid(0af4fececba24df46b094174281a9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/m-special-pokeball.png using Guid(0af4fececba24df46b094174281a9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b79fad78340473a6f3e032af682b697') in 0.047927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.583753 seconds.
+  path: Assets/Game/Items/m-simple-pokeball.png
+  artifactKey: Guid(e94c02ef4d1d1cc448bff8e81e51a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/m-simple-pokeball.png using Guid(e94c02ef4d1d1cc448bff8e81e51a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a2d1eb5f6d1ac694c6a6eefd8c36ed') in 0.048153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.356826 seconds.
+  path: Assets/Game/Items/e-special-pokeball.png
+  artifactKey: Guid(bfaa44c42a1a9864e8c8c912b4ad0d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/e-special-pokeball.png using Guid(bfaa44c42a1a9864e8c8c912b4ad0d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342a5a1b3eb7f48e909afe20915f64da') in 0.049136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.891213 seconds.
+  path: Assets/Game/Items/e-simple-pokeball.png
+  artifactKey: Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/e-simple-pokeball.png using Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d0afdab8e92e3900cfa77d3c3340e4') in 0.011510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.768873 seconds.
+  path: Assets/Game/Items/e-simple-pokeball.png
+  artifactKey: Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/e-simple-pokeball.png using Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a375c83762240e7255beb0a82c9bd81b') in 0.009001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.972094 seconds.
+  path: Assets/Game/Items/e-simple-pokeball.png
+  artifactKey: Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Items/e-simple-pokeball.png using Guid(5dff4da5f0283b04ca20d7a80b63ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4570914e6c65703515dcaff1587091') in 0.045595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.599106 seconds.
+  path: Assets/Game/New Folder
+  artifactKey: Guid(e71acd2dcfe8df04d92215538c51c646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/New Folder using Guid(e71acd2dcfe8df04d92215538c51c646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c647e5aeeb3871ab18c2227f522c215') in 0.005703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.109760 seconds.
+  path: Assets/Game/Joystick
+  artifactKey: Guid(e71acd2dcfe8df04d92215538c51c646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Joystick using Guid(e71acd2dcfe8df04d92215538c51c646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fadab91b18c7a0cefa22940b68d1be') in 0.005669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.689903 seconds.
+  path: Assets/Game/Icons
+  artifactKey: Guid(b12ec378b58a9554dae4c42815f1affe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Icons using Guid(b12ec378b58a9554dae4c42815f1affe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc093b26dedfbe2bd1e24e23a7184a3') in 0.005877 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
