@@ -1928,7 +1928,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c6e87ed8143369144a963702747eecb0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f592a8c140fdd849bee16df8e541603, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3670,7 +3670,7 @@ GameObject:
   - component: {fileID: 510948964}
   - component: {fileID: 510948965}
   m_Layer: 0
-  m_Name: Sjouke MAUW
+  m_Name: Pascal BOUVRY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3928,7 +3928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 562114312}
   m_Layer: 0
-  m_Name: Biology & Medecine
+  m_Name: Biology & Medicine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5891,7 +5891,7 @@ GameObject:
   - component: {fileID: 840777804}
   - component: {fileID: 840777803}
   m_Layer: 0
-  m_Name: Sjouke MAUW
+  m_Name: Pascal BOUVRY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9192,7 +9192,7 @@ GameObject:
   - component: {fileID: 1233150969}
   - component: {fileID: 1233150968}
   m_Layer: 0
-  m_Name: Biology & Medecine
+  m_Name: Biology & Medicine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9237,7 +9237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BIOLOGY & MEDECINE
+  m_text: BIOLOGY & MEDICINE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 744a34db2908d97448d3ce57e7fe7cba, type: 2}
   m_sharedMaterial: {fileID: 4327789982213651312, guid: 744a34db2908d97448d3ce57e7fe7cba, type: 2}
@@ -9827,7 +9827,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c6e87ed8143369144a963702747eecb0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f592a8c140fdd849bee16df8e541603, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12605,7 +12605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1574654194}
   m_Layer: 0
-  m_Name: Biology & Medecine
+  m_Name: Biology & Medicine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
