@@ -1,0 +1,19 @@
+
+=== Thu Apr  7 15:23:56 2022
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.postprocessing@2.3.0
+  com.unity.render-pipelines.universal@7.3.1
+
+=== Fri Apr  8 15:11:34 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.2d.animation from version 5.1.1 to 5.2.0
+  com.unity.2d.psdimporter from version 4.2.0 to 4.3.0
+  com.unity.2d.spriteshape from version 5.2.0 to 5.3.0

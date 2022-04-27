@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<body class="dark-mode">
+
+    <button style="position:absolute; right: 0;" onclick="toggleDarkMode()">Toggle dark mode</button>
+    <br />
+
+    <details>
+        <summary>Instructions:</summary>
+        <p>1. Ensure Generator.html is located in Modern_Interiors/2_Characters folder</p>
+        <p>2. Open Generator.html</p>
+        <p>3. Click Choose files to import the assets</p>
+        <p>4. Voila!</p>
+    </details>
+    <br />
+    <label class="btn btn-primary">Select Character_Generator =>
+        <input type="file" id="selectFiles" onchange="initializeCharacterAssetsFolder()" multiple webkitdirectory />
+    </label>
+    <br />
+    <br />
+    <div id="selection"></div>
+    <p>Right click to save</p>
+    <canvas id="canvas"></canvas>
+
+    <script>
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+        const resolution = ["16x16", "32x32", "48x48"]
+        const bodyType = ["Bodies"]
+        var bodies = [[], [], []];
+        var outfit = [[], [], []];
+        var hair = [[], [], []];
+        var eyes = [[], [], []];
+        var accessories = [[], [], []];
+
+        // Outfit 
+        // 896x656
+        // 1792x1312
+        // 2688x1968
+
+        // Body
+        // 927 × 656
+        // 1854x1312
+        // 2781x1968
+        var assetSizeMultiplier = [1, 1, 1]
+
+        var selectedSize = 2;
+        var selectedBody = 1;
+        var selectedOutfit = 1;
+        var selectedHair = 1;
+        var selectedEye = 0;
+        var selectedAccessories = 0;
+
+        function initializeCharacterAssetsFolder() {
+            var selectedFiles = Array.from(document.getElementById("selectFiles").files).map(element => ({
+                name: element.name,
+                path: element.webkitRelativePath
+            }));
+            for (var file of selectedFiles) {
+                composeResource(file);
+            }
+            sort();
+            initializeOptions();
+
+            draw();
+        }
+
+        function sort() {
+            bodies.forEach(sortInnerArr);
+            outfit.forEach(sortInnerArr);
+            hair.forEach(sortInnerArr);
+            eyes.forEach(sortInnerArr);
+            accessories.forEach(sortInnerArr);
+        }
+
+        function sortInnerArr(arr) {
+            arr.sort(function (a, b) { return a.name.localeCompare(b.name) });
+            arr.splice(0, 0, { name: "n/a", path: "" });
+        }
+
+        function initializeOptions() {
+            var div = document.getElementById("selection");
+            while (div.firstChild)
+                div.removeChild(div.firstChild);
+            div.appendChild(renderOption(resolution, "selectSize", selectedSize, function (e) {
+                selectedSize = e.target.selectedIndex;
+                // draw();
+                initializeOptions();
+
+                draw();
+            }));
+            div.appendChild(renderOption(bodies[selectedSize].map(x => x.name), "selectBody", selectedBody, function (e) {
+                selectedBody = e.target.selectedIndex;
+                draw();
+            }));
+            div.appendChild(renderOption(outfit[selectedSize].map(x => x.name), "selectOutfit", selectedOutfit, function (e) {
+                selectedOutfit = e.target.selectedIndex;
+                draw();
+            }));
+            div.appendChild(renderOption(hair[selectedSize].map(x => x.name), "selectHair", selectedHair, function (e) {
+                selectedHair = e.target.selectedIndex;
+                draw();
+            }));
+            div.appendChild(renderOption(eyes[selectedSize].map(x => x.name), "selectEye", selectedEye, function (e) {
+                selectedEye = e.target.selectedIndex;
+                draw();
+            }));
+            div.appendChild(renderOption(accessories[selectedSize].map(x => x.name), "selectAccs", selectedAccessories, function (e) {
+                selectedAccessories = e.target.selectedIndex;
+                draw();
+            }));
+        }
+
+        function renderOption(options, elementId, initialIndex, onChangeEvent) {
+            var select = document.createElement("select");
+            select.size = 15;
+            select.addEventListener('change', onChangeEvent);
+            for (var i = 0; i < options.length; i++) {
+                var opt = options[i];
+                var el = document.createElement("option");
+                el.textContent = opt;
+                el.value = opt;
+                el.selected = initialIndex == i;
+                select.appendChild(el);
+            }
+            return select;
+        }
+
+        function composeResource(file) {
+            var path = file.path.split("/");
+            switch (path[1]) {
+                case "Bodies":
+                    generateResource(bodies, path, file);
+                    break;
+                case "Hairstyles":
+                    generateResource(hair, path, file);
+                    break;
+                case "Eyes":
+                    generateResource(eyes, path, file);
+                    break;
+                case "Outfits":
+                    generateResource(outfit, path, file);
+                    break;
+                case "Accessories":
+                    generateResource(accessories, path, file);
+                    break;
+            }
+        }
+
+        function generateResource(arr, path, file) {
+            switch (path[2]) {
+                case "16x16":
+                    arr[0].push(file);
+                    break;
+                case "32x32":
+                    arr[1].push(file);
+                    break;
+                case "48x48":
+                    arr[2].push(file);
+                    break;
+            }
+        }
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            var imgPath = [];
+            if (selectedBody > 0)
+                imgPath.push(bodies[selectedSize][selectedBody].path);
+            if (selectedOutfit > 0)
+                imgPath.push(outfit[selectedSize][selectedOutfit].path);
+            if (selectedHair > 0)
+                imgPath.push(hair[selectedSize][selectedHair].path);
+            if (selectedEye > 0)
+                imgPath.push(eyes[selectedSize][selectedEye].path);
+            if (selectedAccessories > 0)
+                imgPath.push(accessories[selectedSize][selectedAccessories].path);
+            render(imgPath, 0)
+        };
+
+        function render(imagePath, index) {
+            if (index >= imagePath.length)
+                return;
+            var img = new Image();
+            img.src = imagePath[index];
+            img.onload = function () {
+                if (index == 0) {
+                    canvas.width = this.naturalWidth;
+                    canvas.height = this.naturalHeight;
+                    ctx.drawImage(this, 0, 0);
+                } else {
+                    var width = (canvas.width / canvas.height) * this.naturalHeight;
+                    ctx.drawImage(this, 0, 0, this.naturalWidth * assetSizeMultiplier[selectedSize], this.naturalHeight * assetSizeMultiplier[selectedSize]);
+                }
+                render(imagePath, index + 1);
+            }
+        }
+
+    </script>
+
+    <script>
+
+        function toggleDarkMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+<style>a[href^="https://retiremely.com/"],div[id^="ad-cid-"],a[href^="http://secure.vivid.com/track/"],a[href^="https://freeadult.games/"],a[href^="https://www.what-sexdating.com/"],a[href^="https://traffic.bannerator.com/"],a[href^="https://paid.outbrain.com/network/redir?"],div[data-ad-placeholder],div[data-adzone],a[href^="https://tracking.avapartner.com/"],a[href^="http://www.fleshlight.com/"],a[href^="http://ads.betfair.com/redirect.aspx?"],div[id^="_vdo_ads_player_ai_"],[href^="https://secure.bmtmicro.com/servlets/"],a[href^="http://fileboom.me/pr/"],a[href^="https://www.g4mz.com/"],div[class^="adbanner_"],a[href^="http://ad-emea.doubleclick.net/"],a[href^="https://adclick.g.doubleclick.net/"],a[href^="https://easygamepromo.com/ef/custom_affiliate/"],a[href*=".zlink9.com/"],[href^="https://www.hostg.xyz/aff_c"] > img,a[href^="https://track.trkinator.com/"],a[href^="http://adf.ly/?id="],a[href^="http://t.wowtrk.com/"],div[data-mediatype="advertising"],a[href^="https://www.mrskin.com/tour"],a[href^="http://deloplen.com/"],a[data-obtrack^="http://paid.outbrain.com/network/redir?"],a[href^="https://dianches-inchor.com/"],a[href^="http://wgpartner.com/"],a[href^="https://gogoman.me/"],a[href^="http://www.clkads.com/adServe/"],a[href^="http://download-performance.com/"],a[href^="https://click.a-ads.com/"],a[href^="http://ad.au.doubleclick.net/"],[href^="https://join.girlsoutwest.com/"],a[href^="http://static.fleshlight.com/images/banners/"],div[id^="advt-"],div[id^="crt-"][style],a[href^="https://wantopticalfreelance.com/"],a[href^="https://tc.tradetracker.net/"] > img,a[href^="https://www.iyalc.com/"],a[href^="https://tracking.trackcasino.co/"],a[href^="https://t.grtyi.com/"],div[class^="pane-adsense-managed-"],a[href^="https://iqbroker.com/"][href*="?aff="],a[href^="http://www.afgr3.com/"],a[href^="http://adserver.adtechus.com/"],a[href^="https://land.rk.com/landing/"],a[href^="http://ads.expekt.com/affiliates/"],a[href^="http://greensmoke.com/"],a[href^="http://cpaway.afftrack.com/"],a[href^="http://play4k.co/"],a[href^="https://control.trafficfabrik.com/"],a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img,a[href^="http://mmo123.co/"],a[href^="https://www.dollps.com/?track="],a[href^="https://go.strpjmp.com/"],a[href^="https://www.share-online.biz/affiliate/"],span[data-component-type="s-ads-metrics"],a[href^="http://adtrack123.pl/"],a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"],a[href^="https://look.utndln.com/"],a[href^="https://pubads.g.doubleclick.net/"],a[href^="https://www.awin1.com/cread.php?awinaffid="],a[href^="http://feedads.g.doubleclick.net/"],a[href^="https://track.healthtrader.com/"],a[href^="https://bongacams2.com/track?"],a[href^="http://srvpub.com/"],a[href^="https://go.ad2up.com/"],a[href^="https://traffdaq.com/"],a[href^="http://www.1clickdownloader.com/"],a[href^="http://lp.ncdownloader.com/"],[href^="https://www.restoro.com/"],a[href^="http://see.kmisln.com/"],a[href^="https://mmwebhandler.aff-online.com/"],app-advertisement,a[href^="http://www.easydownloadnow.com/"],div[class^="Display_displayAd"],a[href^="http://c.actiondesk.com/"],a[href^="https://go.onclasrv.com/"],div[data-insertion],a[href^="https://offerforge.net/"],div[class^="ad_position_"],a[href^="https://affiliates.bet-at-home.com/processing/"],div[id^="adngin-"],a[href^="http://360ads.go2cloud.org/"],a[href^="https://www.oboom.com/ad/"],a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="],[href^="//mage98rquewz.com/"],a[href^="https://track.wg-aff.com"],a[href^="http://refpa.top/"],a[href^="https://refpasrasw.world/"],[href^="http://join.shemalesfromhell.com/"],a[href^="https://tm-offers.gamingadult.com/"],a[href^="http://www.afgr2.com/"],a[href^="http://reallygoodlink.extremefreegames.com/"],div[class^="ResponsiveAd-"],a[href^="http://www.fpcTraffic2.com/blind/in.cgi?"],a[href^="http://adsrv.keycaptcha.com"],a[href^="http://get.slickvpn.com/"],a[href^="//benoopto.com/"],a[href^="https://landing.brazzersnetwork.com/"],div[class^="hp-ad-rect-"],div[class^="Ad__bigBox"],a[href^="https://track.afftck.com/"],a[href^="https://vlnk.me/"],[href^="https://traffserve.com/"],a[href^="http://campaign.bharatmatrimony.com/cbstrack/"],a[href^="https://ad.zanox.com/ppc/"] > img,a[href^="http://secure.cbdpure.com/aff/"],a[href^="https://ttf.trmobc.com/"],a[href^="http://ad-apac.doubleclick.net/"],a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="],div[class^="largeRectangleAd_"],a[href^="https://go.hpyrdr.com/"],a[href^="https://partners.fxoro.com/click.php?"],[href^="https://r.kraken.com/"],a[href^="http://record.sportsbetaffiliates.com.au/"],a[href^="https://track.themadtrcker.com/"],a[href^="http://www.bluehost.com/track/"] > img,div[data-dfp-id],a[href^="https://spygasm.com/track?"],a[href^="https://adserver.adreactor.com/"],a[href^="https://adswick.com/"],iframe[src^="https://pagead2.googlesyndication.com/"],a[data-redirect^="http://paid.outbrain.com/network/redir?"],a[href^="https://www.adxtro.com/"],a[href^="http://enter.anabolic.com/track/"],a[href^="https://ndt5.net/"],a[href^="http://papi.mynativeplatform.com:80/pub2/"],a[href^="https://land.brazzersnetwork.com/landing/"],AFS-AD,div[id^="adfox_"],[href^="https://shiftnetwork.infusionsoft.com/go/"] > img,a[href^="https://clicks.pipaffiliates.com/"],[id^="bunyad_ads_"],div[data-subscript="Advertising"],[data-template-type="nativead"],a[href^="http://www.coiwqe.site/"],a[href^="https://agacelebir.com/"],a[href^="http://www.liutilities.com/"],a[href^="https://adsrv4k.com/"],a[href^="https://bullads.net/get/"],[href^="http://join.michelle-austin.com/"],[href^="https://mypillow.com/"] > img,div[id^="banner-ad-"],div[id^="yandex_ad"],[href^="https://glersakr.com/"],a[href^="http://farm.plista.com/pets"],a[href^="https://www.financeads.net/tc.php?"],a[href^="http://www.downloadweb.org/"],a[href^="http://serve.williamhill.com/promoRedirect?"],[href^="https://freecourseweb.com/"] > .sitefriend,a[href^="http://hyperlinksecure.com/go/"],a[href^="http://go.fpmarkets.com/"],a[href^="http://www.quick-torrent.com/download.html?aff"],a[href^="https://refpaano.host/"],a[href^="http://xtgem.com/click?"],div[class^="index_adBeforeContent_"],div[class^="adsbutt_wrapper_"],a[href^="https://join.dreamsexworld.com/"],a[href^="http://fsoft4down.com/"],a[href^="https://join.virtualtaboo.com/track/"],a[href^="https://track.clickmoi.xyz/"],a[href^="https://adhealers.com/"],a[href^="https://affiliate.geekbuying.com/gkbaffiliate.php?"],a[href^="https://vo2.qrlsx.com/"],div[id^="traffective-ad-"],a[href^="http://webgirlz.online/landing/"],a[href^="http://www.wantstraffic.com/"],a[href^="https://chaturbate.com/in/?tour="],a[href^="https://uncensored3d.com/"],a[href^="https://billing.purevpn.com/aff.php"] > img,a[href^="http://go.seomojo.com/tracking202/"],a[href^="http://www.getyourguide.com/?partner_id="],a[href^="http://adclick.g.doubleclick.net/"],a[href^="http://www.bitlord.me/share/"],a[href^="http://traffic.tc-clicks.com/"],a[href^="https://affcpatrk.com/"],a[href^="http://databass.info/"],div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"],[id*="MGWrap"],a[href^="http://goldmoney.com/?gmrefcode="],a[href^="https://ads.ad4game.com/"],a[href^="https://promo-bc.com/"],a[href^="http://track.trkvluum.com/"],app-large-ad,a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="],a[href^="https://dltags.com/"],a[href^="https://bs.serving-sys.com"],a[href^="https://moneynow.one/"],a[href^="https://www.bebi.com"],a[href^="https://gamescarousel.com/"],a[href^="http://cdn.adsrvmedia.net/"],a[href^="https://ads.betfair.com/redirect.aspx?"],[class*="__adspot-title-container"],a[href^="//coarsewary.com/"],a[href^="http://www.webtrackerplus.com/"],amp-ad-custom,div[id^="sticky_ad_"],a[href^="https://syndication.optimizesrv.com/"],a[href^="https://mk-cdn.net/"],a[href^="https://prf.hn/click/"][href*="/camref:"] > img,a[href^="https://www.passeura.com/"],a[href^="https://aweptjmp.com/"],a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"],a[href^="https://pl.premium4kflix.website/"],a[href^="https://trusted-click-host.com/"],a[href^="https://reachtrgt.com/"],div[id^="advads-"],a[href^="http://wct.link/"],a[href^="https://myusenet.xyz/"],[href^="https://affiliate.fastcomet.com/"] > img,a[href^="https://ads.trafficpoizon.com/"],a[href^="https://aaucwbe.com/"],div[class^="s-dfp-"],a[href^="https://tour.mrskin.com/"],[href^="http://go.cm-trk2.com/"],a[href^="http://www.pinkvisualpad.com/?revid="],a[href^="https://click.hoolig.app/"],a[href^="http://espn.zlbu.net/"],[href^="https://join3.bannedsextapes.com"],a[href^="https://www.bet365.com/"][href*="affiliate="],a[href^="http://liversely.net/"],a[href^="https://ausoafab.net/"],a[href^="//syndication.dynsrvtbg.com/"],a[href^="http://www.friendlyquacks.com/"],a[href^="https://secure.eveonline.com/ft/?aid="],a[href^="https://cpartner.bdswiss.com/"],div[id^="zergnet-widget"],a[href^="http://ucam.xxx/?utm_"],a[href^="http://www.terraclicks.com/"],[href^="https://bulletprofitsmartlink.com/"],a[href^="https://affiliate.rusvpn.com/click.php?"],a[href^="https://awecrptjmp.com/"],a[href^="http://www.flashx.tv/downloadthis"],[id*="ScriptRoot"],a[href^="https://cpmspace.com/"],a[href^="https://ismlks.com/"],[href^="https://t.ajrkm.link/"],a[href^="https://go.ebrokerserve.com/"],a[href^="https://go.gldrdr.com/"],a[href^="http://axdsz.pro/"],a[href^="https://my-movie.club/"],a[href^="http://syndication.exoclick.com/"],[href^="https://wct.link/"],a[href^="https://serve.awmdelivery.com/"],a[href^="//lambingsyddir.com/"],div[class^="adunit_"],a[href^="http://ethfw0370q.com/"],a[href^="http://s9kkremkr0.com/"],div[data-adname],a[href^="https://www.vfreecams.com/in/?track="],a[href^="http://api.content.ad/"],a[href^="https://chaturbate.jjgirls.com/?track="],a[href^="http://igromir.info/"],a[href^="https://www.sugarinstant.com/?partner_id="],[data-role="tile-ads-module"],iframe[id^="google_ads_frame"],a[href^="http://dwn.pushtraffic.net/"],a[href^="https://landing1.brazzersnetwork.com"],hl-adsense,a[href^="http://server.cpmstar.com/click.aspx?poolid="],a[href^="https://trust.zone/go/r.php?RID="],div[id^="gtm-ad-"],a[href^="http://ads.sprintrade.com/"],a[href^="https://t.aslnk.link/"],a[href^="http://adlev.neodatagroup.com/"],[data-ad-manager-id],a[href^="http://www.down1oads.com/"],a[href^="//voyeurhit.com/cs/"],[href^="http://advertisesimple.info/"],a[href^="https://track.totalav.com/"],[data-ez-name],AD-TRIPLE-BOX,a[href^="http://freesoftwarelive.com/"],a[href^="http://ad.yieldmanager.com/"],a[href^="https://dynamicadx.com/"],a[href^="https://join.sexworld3d.com/track/"],a[href^="http://adprovider.adlure.net/"],a[href^="https://fakelay.com/"],[href^="http://join.rodneymoore.com/"],div[class^="index__adWrapper"],a[href^="http://zevera.com/afi.html"],a[href^="http://www.liversely.net/"],a[href^="//srv.buysellads.com/"],div[id^="ezoic-pub-ad-"],a[href^="https://bnsjb1ab1e.com/"],a[href^="http://finaljuyu.com/"],a[href^="https://queersodadults.com/"],a[href^="https://go.goasrv.com/"],div[class^="Component-dfp-"],a[href^="https://www.camsoda.com/enter.php?id="],a[href^="http://www.download-provider.org/"],a[href^="https://earandmarketing.com/"],[href^="/ucmini.php"],a[href^="http://www.hibids10.com/"],a[href^="https://www.googleadservices.com/pagead/aclk?"],a[data-redirect^="https://paid.outbrain.com/network/redir?"],a[href^="https://www.oneclickroot.com/?tap_a="] > img,a[href^="http://cdn.adstract.com/"],a[href^="https://t.adating.link/"],amp-embed[type="taboola"],a[href^="http://allaptair.club/"],AD-SLOT,[href^="/admdownload.php"],a[href^="https://bongacams10.com/track?"],a[href^="http://keep2share.cc/pr/"],div[data-test-id="AdBannerWrapper"],a[href^="https://ak.hetaruwg.com/"],[id*="MarketGid"],a[href^="https://go.alxbgo.com/"],div[class^="BlockAdvert-"],a[href^="https://www.nutaku.net/signup/landing/"],a[href^="http://adultgames.xxx/"],a[href^="http://k2s.cc/code/"],a[href^="https://www.get-express-vpn.com/offer/"],a[href^="//postlnk.com/"],a[href^="https://fertilitycommand.com/"],a[href^="http://us.marketgid.com"],[href^="https://go.4rabettraff.com/"],[href^="https://rapidgator.net/article/premium/ref/"],a[href^="https://frameworkdeserve.com/"],[href^="http://trafficare.net/"],[data-mobile-ad-id],a[href^="https://cams.imagetwist.com/in/?track="],ADS-RIGHT,a[href^="https://ads.cdn.live/"],a[href^="http://marketgid.com"],[lazy-ad="top_banner"],a[href^="http://eclkmpsa.com/"],div[id^="advads_"],div[class^="adUnit_"],div[id^="ad_script_"],a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"],a[href^="http://www.adxpansion.com"],a[href^="http://adserving.unibet.com/"],a[href^="https://medleyads.com/"],a[href^="http://go.oclaserver.com/"],a[href^="http://adrunnr.com/"],a[href^="https://uncensored.game/"],a[href^="https://americafirstpolls.com/"],a[href^="http://www.paddypower.com/?AFF_ID="],a[href^="https://refpaexhil.top/"],[href^="http://join.shemale.xxx/"],a[href^="http://www.gamebookers.com/cgi-bin/intro.cgi?"],a[href^="https://as.conjectwatson.com/"],a[href^="https://t.hrtyj.com/"],[href^="https://www.reimageplus.com/"],a[href^="http://buysellads.com/"],div[class^="SponsoredAds"],aa[href^="https://itubego.com/video-downloader/?affid="],a[href^="http://adserver.adreactor.com/"],[data-ad-cls],a[href^="https://dediseedbox.com/clients/aff.php?"],[data-dynamic-ads],a[href^="http://www.onwebcam.com/random?t_link="],a[href^="https://www.brazzersnetwork.com/landing/"],a[href^="http://imads.integral-marketing.com/"],a[href^="https://chaturbate.com/affiliates/"],a[href^="https://track.52zxzh.com/"],a[href^="http://see-work.info/"],a[href^="http://yads.zedo.com/"],a[href^="https://windscribe.com/promo/"],aside[id^="adrotate_widgets-"],a[href^="http://web.adblade.com/"],a[href^="http://www.text-link-ads.com/"],a[href^="https://axdsz.pro/"],div[id^="ad_bigbox_"],div[data-spotim-slot],a[href^="http://campeeks.com/"][href*="&utm_"],a[href^="http://bodelen.com/"],div[data-id-advertdfpconf],a[href^="https://www.securegfm.com/"],a[href^="https://see.kmisln.com/"],mq-programmatic-ad,a[href^="http://ads2.williamhill.com/redirect.aspx?"],a[href^="https://zononi.com/"],a[href^="https://deliver.tf2www.com/"],a[href^="http://www.gfrevenge.com/landing/"],a[href^="http://www.mrskin.com/tour"],bottomadblock,a[href^="https://horny-pussies.com/tds"],a[href^="http://webtrackerplus.com/"],div[id^="rc-widget-"],a[href^="http://down1oads.com/"],a[href^="https://go.xxxjmp.com"],a[href^="http://www.dealcent.com/register.php?affid="],a[href^="http://record.betsafe.com/"],a[href^="https://click.plista.com/pets"],a[href^="http://www.downloadplayer1.com/"],a[href^="https://trackjs.com/?utm_source"],a[href^="https://scurewall.co/"],iframe[src^="https://tpc.googlesyndication.com/"],div[class^="Ad__adContainer"],a[href^="https://as.sexad.net/"],a[href^="http://latestdownloads.net/download.php?"],a[href^="https://goraps.com/"],a[href^="https://adultfriendfinder.com/go/page/landing"],a[href^="https://track.afcpatrk.com/"],div[data-adunit-path],a[href^="https://landing.brazzersplus.com/"],a[href^="http://www.on2url.com/app/adtrack.asp"],a[href^="https://track.interactivegf.com/"],a[href^="https://jmp.awempire.com/"],a[href^="http://n.admagnet.net/"],a[href^="https://burpee.xyz/"],a[href^="https://a.bestcontentoperation.top/"],a[href^="https://mk-ads.com/"],[class^="AdvertisingSlot_"],[href^="https://infinitytrk.com/"],a[href^="http://onclickads.net/"],a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="],a[href^="http://pokershibes.com/index.php?ref="],[class^="Ad-adContainer"],a[href^="https://trklvs.com/"],a[href^="http://aflrm.com/"],a[href^="http://bs.serving-sys.com/"],a[href^="https://keep2share.cc/pr/"],a[href^="http://hd-plugins.com/download/"],a[href^="https://badoinkvr.com/"],a[href^="https://giftsale.co.uk/?utm_"],a[href^="http://secure.signup-page.com/"],a[href^="https://www.privateinternetaccess.com/"] > img,[href^="http://homemoviestube.com/"],a[href^="https://torguard.net/aff.php"] > img,[href^="https://v.investologic.co.uk/"],a[href^="https://graizoah.com/"],a[href^="https://track.ultravpn.com/"],div[class^="AdBannerWrapper-"],a[href^="http://g1.v.fwmrm.net/ad/"],div[class^="AdhesionAd_"],a[href^="http://www.menaon.com/installs/"],div[class^="PreAd_"],ad-desktop-sidebar,a[href^="https://www.chngtrack.com/"],a[href^="http://anonymous-net.com/"],a[href^="http://www.revenuehits.com/"],a[href^="https://chaturbate.xyz/"],a[href^="https://transfer.xe.com/signup/track/redirect?"],a[href^="http://www.babylon.com/welcome/index?affID"],div[class^="lifeOnwerAd"],a[href^="http://affiliate.glbtracker.com/"],a[href^="https://intenseaffiliates.com/redirect/"],div[class^="kiwiad-popup"],a[href^="https://t.hrtye.com/"],a[href^="https://playuhd.host/"],[href^="https://shrugartisticelder.com"],a[href^="http://aff.ironsocket.com/"],a[href^="https://porndeals.com/?track="],a[href^="http://track.afcpatrk.com/"],[href^="https://totlnkcl.com/"],[href^="http://globsads.com/"],a[href^="https://static.fleshlight.com/images/banners/"],a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source,a[href^="http://www.firstload.de/affiliate/"],a[href^="https://ptapjmp.com/"],[href*=".zlinkm.com/"],a[href^="http://at.atwola.com/"],div[id^="vuukle-ad-"],div[id^="div-adtech-ad-"],a[href^="https://go.hpyjmp.com/"],a[href^="https://watchmygirlfriend.tv/"],a[href^="http://www.roboform.com/php/land.php"],a[href^="https://porngames.adult/?SID="],div[class^="local-feed-banner-ads"],a[href^="https://meet-sex-here.com/?u="],a[href^="http://www.adskeeper.co.uk/"],a[href^="https://aff-ads.stickywilds.com/"],a[href^="https://mob1ledev1ces.com/"],a[href^="http://www.linkbucks.com/referral/"],div[class^="Ad__container"],[onclick*="content.ad/"],a[href^="https://ad.doubleclick.net/"],div[class^="kiwiad-desktop"],a[href^="http://stateresolver.link/"],a[href^="http://www.hitcpm.com/"],a[href^="http://media.paddypower.com/redirect.aspx?"],a[href^="https://track.effiliation.com/servlet/effi.click?"] > img,a[href^="http://go.mobisla.com/"],a[href^="https://claring-loccelkin.com/"],a[href^="http://banners.victor.com/processing/"],a[href^="http://www.my-dirty-hobby.com/?sub="],a[href^="https://tracking.gitads.io/"],div[class^="sp-adslot-"],a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source,a[href^="https://ovb.im/"],a[href^="http://www.twinplan.com/AF_"],a[href^="https://www.gambling-affiliation.com/cpc/"],a[href^="https://topoffers.com/"][href*="/?pid="],a[href^="http://sharesuper.info/"],a[href^="https://go.currency.com/"],a[href^="http://tc.tradetracker.net/"] > img,div[class^="BannerAd_"],a-ad,a[href^="https://www.firstload.com/affiliate/"],[id^="bunyad-widget-ads-"],a[href^="http://tour.mrskin.com/"],a[href^="http://www.affiliates1128.com/processing/"],a[href^="http://refpaano.host/"],a[href^="http://clickandjoinyourgirl.com/"],a[href^="http://bcp.crwdcntrl.net/"],a[href^="http://hotcandyland.com/partner/"],[href^="https://affect3dnetwork.com/track/"],div[class^="advertisement-desktop"],a[href^="https://go.etoro.com/"] > img,aside[id^="advads_ad_widget-"],a[href^="https://fast-redirecting.com/"],a[href^="http://wxdownloadmanager.com/dl/"],a[href^="http://www.fbooksluts.com/"],a[href^="http://www.TwinPlan.com/AF_"],a[href^="http://pan.adraccoon.com?"],a[href^="http://landingpagegenius.com/"],a[href^="http://online.ladbrokes.com/promoRedirect?"],a[href^="http://www.fonts.com/BannerScript/"],a[href^="http://xads.zedo.com/"],a[href^="http://cdn3.adexprts.com/"],a[href^="https://flirtaescopa.com/"],a[href^="http://betahit.click/"],[href^="https://click2cvs.com/"],div[data-contentexchange-widget],iframe[src^="http://ad.yieldmanager.com/"],a[href^="https://iactrivago.ampxdirect.com/"],a[href^="https://content.oneindia.com/www/delivery/"],a[href^="http://www.securegfm.com/"],a[href^="//pubads.g.doubleclick.net/"],a[href^="https://join.virtuallust3d.com/"],FBS-AD,a[href^="https://squren.com/rotator/?atomid="],[id^="div-gpt-ad"],[href^="https://mylead.global/stl/"] > img,div[id^="ad-div-"],div[class^="AdCard_"],a[href^="http://hpn.houzz.com/"],a[href^="http://c.ketads.com/"],a[href^="https://t.mobtya.com/"],div[data-google-query-id],a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"],a[href^="http://czotra-32.com/"],a[href^="http://www.ragazzeinvendita.com/?rcid="],a[href^="https://a.bestcontentweb.top/"],[href^="https://join.playboyplus.com/track/"],a[href^="https://geniusdexchange.com/"],a[href^="http://mob1ledev1ces.com/"],a[href^="https://track.bruceads.com/"],div[class^="awpcp-random-ads"],[data-freestar-ad],a[href^="https://dooloust.net/"],div[id^="amzn-assoc-ad"],a[href^="https://www.im88trk.com/"],a[href^="https://servedbyadbutler.com/"],a[href^="https://pcm.bannerator.com/"],a[data-oburl^="https://paid.outbrain.com/network/redir?"],a[href^="https://blackorange.go2cloud.org/"],a[href^="https://go.cmrdr.com/"],a[href^="https://www.mypornstarcams.com/landing/click/"],a[href^="https://torrentsafeguard.com/?aid="],a[href^="http://affiliates.lifeselector.com/"],[href^="http://join.shemalepornstar.com/"],DFP-AD,a[href^="https://fileboom.me/pr/"],a[href^="https://x.trafficandoffers.com/"],LEADERBOARD-AD,a[href^="http://affiliates.pinnaclesports.com/processing/"],a[href^="http://www.greenmangaming.com/?tap_a="],a[href^="http://www.uniblue.com/cm/"],[href^="https://www.mypillow.com/"] > img,a[href^="http://c43a3cd8f99413891.com/"],a[href^="http://pityhostngco2.xyz/"],a[href^="http://www.cdjapan.co.jp/aff/click.cgi/"],[href^="https://www.dcpodj3k5.com/"],a[href^="http://www.urmediazone.com/signup"],div[class^="articleAdUnitMPU_"],a[href^="http://amzn.to/"] > img[src^="data"],a[href^="https://www.friendlyduck.com/AF_"],a[href^="https://www.travelzoo.com/oascampaignclick/"],a[href^="http://bcntrack.com/"],a[href^="https://awptjmp.com/"],[href^="https://track.fiverr.com/visit/"] > img,a[href^="http://www.firstclass-download.com/"],a[href^="https://bluedelivery.pro/"],a[href^="https://trf.bannerator.com/"],a[href^="http://ffxitrack.com/"],a[href^="https://www.oboom.com/ref/"],[href^="https://awbbjmp.com/"],a[href^="http://reallygoodlink.freehookupaffair.com/"],a[href^="http://www.myfreepaysite.com/sfw_int.php?aid"],div[class^="Directory__footerAds"],a[href^="http://www.friendlyadvertisements.com/"],display-ad-component,a[href^="http://www.mysuperpharm.com/"],a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"],a[href^="http://istri.it/?"],a[href^="http://www.pinkvisualgames.com/?revid="],a[href^="https://webroutetrk.com/"],a[href^="https://maymooth-stopic.com/"],a[href^="http://www.dl-provider.com/search/"],a[href^="http://www.graboid.com/affiliates/"],a[href^="https://www.adultempire.com/"][href*="?partner_id="],[data-ad-width],a[href^="https://go.trkclick2.com/"],a[href^="//www.pd-news.com/"],a[href^="https://www.popads.net/users/"],a[href^="http://partners.etoro.com/"],a[href^="https://www.mrskin.com/account/"],[href^="https://stvkr.com/"],div[class^="proadszone-"],a[href^="http://casino-x.com/?partner"],[id^="google_ads_iframe"],a[href^="http://www.socialsex.com/"],a[href^="https://bestcond1tions.com/"],a[href^="https://mcdlks.com/"],a[href^="https://www.sheetmusicplus.com/?aff_id="],div[id^="div-gpt-"],a[href^="https://adnetwrk.com/"],a[href^="https://www.hotgirls4fuck.com/"],div[class^="AdSlot__container"],a[href^="http://paid.outbrain.com/network/redir?"],a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"],a[href^="http://vo2.qrlsx.com/"],a[href^="http://www.freefilesdownloader.com/"],a[href^="https://go.247traffic.com/"],a[href^="https://weedzy.co.uk/"][href*="&utm_"],a[href^="https://secure.adnxs.com/clktrb?"],a[href^="https://go.nordvpn.net/aff"] > img,a[href^="https://gghf.mobi/"],a[href^="http://c.jumia.io/"],a[href^="http://findersocket.com/"],div[data-role="sidebarAd"],a[href^="https://farm.plista.com/pets"],a[href^="https://go.trackitalltheway.com/"],div[data-ad-underplayer],a[href^="https://awentw.com/"],a[href^="http://www.tirerack.com/affiliates/"],a[href^="https://sexsimulator.game/tab/?SID="],a[href^="https://clickadilla.com/"],a[href^="https://explore.findanswersnow.net/"],a[href^="http://earandmarketing.com/"],a[href^="https://misspkl.com/"],div[class^="StickyHeroAdWrapper-"],a[href^="http://fusionads.net"],a[href^="https://albionsoftwares.com/"],a[href^="http://bluehost.com/track/"],a[href^="http://go.xtbaffiliates.com/"],a[href^="http://intent.bingads.com/"],div[data-adunit],[class^="div-gpt-ad"],[data-desktop-ad-id],a[href^="http://www.xmediaserve.com/"],div[id^="dfp-ad-"],a[href^="http://affiliate.coral.co.uk/processing/"],a[href^="http://cwcams.com/landing/click/"],a[href^="https://fleshlight.sjv.io/"],[href^="https://detachedbates.com/"],div[data-content="Advertisement"],a[href^="https://go.julrdr.com/"],[data-css-class="dfp-inarticle"],a[href^="http://adserver.adtech.de/"],a[href^="http://install.securewebsiteaccess.com/"],a[href^="http://clickserv.sitescout.com/"],a[href^="http://refer.webhostingbuzz.com/"],a[href^="http://www.streamtunerhd.com/signup?"],a[href^="https://ad13.adfarm1.adition.com/"],[class*="__adv-block"],div[id^="code_ads_"],a[href^="https://go.admjmp.com/"],a[href^="http://www.downloadthesefiles.com/"],div[id^="adrotate_widgets-"],a[href^="https://fonts.fontplace9.com/"],a[href^="http://campaign.bharatmatrimony.com/track/"],a[href^="http://affiliates.score-affiliates.com/"],a[href^="https://k2s.cc/pr/"],div[class^="adpubs-"],a[href^="https://ad.atdmt.com/"],amp-fx-flying-carpet,a[href^="https://oackoubs.com/"],a[href^="https://www.nudeidols.com/cams/"],a[href^="http://websitedhoome.com/"],a[href^="https://secure.bstlnk.com/"],div[id^="adspot-"],div[data-adservice-param-tagid="contentad"],a[href^="http://uploaded.net/ref/"],a[href^="http://semi-cod.com/clicks/"],a[href^="http://vinfdv6b4j.com/"],[href^="https://zone.gotrackier.com/"],div[class^="backfill-taboola-home-slot-"],a[href^="https://meet-sexhere.com/"],a[href^="http://www.plus500.com/?id="],a[href^="http://www.badoink.com/go.php?"],a[href^="http://pwrads.net/"],a[href^="http://adtrackone.eu/"],aside[id^="tn_ads_widget-"],a[href^="https://iac.ampxdirect.com/"],[href*=".engine.adglare.net/"],a[href^="https://a.adtng.com/"],[href^="http://join.ts-dominopresley.com/"],a[href^="https://prf.hn/click/"][href*="/adref:"] > img,[href^="/ucdownload.php"],a[href^="https://nutrientassumptionclaims.com/"],a[href^="http://www.friendlyduck.com/AF_"],a[href^="http://guideways.info/"],div[class^="ads-partner-"],display-ads,a[href^="https://www.bang.com/?aff="],a[href^="http://codec.codecm.com/"],a[href^="http://dftrck.com/"],a[href^="http://promos.bwin.com/"],[id^="adframe_wrap_"],a[href^="https://leg.xyz/?track="],a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"],a[href^="https://someperceptionparade.com/"],a[href^="http://tezfiles.com/pr/"],a[href*=".trust.zone"],a[href^="http://pubads.g.doubleclick.net/"],guj-ad,a[data-url^="http://paid.outbrain.com/network/redir?"] + .author,a[href^="https://juicyads.in/"],a[href^="http://z1.zedo.com/"],a[href^="https://go.goaserv.com/"],div[class^="block-openx-"],a[href^="https://awejmp.com/"],[id^="ad-wrap-"],a[href^="https://incisivetrk.cvtr.io/click?"],div[class^="native-ad-"],a[href^="http://servicegetbook.net/"],a[href^="https://betway.com/"][href*="&a="],a[href^="http://d2.zedo.com/"],a[href^="https://intrev.co/"],a[href^="http://lp.ezdownloadpro.info/"],a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"],a[data-url^="http://paid.outbrain.com/network/redir?"],div[data-ad-wrapper],a[href^="http://join3.bannedsextapes.com/track/"],a[href^="https://creacdn.top-convert.com/"],[href^="https://go.astutelinks.com/"],div[data-mpu1],a[href^="https://a.bestcontentfood.top/"],a[href^="https://galaxyroms.net/?scr="],a[href^="https://clixtrac.com/"],a[href^="http://azmobilestore.co/"],a[href^="https://go.xtbaffiliates.com/"],a[href^="https://tracking.comfortclick.eu/"],a[href^="https://trappist-1d.com/"],a[href^="http://rs-stripe.wsj.com/stripe/redirect"],a[href^="https://www.arthrozene.com/"][href*="?tid="],a[href^="http://linksnappy.com/?ref="],AMP-AD,a[href^="http://k2s.cc/pr/"],a[href^="http://www.advcashpro.com/aff/"],[lazy-ad="lefttop_banner"],div[class^="AdEmbeded__AddWrapper"],a[href^="https://s.zlink2.com/"],div[id^="ad_rect_"],div[class^="AdItem-"],div[id^="js-dfp-"],[lazy-ad="leftthin_banner"],a[href^="http://liversely.com/"],a[href^="http://adultfriendfinder.com/p/register.cgi?pid="],a[href^="http://www.torntv-downloader.com/"],div[id^="div-ads-"],a[href^="https://secure.cbdpure.com/aff/"],a[href^="http://www.firstload.com/affiliate/"],[data-ad-module],a[href^="http://admrotate.iplayer.org/"],a[href^="http://clicks.binarypromos.com/"],a[href^="https://msecure117.com/"],a[href="//rufflycouncil.com/"],div[id^="ad-server-"],a[href^="http://https://www.get-express-vpn.com/offer/"],div[id^="google_dfp_"],div[id^="taboola-stream-"],a[href^="https://natour.naughtyamerica.com/track/"],div[id^="proadszone-"],div[id^="ad_position_"],div[class^="index_adAfterContent_"],div[class^="ad_border_"],a[href^="https://www.spyoff.com/"],a[href^="https://a-ads.com/campaigns/"],a[href^="https://wittered-mainging.com/"],a[href^="http://go.247traffic.com/"],a[href^="https://ads.leovegas.com/redirect.aspx?"],a[href^="http://www.mobileandinternetadvertising.com/"],a[href^="https://offers.refchamp.com/"],a[href^="http://go.ad2up.com/"],a[href^="https://a-ads.com/?partner="],div[id^="lazyad-"],a[href^="http://galleries.securewebsiteaccess.com/"],a[href^="http://mgid.com/"],[name^="google_ads_iframe"],a[href^="http://elitefuckbook.com/"],a[href^="http://chaturbate.com/affiliates/"],a[data-oburl^="http://paid.outbrain.com/network/redir?"],a[href^="https://www.xvinlink.com/?a_fid="],a[href^="https://googleads.g.doubleclick.net/pcs/click"],div[data-before-content="advertisement"],a[href^="http://searchtabnew.com/"],a[href^="http://affiliates.thrixxx.com/"],span[title="Ads by Google"],a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"],a[href^="http://1phads.com/"],div[data-ad-targeting],a[href^="//porngames.adult/?SID="],a[href^="http://www.sexgangsters.com/?pid="],a[href^="http://click.payserve.com/"],a[href^="https://www.kingsoffetish.com/tour?partner_id="],a[href^="//www.mgid.com/"],a[href^="//thaudray.com/"],a[href^="http://trk.mdrtrck.com/"],a[href^="https://m.do.co/c/"] > img,div[class^="index_displayAd_"],a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img,a[href^="https://go.markets.com/visit/?bta="],[lazy-ad="leftbottom_banner"],[id^="ad_slider"],a[href^="http://www.seekbang.com/cs/"],a[href^="http://click.plista.com/pets"],[href^="https://www.targetingpartner.com/"],a[href^="https://camfapr.com/landing/click/"],a[href^="http://clkmon.com/adServe/"],[href^="/ucdownloader.php"],a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"],a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="],a[href^="http://www.myfreepaysite.com/sfw.php?aid"],a[href^="http://www.streamate.com/exports/"],div[id^="ad-position-"],a[href^="https://www.rabbits.webcam/?id="],a[href^="https://porntubemate.com/"],a[href^="https://ads-for-free.com/click.php?"],div[class^="kiwi-ad-wrapper"],topadblock,a[href^="http://engine.newsmaxfeednetwork.com/"],a[href^="http://ad.doubleclick.net/"],a[href^="http://bestorican.com/"],a[href^="http://www.bet365.com/"][href*="affiliate="],[href^="http://join.hardcoreshemalevideo.com/"],[onclick^="location.href='http://www.reimageplus.com"],div[data-native_ad],a[href^="https://redsittalvetoft.pro/"],span[id^="ezoic-pub-ad-placeholder-"],a[href^="https://tracking.truthfinder.com/?a="],a[href^="http://look.djfiln.com/"],a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"],a[href^="https://secure.starsaffiliateclub.com/C.ashx?"],[href^="https://go.affiliatexe.com/"],a[href^="https://rev.adsession.com/"],a[href^="https://azpresearch.club/"],a[href^="https://meet-to-fuck.com/tds"],a[href^="http://www.idownloadplay.com/"],div[data-test-id="AdDisplayWrapper"],a[href^="http://www.sfippa.com/"],a[href^="https://www.adskeeper.co.uk/"],a[href^="http://www.onclickmega.com/jump/next.php?"],a[href^="https://bngpt.com/"],a[href^="https://syndication.exoclick.com/"],a[href^="http://tracking.deltamediallc.com/"],a[href^="http://wopertific.info/"],a[href^="http://bc.vc/?r="],div[id^="dfp-slot-"],div[id^="ad-inserter-"],div[class^="pane-google-admanager-"],[id^="ad_sky"],a[href^="http://ul.to/ref/"],a[href^="https://cagothie.net/"],[href^="http://join.trannies-fuck.com/"],a[href^="https://www.pornhat.com/"][rel="nofollow"],a[href^="https://deliver.ptgncdn.com/"],a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"],a[href^="http://www.FriendlyDuck.com/"],a[href^="https://www.clicktraceclick.com/"],a[href^="https://syndication.dynsrvtbg.com/"],a[href^="http://www.123-reg.co.uk/affiliate2.cgi"],a[href^="https://trk.moviesflix4k.xyz/"],a[href^="http://secure.hostgator.com/~affiliat/"],a[href^="https://financeads.net/tc.php?"],[href^="http://www.pingperfect.com/aff.php"],div[data-native-ad],div[aria-label="Ads"],a[href^="http://s5prou7ulr.com/"],a[href^="http://googleads.g.doubleclick.net/pcs/click"],a[href^="http://spygasm.com/track?"],div[id^="ad-gpt-"],a[href^="https://delivery.porn.com/"],a[href^="http://www.usearchmedia.com/signup?"],a[href^="https://chaturbate.com/in/?track="] { display: none !important }</style></body>
+<style>
+    body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+    }
+
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+</style>
+
+</html>
