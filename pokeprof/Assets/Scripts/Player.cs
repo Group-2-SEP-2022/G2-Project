@@ -11,9 +11,12 @@ public class Player : MonoBehaviour
 
     private Animator anim;
 
+    public VectorValue startingPosition;
+
     void Start()
 
     {
+        transform.position = startingPosition.initialValue;
         anim = GetComponent<Animator>();
     }
 

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 410955509518263445}
   - component: {fileID: 8570340512360848732}
-  - component: {fileID: -3909760487242808161}
+  - component: {fileID: 7537125495897561309}
   m_Layer: 0
   m_Name: Level Transition
   m_TagString: Untagged
@@ -58,7 +58,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.12876797}
   m_EdgeRadius: 0
---- !u!114 &-3909760487242808161
+--- !u!114 &7537125495897561309
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,4 +70,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02692002b88f149439c856dee91a765f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Game
+  sceneToLoad: 
+  playerPosition: {x: 0, y: 0}
+  playerStorage: {fileID: 11400000, guid: c0bbfa61b8decdf4eb52ba736c14cd99, type: 2}

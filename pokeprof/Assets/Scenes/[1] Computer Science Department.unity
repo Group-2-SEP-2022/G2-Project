@@ -9360,6 +9360,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1049384106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5165769059287797773, guid: b65608a06053c584f958c556c77af1d4, type: 3}
+  m_PrefabInstance: {fileID: 1809759842}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1291689276
 GameObject:
   m_ObjectHideFlags: 0
@@ -10264,11 +10269,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165769059287797775, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.46
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: 5165769059287797775, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.353
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 5165769059287797775, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10793,6 +10798,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -3909760487242808161, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1049384106}
+    - target: {fileID: -3909760487242808161, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
+      propertyPath: position.x
+      value: -4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -3909760487242808161, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
+      propertyPath: position.y
+      value: 2.35
+      objectReference: {fileID: 0}
+    - target: {fileID: -3909760487242808161, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
       propertyPath: sceneToLoad
       value: '[0] Computer Science Department'
       objectReference: {fileID: 0}
@@ -10839,6 +10856,22 @@ PrefabInstance:
     - target: {fileID: 410955509518263445, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
+      propertyPath: sceneToLoad
+      value: '[0] Computer Science Department'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: c0bbfa61b8decdf4eb52ba736c14cd99, type: 2}
+    - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
+      propertyPath: playerPosition.x
+      value: -7.515
+      objectReference: {fileID: 0}
+    - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
+      propertyPath: playerPosition.y
+      value: -2.7
       objectReference: {fileID: 0}
     - target: {fileID: 9086121362444056142, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
       propertyPath: m_Name

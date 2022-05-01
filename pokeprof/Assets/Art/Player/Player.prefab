@@ -114,6 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementJoystick: {fileID: 0}
   playerSpeed: 5
+  startingPosition: {fileID: 11400000, guid: c0bbfa61b8decdf4eb52ba736c14cd99, type: 2}
 --- !u!95 &5165769059287797769
 Animator:
   serializedVersion: 3
