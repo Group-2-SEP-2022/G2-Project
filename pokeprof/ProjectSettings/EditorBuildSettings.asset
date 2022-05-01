@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 38df5e5001adfae40a75a56097afa831
+  - enabled: 1
+    path: Assets/Scenes/[1] Computer Science Department.unity
+    guid: 18e2b952620da0745bb655f0afad8487
+  - enabled: 1
+    path: Assets/Scenes/CS Department 1.unity
+    guid: b62d2f2d2f4b5ec4d932cd2463f91363
   m_configObjects: {}
