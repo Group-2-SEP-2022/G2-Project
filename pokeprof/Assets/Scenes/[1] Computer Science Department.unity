@@ -10794,7 +10794,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -3909760487242808161, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
       propertyPath: sceneToLoad
-      value: CS Department 1
+      value: '[0] Computer Science Department'
       objectReference: {fileID: 0}
     - target: {fileID: 410955509518263445, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
       propertyPath: m_RootOrder
