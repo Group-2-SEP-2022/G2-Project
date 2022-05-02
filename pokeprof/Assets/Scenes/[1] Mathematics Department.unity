@@ -19731,6 +19731,10 @@ PrefabInstance:
       propertyPath: movementJoystick
       value: 
       objectReference: {fileID: 1980236886}
+    - target: {fileID: 5165769059287797770, guid: b65608a06053c584f958c556c77af1d4, type: 3}
+      propertyPath: startingPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: 079522ac7d725784ba48cda776b8cfc5, type: 2}
     - target: {fileID: 5165769059287797771, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -21487,6 +21491,10 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: '[0] Mathematics Department'
       objectReference: {fileID: 0}
+    - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: 352350eaf83a65449aa8af0426ada2c7, type: 2}
     - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
       propertyPath: playerPosition.x
       value: -7.515

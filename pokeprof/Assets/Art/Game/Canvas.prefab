@@ -775,6 +775,7 @@ MonoBehaviour:
   transitionAnim: {fileID: 9161292369471155991}
   pressed: 0
   sceneName: Main Menu
+  sceneStorage: {fileID: 0}
 --- !u!1 &9161292369364067756
 GameObject:
   m_ObjectHideFlags: 0
@@ -5467,6 +5468,7 @@ MonoBehaviour:
   transitionAnim: {fileID: 9161292369471155991}
   pressed: 0
   sceneName: Pokedex
+  sceneStorage: {fileID: 11400000, guid: d01623c316e92b447a75c9dc38a9735c, type: 2}
 --- !u!114 &9161292371111980139
 MonoBehaviour:
   m_ObjectHideFlags: 0

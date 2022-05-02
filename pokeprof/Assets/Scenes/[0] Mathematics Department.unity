@@ -7843,6 +7843,10 @@ PrefabInstance:
       propertyPath: movementJoystick
       value: 
       objectReference: {fileID: 1980236886}
+    - target: {fileID: 5165769059287797770, guid: b65608a06053c584f958c556c77af1d4, type: 3}
+      propertyPath: startingPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: 352350eaf83a65449aa8af0426ada2c7, type: 2}
     - target: {fileID: 5165769059287797771, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_BodyType
       value: 0

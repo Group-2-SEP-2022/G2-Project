@@ -29240,6 +29240,10 @@ PrefabInstance:
       propertyPath: movementJoystick
       value: 
       objectReference: {fileID: 1980236886}
+    - target: {fileID: 5165769059287797770, guid: b65608a06053c584f958c556c77af1d4, type: 3}
+      propertyPath: startingPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: 079522ac7d725784ba48cda776b8cfc5, type: 2}
     - target: {fileID: 5165769059287797771, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -29262,15 +29266,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165769059287797775, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.988045
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 5165769059287797775, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.319469
+      value: 8.5
       objectReference: {fileID: 0}
     - target: {fileID: 5165769059287797775, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.6308045
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5165769059287797775, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34541,7 +34545,7 @@ PrefabInstance:
     - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
       propertyPath: playerStorage
       value: 
-      objectReference: {fileID: 11400000, guid: c0bbfa61b8decdf4eb52ba736c14cd99, type: 2}
+      objectReference: {fileID: 11400000, guid: 352350eaf83a65449aa8af0426ada2c7, type: 2}
     - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
       propertyPath: playerPosition.x
       value: -7.515

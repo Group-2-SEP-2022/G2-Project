@@ -7174,7 +7174,7 @@ Tilemap:
       - {fileID: 8646645691498211364, guid: aca45ef72c45cd2449201cd70ed9de3b, type: 3}
       - {fileID: 7203834354736964760, guid: aca45ef72c45cd2449201cd70ed9de3b, type: 3}
       - {fileID: -5807313441002738598, guid: aca45ef72c45cd2449201cd70ed9de3b, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -13454,7 +13454,7 @@ Tilemap:
       - {fileID: 1292720904152947550, guid: 9e21f64e8cb99ff48a769f7864484076, type: 3}
       - {fileID: 3324958807912080845, guid: 9e21f64e8cb99ff48a769f7864484076, type: 3}
       - {fileID: 312890272712033026, guid: 9e21f64e8cb99ff48a769f7864484076, type: 3}
-      m_AnimationSpeed: 4.636803
+      m_AnimationSpeed: 4.5839725
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -24786,6 +24786,10 @@ PrefabInstance:
       propertyPath: movementJoystick
       value: 
       objectReference: {fileID: 1980236886}
+    - target: {fileID: 5165769059287797770, guid: b65608a06053c584f958c556c77af1d4, type: 3}
+      propertyPath: startingPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: 079522ac7d725784ba48cda776b8cfc5, type: 2}
     - target: {fileID: 5165769059287797771, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -28052,7 +28056,7 @@ PrefabInstance:
     - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
       propertyPath: playerStorage
       value: 
-      objectReference: {fileID: 11400000, guid: c0bbfa61b8decdf4eb52ba736c14cd99, type: 2}
+      objectReference: {fileID: 11400000, guid: 352350eaf83a65449aa8af0426ada2c7, type: 2}
     - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
       propertyPath: playerPosition.x
       value: -7.515
