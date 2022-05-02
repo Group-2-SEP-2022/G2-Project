@@ -15,4 +15,9 @@ public class LevelTransition : MonoBehaviour
             SceneManager.LoadScene(sceneToLoad);
         }
     }
+
+    void OnApplicationQuit()
+    {
+        playerStorage.initialValue = new Vector2(0, 0);
+    }
 }
