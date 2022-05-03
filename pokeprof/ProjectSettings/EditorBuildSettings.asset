@@ -17,28 +17,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 38df5e5001adfae40a75a56097afa831
-  - enabled: 1
-    path: Assets/Scenes/[1] Mathematics Department.unity
-    guid: dc1186045c2afa2478a2de98ae1c2a20
-  - enabled: 1
-    path: Assets/Scenes/[0] Mathematics Department.unity
-    guid: dc0d934d44942a244afc1d4d3d842fb2
-  - enabled: 1
-    path: Assets/Scenes/[1] Physics Department.unity
-    guid: 20cd25a91f413b44988e20f3e9a4546c
-  - enabled: 1
-    path: Assets/Scenes/[0] Physics Department.unity
-    guid: f8fb579948f58c84f89c0672c6111d59
-  - enabled: 1
-    path: Assets/Scenes/[1] Engineering Department.unity
-    guid: b7dd133f6e88ba84687f8bf8506ebd34
-  - enabled: 1
-    path: Assets/Scenes/[0] Engineering Department.unity
-    guid: eab492d3dac5222438f615f9d2011607
-  - enabled: 1
-    path: Assets/Scenes/[1] Computer Science Department.unity
-    guid: 18e2b952620da0745bb655f0afad8487
-  - enabled: 1
-    path: Assets/Scenes/[0] Computer Science Department.unity
-    guid: 046000ca3dba5e542bc6c8dadfe7a81f
   m_configObjects: {}

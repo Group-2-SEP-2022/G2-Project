@@ -16329,7 +16329,7 @@ GameObject:
   - component: {fileID: 2061135184}
   - component: {fileID: 2061135183}
   - component: {fileID: 2061135182}
-  - component: {fileID: 2061135185}
+  - component: {fileID: 2061135181}
   m_Layer: 0
   m_Name: Back
   m_TagString: Untagged
@@ -16356,6 +16356,21 @@ RectTransform:
   m_AnchoredPosition: {x: 360.7, y: 151.3}
   m_SizeDelta: {x: 48, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2061135181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061135179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1a154a947252d4eb5ab52b42f18831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionAnim: {fileID: 1011603710}
+  pressed: 0
+  sceneName: Game
 --- !u!114 &2061135182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16412,8 +16427,8 @@ MonoBehaviour:
           m_StringArgument: Game
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 2061135185}
-        m_TargetAssemblyTypeName: Back, Assembly-CSharp
+      - m_Target: {fileID: 2061135181}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
         m_MethodName: isPressed
         m_Mode: 1
         m_Arguments:
@@ -16462,21 +16477,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061135179}
   m_CullTransparentMesh: 1
---- !u!114 &2061135185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2061135179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdff14092b7b65848b01c368b5f0fa05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transitionAnim: {fileID: 1011603710}
-  pressed: 0
-  sceneStorage: {fileID: 11400000, guid: d01623c316e92b447a75c9dc38a9735c, type: 2}
 --- !u!1 &2080918229
 GameObject:
   m_ObjectHideFlags: 0
