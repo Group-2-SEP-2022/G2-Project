@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LVL : MonoBehaviour
+public class LevelTransition : MonoBehaviour
 {
     public GameObject currentLevel;
     public GameObject nextLevel;
