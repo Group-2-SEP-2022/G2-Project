@@ -9308,6 +9308,7 @@ Transform:
   - {fileID: 1563698960}
   - {fileID: 390007287}
   - {fileID: 20623714}
+  - {fileID: 2045505523}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10342,6 +10343,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5918083, y: 1.3156052}
   m_EdgeRadius: 0
+--- !u!95 &1602945637 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9161292369471155991, guid: 3ccc755814352894385f76c967b3c3a8, type: 3}
+  m_PrefabInstance: {fileID: 566341074}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1809759842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10377,6 +10383,10 @@ PrefabInstance:
       propertyPath: movementJoystick
       value: 
       objectReference: {fileID: 1980236886}
+    - target: {fileID: 5165769059287797770, guid: b65608a06053c584f958c556c77af1d4, type: 3}
+      propertyPath: startingPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: 079522ac7d725784ba48cda776b8cfc5, type: 2}
     - target: {fileID: 5165769059287797771, guid: b65608a06053c584f958c556c77af1d4, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -10455,6 +10465,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddf5ecfbf05aedd43b0f9bc54e89e8ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2045505522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2045505523}
+  - component: {fileID: 2045505524}
+  m_Layer: 0
+  m_Name: Collider (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2045505523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045505522}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1291689278}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2045505524
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045505522}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -7.4968348, y: -1.4078562}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.0001774, y: 0.38201296}
+  m_EdgeRadius: 0
 --- !u!1 &2079008389
 GameObject:
   m_ObjectHideFlags: 0
@@ -10814,6 +10881,14 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: '[0] Physics Department'
       objectReference: {fileID: 0}
+    - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: 352350eaf83a65449aa8af0426ada2c7, type: 2}
+    - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
+      propertyPath: transitionAnim
+      value: 
+      objectReference: {fileID: 1602945637}
     - target: {fileID: 7537125495897561309, guid: aa77195a98aa74f44ba12de0d111c0e5, type: 3}
       propertyPath: playerPosition.x
       value: -7.515
