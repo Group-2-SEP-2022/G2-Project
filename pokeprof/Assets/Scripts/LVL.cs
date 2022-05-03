@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ResetPosition : MonoBehaviour
+public class LVL : MonoBehaviour
 {
-    public VectorValue LVL0;
+    public GameObject currentLevel;
+    public GameObject nextLevel;
 
     public void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Player") && !other.isTrigger) {
-            LVL0.initialValue = new Vector2(0, -5.45f);
+            currentLevel.gameObject.SetActive(false);
+            nextLevel.gameObject.SetActive(true);
         }
     }
 }

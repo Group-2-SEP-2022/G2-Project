@@ -14,8 +14,6 @@ public class SceneTransition : MonoBehaviour
 
     public string sceneName;
 
-    public SceneName sceneStorage;
-
     public void isPressed() {
         pressed = true;
     }
@@ -28,7 +26,6 @@ public class SceneTransition : MonoBehaviour
     }
 
     IEnumerator LoadScene(string sceneName){
-        sceneStorage.initialValue = SceneManager.GetActiveScene().name;
         transitionAnim.SetTrigger("end");
         yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene(sceneName);
