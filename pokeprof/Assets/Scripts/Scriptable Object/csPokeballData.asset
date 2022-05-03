@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f83844043255a894bb8e8cab541431d4, type: 3}
-  m_Name: bmSpecialPokeballData
+  m_Name: csPokeballData
   m_EditorClassIdentifier: 
-  displayName: '[BM] Special Pokeball'
-  icon: {fileID: 937807224371516247, guid: a8b486eb2226d8b4a85562101d854ca0, type: 3}
+  displayName: '[CS] Pokeball'
+  icon: {fileID: -3732359476537108353, guid: cab5031a06632ef43b4e5930b34694f7, type: 3}
