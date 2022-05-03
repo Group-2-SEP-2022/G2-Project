@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class StartCapture : MonoBehaviour
 {
+    public PokeprofData pokeprofData;
     public GameObject pokeprof;
-    public GameObject game;
+    
+    public void Capture() {
+        pokeprof = FindInActiveObjectByName("Volker MÜLLER");
+        pokeprof.SetActive(true);
+    }
 
-    public void OnTriggerEnter2D(Collider2D other){
-     
-        if (other.CompareTag("Player") && !other.isTrigger)
+    GameObject FindInActiveObjectByName(string name)
+{
+    Transform[] objs = Resources.FindObjectsOfTypeAll<Transform>() as Transform[];
+    for (int i = 0; i < objs.Length; i++)
+    {
+        if (objs[i].hideFlags == HideFlags.None)
         {
-            pokeprof.SetActive(true);
-            game.SetActive(false);
+            if (objs[i].name == name)
+            {
+                return objs[i].gameObject;
+            }
         }
     }
+    return null;
+}
 }
