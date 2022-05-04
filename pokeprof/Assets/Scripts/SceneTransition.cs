@@ -10,7 +10,7 @@ public class SceneTransition : MonoBehaviour
 
     public Animator transitionAnim;
 
-    public bool pressed = false;
+    private bool pressed = false;
 
     public string sceneName;
 

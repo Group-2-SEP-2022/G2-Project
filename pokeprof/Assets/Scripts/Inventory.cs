@@ -8,7 +8,7 @@ public class Inventory : MonoBehaviour
     public static event Action<List<InventoryItem>> OnInventoryChange;
 
     public List<InventoryItem> inventory = new List<InventoryItem>();
-    private Dictionary<ItemData, InventoryItem> itemDictionary = new Dictionary<ItemData, InventoryItem>();
+    public Dictionary<ItemData, InventoryItem> itemDictionary = new Dictionary<ItemData, InventoryItem>();
 
     private void OnEnable() {
         Pokeball.OnPokeballCollected += Add;

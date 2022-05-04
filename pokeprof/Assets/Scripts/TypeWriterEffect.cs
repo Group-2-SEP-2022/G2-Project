@@ -9,7 +9,7 @@ public class TypeWriterEffect : MonoBehaviour
     public string fullText;
     private string currentText = "";
 
-    public bool stop = false;
+    private bool stop = false;
 
     void Write()
     {
