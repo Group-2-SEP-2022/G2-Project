@@ -6,7 +6,7 @@ public class BlockTrigger : MonoBehaviour
 {
     public Collider2D block;
 
-    private bool isBlocked = false;
+    public bool isBlocked = false;
 
     public void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Player") && !other.isTrigger) {
