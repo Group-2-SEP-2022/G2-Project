@@ -5,7 +5,9 @@ using UnityEngine;
 public class StartCapture : MonoBehaviour
 {
     public PokeprofData pokeprofData;
-    public GameObject pokeprof;
+    private GameObject pokeprof;
+    private GameObject pokeprofCardOutline;
+    private GameObject pokeprofCard;
 
     private string pokeball;
 
@@ -14,6 +16,9 @@ public class StartCapture : MonoBehaviour
     public void Capture() {
 
         pokeprof = FindInActiveObjectByName(pokeprofData.pokeprofName);
+
+        pokeprofCardOutline = FindInActiveObjectByName($"{pokeprofData.pokeprofName} Back Outline");
+        pokeprofCard = FindInActiveObjectByName($"{pokeprofData.pokeprofName} Back");
 
         switch(pokeprofData.pokeprofName) {
             default:
@@ -42,11 +47,13 @@ public class StartCapture : MonoBehaviour
                                             break;
         }
 
-        GameObject ID = GameObject.FindGameObjectWithTag("Switch");
+        GameObject ID = GameObject.FindGameObjectWithTag("Inventory");
         iD = ID.GetComponent<Inventory>();
 
         foreach(ItemData key in iD.itemDictionary.Keys) {
             if(key.displayName == pokeball) {
+                pokeprofCard.SetActive(false);
+                pokeprofCardOutline.SetActive(true);
                 pokeprof.SetActive(true);
             }
         }
