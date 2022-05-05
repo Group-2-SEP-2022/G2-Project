@@ -377,7 +377,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 2100023660}
-  pressed: 0
   sceneName: Game
 --- !u!114 &140407471
 MonoBehaviour:
@@ -575,7 +574,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 1845411534}
-  pressed: 0
   sceneName: Settings
 --- !u!1 &630705154
 GameObject:
@@ -1075,7 +1073,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 2100023660}
-  pressed: 0
   sceneName: 
 --- !u!1 &1364523809
 GameObject:
@@ -1376,7 +1373,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 0}
-  pressed: 0
   sceneName: Game
 --- !u!1 &1837128482
 GameObject:
