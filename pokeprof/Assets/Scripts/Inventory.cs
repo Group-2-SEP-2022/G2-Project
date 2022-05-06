@@ -35,7 +35,8 @@ public class Inventory : MonoBehaviour
     public void Remove(ItemData itemData) {
         if(itemDictionary.TryGetValue(itemData, out InventoryItem item)) {
             item.RemoveFromStack();
-            if(item.stackSize == 0) {
+            Debug.Log($"Removed {itemData.displayName} to the inventory, left {item.stackSize}");
+            if (item.stackSize == 0) {
                 inventory.Remove(item);
                 itemDictionary.Remove(itemData);
             }

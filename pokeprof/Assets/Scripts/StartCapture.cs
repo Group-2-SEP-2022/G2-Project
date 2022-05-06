@@ -50,14 +50,20 @@ public class StartCapture : MonoBehaviour
         GameObject ID = GameObject.FindGameObjectWithTag("Inventory");
         iD = ID.GetComponent<Inventory>();
 
+        List<ItemData> toRemove = new List<ItemData>();
+
         foreach(ItemData key in iD.itemDictionary.Keys) {
             if(key.displayName == pokeball) {
                 pokeprofCard.SetActive(false);
                 pokeprofCardOutline.SetActive(true);
                 pokeprof.SetActive(true);
+                toRemove.Add(key);
             }
         }
-
+        foreach (ItemData key in toRemove)
+        {
+            iD.Remove(key);
+        }
     }
 
     GameObject FindInActiveObjectByName(string name)
