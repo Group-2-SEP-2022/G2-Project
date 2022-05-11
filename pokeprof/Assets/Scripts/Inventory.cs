@@ -21,13 +21,11 @@ public class Inventory : MonoBehaviour
     public void Add(ItemData itemData) {
         if(itemDictionary.TryGetValue(itemData, out InventoryItem item)) {
             item.AddToStack();
-            Debug.Log($"{itemData.displayName} total stack is now {item.stackSize}");
             OnInventoryChange?.Invoke(inventory);
         } else {
             InventoryItem newItem = new InventoryItem(itemData);
             inventory.Add(newItem);
             itemDictionary.Add(itemData, newItem);
-            Debug.Log($"Added {itemData.displayName} to the inventory for the first time");
             OnInventoryChange?.Invoke(inventory);
         }
     }
@@ -35,7 +33,6 @@ public class Inventory : MonoBehaviour
     public void Remove(ItemData itemData) {
         if(itemDictionary.TryGetValue(itemData, out InventoryItem item)) {
             item.RemoveFromStack();
-            Debug.Log($"Removed {itemData.displayName} to the inventory, left {item.stackSize}");
             if (item.stackSize == 0) {
                 inventory.Remove(item);
                 itemDictionary.Remove(itemData);
