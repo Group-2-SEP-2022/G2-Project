@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: mSpecialPokeballData
   m_EditorClassIdentifier: 
   displayName: '[M] Special Pokeball'
-  icon: {fileID: -922408325689607586, guid: e94c02ef4d1d1cc448bff8e81e51a105, type: 3}
+  icon: {fileID: -3402315848353958782, guid: 0af4fececba24df46b094174281a9bef, type: 3}
