@@ -66,6 +66,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -448,6 +449,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      resonance-machine_12: 7203834354736964760
+      resonance-machine_11: 8646645691498211364
+      resonance-machine_10: -2079534913563807844
+      resonance-machine_9: -4330735521381411789
+      resonance-machine_4: 357621176007228573
+      resonance-machine_8: -1296729774719723433
+      resonance-machine_6: 7151291789004344613
+      resonance-machine_7: 4942868545677226104
+      resonance-machine_1: 9002678911506452883
+      resonance-machine_5: 4903989394531616922
+      resonance-machine_0: 2820937439335889251
+      resonance-machine_2: 7655601160666668442
+      resonance-machine_3: -8550852677264637598
+      resonance-machine_13: -5807313441002738598
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

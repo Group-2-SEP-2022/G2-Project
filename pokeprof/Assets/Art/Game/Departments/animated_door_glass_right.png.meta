@@ -93,6 +93,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -349,6 +350,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      animated_door_glass_right_2: 6249395790115278338
+      animated_door_glass_right_0: -2785236708374904422
+      animated_door_glass_right_3: 4393442994797308593
+      animated_door_glass_right_4: 1340002508293422057
+      animated_door_glass_right_6: 6081047096318590190
+      animated_door_glass_right_5: -622716750056094335
+      animated_door_glass_right_1: 1959653410709814364
+      animated_door_glass_right_7: 6217335353459196366
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

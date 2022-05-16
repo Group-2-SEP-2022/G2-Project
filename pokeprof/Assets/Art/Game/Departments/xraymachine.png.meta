@@ -87,6 +87,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -616,6 +617,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      xraymachine2_13: 6707839278168733359
+      xraymachine2_3: -7135974054541809977
+      xraymachine2_0: 9104077243307675800
+      xraymachine2_9: 3986399839616008358
+      xraymachine2_18: -4484162216969236255
+      xraymachine2_19: -8663943684843187902
+      xraymachine2_6: -7503553540413831164
+      xraymachine2_14: -3435033747777247907
+      xraymachine2_8: -6898042164121130696
+      xraymachine2_10: 4100231237343208215
+      xraymachine2_17: -8972030591343399926
+      xraymachine2_16: 11528406413183651
+      xraymachine2_7: 748839341974272292
+      xraymachine2_1: 4358817763668003416
+      xraymachine2_15: -1982965261951976195
+      xraymachine2_11: 300540396032530331
+      xraymachine2_5: 3259385104598839130
+      xraymachine2_4: 944582551585044412
+      xraymachine2_2: 2102751009939841594
+      xraymachine2_12: -1701936283694734747
+      xraymachine2_20: 2514572362943527119
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

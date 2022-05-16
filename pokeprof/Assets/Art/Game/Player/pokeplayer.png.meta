@@ -72,6 +72,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -508,6 +509,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      pokeplayer_1: -3628732774220964594
+      pokeplayer_6: 6839875979882018516
+      pokeplayer_14: 6093056096628925672
+      pokeplayer_7: -1523010211740759207
+      pokeplayer_11: -8038566965158047906
+      pokeplayer_9: -2169163573782193639
+      pokeplayer_12: -8137987841679989188
+      pokeplayer_15: 7976697124433292379
+      pokeplayer_3: -3348619873993319241
+      pokeplayer_10: 6322073782866783480
+      pokeplayer_5: -1764627310032098109
+      pokeplayer_4: 1959415101870554985
+      pokeplayer_2: -7380268346957060181
+      pokeplayer_8: -791760419480579575
+      pokeplayer_13: -7258932321488290838
+      pokeplayer_0: -1534953920281260650
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

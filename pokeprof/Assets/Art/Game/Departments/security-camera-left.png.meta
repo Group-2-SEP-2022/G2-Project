@@ -54,6 +54,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,6 +353,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      animated_security_camera_left__5: 2689307496733283130
+      animated_security_camera_left__0: 8478368301087166164
+      animated_security_camera_left__1: -6909472938666528357
+      animated_security_camera_left__2: -6732481460234948319
+      animated_security_camera_left__8: -5390549013446450949
+      animated_security_camera_left__9: 5130633158173663569
+      animated_security_camera_left__3: -6732183573269017304
+      animated_security_camera_left__6: -2048797029273489445
+      animated_security_camera_left__7: -6293166388806529155
+      animated_security_camera_left__4: 7338591213505658157
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

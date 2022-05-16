@@ -54,6 +54,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,6 +353,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      hospital-door_1: -3138955547066654114
+      hospital-door_7: 1292720904152947550
+      hospital-door_2: -3819450433947233595
+      hospital-door_4: -7069823516044259577
+      hospital-door_0: -1479538130030983197
+      hospital-door_6: -8079332593275900287
+      hospital-door_5: -8879933151421213256
+      hospital-door_8: 3324958807912080845
+      hospital-door_9: 312890272712033026
+      hospital-door_3: -2279009231832368670
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
