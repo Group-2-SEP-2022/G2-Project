@@ -872,6 +872,42 @@ TextureImporter:
   - first:
       213: -1397335657497410058
     second: AlexandreTkatchenko_289
+  - first:
+      213: -1343366320788369428
+    second: AlexandreTkatchenko_290
+  - first:
+      213: -3586348967524862968
+    second: AlexandreTkatchenko_291
+  - first:
+      213: -1412047379895723096
+    second: AlexandreTkatchenko_292
+  - first:
+      213: -8980353070466494717
+    second: AlexandreTkatchenko_293
+  - first:
+      213: 8971540408132309702
+    second: AlexandreTkatchenko_294
+  - first:
+      213: 1476452780811846698
+    second: AlexandreTkatchenko_295
+  - first:
+      213: 749606880716087737
+    second: AlexandreTkatchenko_296
+  - first:
+      213: -5742589241876244408
+    second: AlexandreTkatchenko_297
+  - first:
+      213: 6883400593209142803
+    second: AlexandreTkatchenko_298
+  - first:
+      213: 5417985747847176891
+    second: AlexandreTkatchenko_299
+  - first:
+      213: -4014118572622178253
+    second: AlexandreTkatchenko_300
+  - first:
+      213: 4822790731154434723
+    second: AlexandreTkatchenko_301
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -3636,7 +3672,7 @@ TextureImporter:
         serializedVersion: 2
         x: 561
         y: 336
-        width: 207
+        width: 15
         height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7070,6 +7106,258 @@ TextureImporter:
       bones: []
       spriteID: 6f541e67f9aab9ce0800000000000000
       internalID: -1397335657497410058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_290
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 336
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef8f2ed2776b5de0800000000000000
+      internalID: -1343366320788369428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_291
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 336
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80477168d9aba3ec0800000000000000
+      internalID: -3586348967524862968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_292
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 336
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab5b4ba366676ce0800000000000000
+      internalID: -1412047379895723096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_293
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 336
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f814d56706f5380800000000000000
+      internalID: -8980353070466494717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_294
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 336
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c21acac770518c70800000000000000
+      internalID: 8971540408132309702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_295
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 336
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a248de74bf96d7410800000000000000
+      internalID: 1476452780811846698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_296
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 336
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b165468c73276a00800000000000000
+      internalID: 749606880716087737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_297
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 336
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8489cf292893e40b0800000000000000
+      internalID: -5742589241876244408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_298
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 336
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ea1f4ae50c68f50800000000000000
+      internalID: 6883400593209142803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_299
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 336
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb26f8af45d803b40800000000000000
+      internalID: 5417985747847176891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_300
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 336
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3389e880d6cfa48c0800000000000000
+      internalID: -4014118572622178253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexandreTkatchenko_301
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 336
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaa1842e9efde240800000000000000
+      internalID: 4822790731154434723
       vertices: []
       indices: 
       edges: []
