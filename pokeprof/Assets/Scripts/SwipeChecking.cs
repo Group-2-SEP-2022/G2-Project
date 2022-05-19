@@ -16,7 +16,6 @@ public class SwipeChecking : MonoBehaviour
 
     if(Input.touchCount > 0 && Input.GetTouch (0).phase == TouchPhase.Ended) {
         endTouchPosition = Input.GetTouch (0).position;
-        Debug.Log(endTouchPosition.x - startTouchPosition.x);
         if(endTouchPosition.x - startTouchPosition.x < -800) {
             startAnim.SetTrigger("start");
         }
