@@ -151,6 +151,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 429520387}
   m_RootOrder: 0
@@ -264,6 +265,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1470242461}
   m_RootOrder: 0
@@ -301,6 +303,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1925351224}
   m_RootOrder: 0
@@ -377,6 +380,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1303548817}
   - {fileID: 1909116860}
@@ -405,7 +409,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 0}
-  pressed: 0
   sceneName: 
 --- !u!114 &212868313
 MonoBehaviour:
@@ -473,6 +476,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 879703402}
   m_RootOrder: 0
@@ -548,6 +552,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1909116860}
   m_RootOrder: 0
@@ -625,6 +630,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1201449558}
   m_RootOrder: 2
@@ -647,7 +653,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 0}
-  pressed: 0
   sceneName: Game
 --- !u!114 &335187894
 MonoBehaviour:
@@ -771,6 +776,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 819510467}
   m_RootOrder: 1
@@ -904,6 +910,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 123, y: 101, z: -93.9607}
   m_LocalScale: {x: 0.9722222, y: 0.9722222, z: 0.9722222}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 14475463}
   - {fileID: 1861514779}
@@ -1005,6 +1012,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -474.11563, y: -117.60002, z: -514.69214}
   m_LocalScale: {x: 0.9722222, y: 0.9722222, z: 0.9722222}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1047697480}
   - {fileID: 1437712839}
@@ -1013,7 +1021,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &516544941
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1026,6 +1034,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1092,6 +1101,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1124,6 +1134,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 879703402}
   m_RootOrder: 2
@@ -1240,6 +1251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 819510467}
   - component: {fileID: 819510468}
+  - component: {fileID: 819510469}
   m_Layer: 0
   m_Name: MusicOff Button
   m_TagString: Untagged
@@ -1257,6 +1269,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 123, y: 101, z: -93.9607}
   m_LocalScale: {x: 0.9722222, y: 0.9722222, z: 0.9722222}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2056129881}
   - {fileID: 419747142}
@@ -1331,6 +1344,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 819510469}
+        m_TargetAssemblyTypeName: MuteMusic, Assembly-CSharp
+        m_MethodName: Mute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &819510469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819510466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e1458e848260f48851b7755553ab8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicData: {fileID: 11400000, guid: 5cf9eea5aeea7404bb349ca38440f21b, type: 2}
+  isMusicOff: 0
 --- !u!1 &879703401
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1397,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 123, y: 101, z: -93.9607}
   m_LocalScale: {x: 0.9722222, y: 0.9722222, z: 0.9722222}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 283759449}
   - {fileID: 1200889592}
@@ -1462,6 +1502,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 516544940}
   m_RootOrder: 0
@@ -1589,6 +1630,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1654,6 +1696,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 879703402}
   m_RootOrder: 1
@@ -1850,6 +1893,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1925351224}
   - {fileID: 1352724550}
@@ -1891,6 +1935,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1925351224}
   m_RootOrder: 1
@@ -1965,6 +2010,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 169.9183, y: -31.30566, z: -93.9607}
   m_LocalScale: {x: 0.9722222, y: 0.9722222, z: 0.9722222}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1780598365}
   - {fileID: 1426807213}
@@ -2069,6 +2115,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1201449558}
   m_RootOrder: 1
@@ -2185,7 +2232,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 516544941}
-  pressed: 0
   sceneName: Main Menu
 --- !u!1 &1426807212
 GameObject:
@@ -2215,6 +2261,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1303548817}
   m_RootOrder: 1
@@ -2349,6 +2396,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 516544940}
   m_RootOrder: 1
@@ -2406,6 +2454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1470242461}
   - component: {fileID: 1470242460}
+  - component: {fileID: 1470242462}
   m_Layer: 0
   m_Name: MusicOn Button
   m_TagString: Untagged
@@ -2481,6 +2530,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1470242462}
+        m_TargetAssemblyTypeName: MuteMusic, Assembly-CSharp
+        m_MethodName: Mute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!4 &1470242461
 Transform:
   m_ObjectHideFlags: 0
@@ -2491,12 +2552,27 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 123.000046, y: 100.999985, z: -93.9607}
   m_LocalScale: {x: 0.9722222, y: 0.9722222, z: 0.9722222}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 67704092}
   - {fileID: 1552100058}
   m_Father: {fileID: 212868311}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1470242462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470242459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e1458e848260f48851b7755553ab8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicData: {fileID: 11400000, guid: 5cf9eea5aeea7404bb349ca38440f21b, type: 2}
+  isMusicOff: 1
 --- !u!1 &1507695954
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,6 +2601,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 879703402}
   m_RootOrder: 3
@@ -2659,6 +2736,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1470242461}
   m_RootOrder: 1
@@ -2793,6 +2871,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1909116860}
   m_RootOrder: 1
@@ -2965,6 +3044,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1303548817}
   m_RootOrder: 0
@@ -3002,6 +3082,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 429520387}
   m_RootOrder: 1
@@ -3135,6 +3216,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 169.9183, y: -31.30566, z: -93.9607}
   m_LocalScale: {x: 0.9722222, y: 0.9722222, z: 0.9722222}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 296181588}
   - {fileID: 1683377841}
@@ -3237,6 +3319,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 168136486}
   - {fileID: 1229476309}
@@ -3315,6 +3398,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 96.645294}
   m_LocalScale: {x: 1.0285715, y: 1.0285715, z: 1.0285715}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 819510467}
   m_RootOrder: 0

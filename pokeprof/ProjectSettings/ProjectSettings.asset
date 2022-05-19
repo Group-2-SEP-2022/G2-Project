@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: G_2
-  productName: pokeprof
+  productName: "Pok\xE9Prof"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.078431375, g: 0.078431375, b: 0.078431375, a: 1}
@@ -138,7 +138,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0
+  bundleVersion: 2.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -279,7 +279,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 4fe26043a5b4fd946a7198248393bb61, type: 3}
+      m_Icon: {fileID: 2800000, guid: 5f6072efc807dd6468b98ef4b0edd2e7, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
