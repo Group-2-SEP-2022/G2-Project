@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using TMPro;
 
 public class Inventory : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Inventory : MonoBehaviour
 
     public List<InventoryItem> inventory = new List<InventoryItem>();
     public Dictionary<ItemData, InventoryItem> itemDictionary = new Dictionary<ItemData, InventoryItem>();
+
+    public TextMeshProUGUI quest;
 
     private void OnEnable() {
         Pokeball.OnPokeballCollected += Add;
@@ -39,5 +42,14 @@ public class Inventory : MonoBehaviour
             }
             OnInventoryChange?.Invoke(inventory);
         }
+    }
+
+    void Update() {
+        if(inventory.Count >= 1) {
+        QuestTwo();
+        }
+    }
+    public void QuestTwo() {
+        quest.color = new Color32(38, 215, 0, 255);
     }
 }

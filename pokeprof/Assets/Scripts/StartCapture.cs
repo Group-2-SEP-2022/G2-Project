@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class StartCapture : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class StartCapture : MonoBehaviour
     private GameObject pokeprofCard;
 
     private string pokeball;
+
+    public TextMeshProUGUI quest;
 
     Inventory iD;
 
@@ -64,6 +67,8 @@ public class StartCapture : MonoBehaviour
         {
             iD.Remove(key);
         }
+
+        quest.color = new Color32(38, 215, 0, 255);
     }
 
     GameObject FindInActiveObjectByName(string name)
