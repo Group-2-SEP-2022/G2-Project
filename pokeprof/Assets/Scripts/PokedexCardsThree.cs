@@ -13,6 +13,8 @@ public class PokedexCardsThree : MonoBehaviour
     public GameObject cardEmpty3;
     public GameObject cardColor3;
 
+    public GameObject trigger;
+
     public void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Player") && !other.isTrigger) {
             cardEmpty1.gameObject.SetActive(false);
@@ -23,6 +25,8 @@ public class PokedexCardsThree : MonoBehaviour
 
             cardEmpty3.gameObject.SetActive(false);
             cardColor3.gameObject.SetActive(true);
+
+            Destroy(trigger);
         }
     }
 }

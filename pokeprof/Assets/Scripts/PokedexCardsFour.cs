@@ -16,6 +16,8 @@ public class PokedexCardsFour : MonoBehaviour
     public GameObject cardEmpty4;
     public GameObject cardColor4;
 
+    public GameObject trigger;
+
     public void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Player") && !other.isTrigger) {
             cardEmpty1.gameObject.SetActive(false);
@@ -29,6 +31,8 @@ public class PokedexCardsFour : MonoBehaviour
 
             cardEmpty4.gameObject.SetActive(false);
             cardColor4.gameObject.SetActive(true);
+
+            Destroy(trigger);
         }
     }
 }
