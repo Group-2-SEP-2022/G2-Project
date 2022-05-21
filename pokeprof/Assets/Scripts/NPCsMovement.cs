@@ -23,6 +23,8 @@ public class NPCsMovement : MonoBehaviour
 
     private bool hasWalkZone;
 
+    private bool isStopped = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,9 +46,9 @@ public class NPCsMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        if (isWalking)
-        {
+    {   if (!isStopped) {
+            if (isWalking)
+            {
             walkCounter -= Time.deltaTime;
 
             switch (walkDirection)
@@ -94,7 +96,7 @@ public class NPCsMovement : MonoBehaviour
                 isWalking = false;
                 waitCounter = waitTime;
             }
-        }
+            }
         else
         {
             waitCounter -= Time.deltaTime;
@@ -105,6 +107,8 @@ public class NPCsMovement : MonoBehaviour
                 ChooseDirection();
             }
         }
+        }
+        
     }
 
     public void ChooseDirection()
@@ -112,5 +116,23 @@ public class NPCsMovement : MonoBehaviour
         walkDirection = Random.Range(0, 4);
         isWalking = true;
         walkCounter = walkTime;
+    }
+
+    void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            isStopped = true;
+            myRigidbody.mass = 2000;
+    	}
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            isStopped = false;
+            myRigidbody.mass = 1;
+    	}
     }
 }
