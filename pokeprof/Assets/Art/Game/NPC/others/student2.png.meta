@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,6 +103,18 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -6364,12 +6376,12 @@ TextureImporter:
       student2_112: 1041253254
       student2_93: 703433642
       student2_179: -1112266708
-      student2_280: -1388290967
+      student2_289: 2060740259
       student2_240: 238724262
       student2_283: 1486310325
       student2_195: -2130860746
       student2_84: 304882947
-      student2_289: 2060740259
+      student2_280: -1388290967
       student2_16: 1400931610
       student2_147: 1497623560
       student2_9: -1183583087
@@ -6421,11 +6433,11 @@ TextureImporter:
       student2_14: 227457482
       student2_167: -1836031948
       student2_136: -158450259
-      student2_264: 433498602
+      student2_288: 1856822089
       student2_269: 1245522358
+      student2_264: 433498602
       student2_5: 1920028826
       student2_200: -1588220307
-      student2_288: 1856822089
       student2_169: 462478879
       student2_238: -117772056
       student2_24: -1635036931
@@ -6484,38 +6496,38 @@ TextureImporter:
       student2_105: 790475201
       student2_277: 630024034
       student2_275: -1922792990
-      student2_149: -425235553
       student2_226: -2064743715
+      student2_149: -425235553
       student2_232: -1073561495
-      student2_62: -879108800
+      student2_252: 856579981
       student2_3: 201691068
       student2_63: 1591594526
-      student2_74: 1146693235
       student2_267: 1037154152
-      student2_252: 856579981
+      student2_74: 1146693235
       student2_168: -677242759
       student2_207: 1237737164
       student2_12: 1024698691
-      student2_68: 1518445549
-      student2_199: -596923881
       student2_220: 720772189
-      student2_76: -1753169653
+      student2_68: 1518445549
       student2_271: 536280097
+      student2_199: -596923881
+      student2_76: -1753169653
       student2_69: 1689494322
       student2_37: -359973367
       student2_135: -945069513
       student2_103: -517945495
       student2_18: 739314626
+      student2_62: -879108800
       student2_244: -467411317
       student2_27: 480911277
       student2_65: -2001473283
       student2_75: 902285059
-      student2_92: -2044998637
       student2_162: -1104236192
-      student2_205: -10912575
+      student2_92: -2044998637
       student2_214: 251098336
       student2_250: -1855474128
       student2_265: 1649828112
+      student2_205: -10912575
       student2_50: -1165633585
       student2_11: -1790983649
       student2_241: 1487214583

@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,6 +103,18 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -9870,7 +9882,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      rector_415: -693774171
       rector_230: 1569159608
       rector_271: 15619693
       rector_143: -41360398
@@ -9925,8 +9936,8 @@ TextureImporter:
       rector_83: -208375702
       rector_6: 801537710
       rector_72: -4300622
-      rector_185: 579511706
       rector_262: 523135273
+      rector_185: 579511706
       rector_169: -1893590151
       rector_23: -289335434
       rector_303: 687599076
@@ -9937,8 +9948,8 @@ TextureImporter:
       rector_142: 1984196677
       rector_293: -178068655
       rector_313: -1329856903
-      rector_226: 877748305
       rector_430: -12614627
+      rector_226: 877748305
       rector_373: 1482836051
       rector_376: -180203863
       rector_46: -981325794
@@ -10020,10 +10031,10 @@ TextureImporter:
       rector_42: 1524891895
       rector_266: 1757989064
       rector_77: 1222360793
-      rector_37: 1833872062
+      rector_453: 89237888
       rector_27: 1225511773
       rector_104: -1946672780
-      rector_453: 89237888
+      rector_37: 1833872062
       rector_213: -1040763582
       rector_448: -1068659653
       rector_130: 1708351056
@@ -10186,12 +10197,12 @@ TextureImporter:
       rector_81: 1362940166
       rector_439: -957561081
       rector_187: 1445065860
-      rector_232: -1552182568
-      rector_318: -74402437
       rector_231: 796645081
+      rector_232: -1552182568
       rector_406: -1899809063
       rector_151: -1852399090
       rector_174: -617211145
+      rector_318: -74402437
       rector_384: -1896976227
       rector_176: 1209494759
       rector_312: 1324250877
@@ -10332,6 +10343,7 @@ TextureImporter:
       rector_91: -2061630505
       rector_374: 1349388516
       rector_245: -779378214
+      rector_415: -693774171
       rector_45: -277370877
       rector_66: -445027807
   spritePackingTag: 

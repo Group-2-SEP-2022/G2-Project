@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,6 +103,18 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -6381,6 +6393,7 @@ TextureImporter:
       backup1_84: -167640179
       backup1_168: 328113780
       backup1_22: -1217479985
+      backup1_209: 1020454655
       backup1_97: -1032203381
       backup1_72: 497131253
       backup1_20: 1345079286
@@ -6388,7 +6401,6 @@ TextureImporter:
       backup1_51: -1341136668
       backup1_75: 1046060289
       backup1_195: -552717651
-      backup1_177: -512167113
       backup1_78: -245427664
       punch2: -26000198
       backup1_262: 1090452361
@@ -6512,13 +6524,13 @@ TextureImporter:
       backup1_115: -571815689
       backup1_181: 28691309
       backup1_69: 424491422
-      backup1_89: -1069296587
+      backup1_167: -652735757
       backup1_234: -1436112380
-      backup1_191: -1189493341
+      backup1_89: -1069296587
       backup1_171: 387084753
       backup1_249: -393607022
+      backup1_191: -1189493341
       punch12: -1246630135
-      backup1_167: -652735757
       backup1_150: 30702117
       backup1_56: -248582952
       backup1_182: 1825126040
@@ -6656,10 +6668,10 @@ TextureImporter:
       backup1_129: -360249821
       backup1_53: -436540344
       backup1_204: -59578119
-      backup1_41: -507686514
-      backup1_119: -1233863185
       backup1_133: -1891358620
-      backup1_209: 1020454655
+      backup1_177: -512167113
+      backup1_119: -1233863185
+      backup1_41: -507686514
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

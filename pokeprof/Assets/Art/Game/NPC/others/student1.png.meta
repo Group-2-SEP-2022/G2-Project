@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,6 +103,18 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -6584,7 +6596,6 @@ TextureImporter:
       student1_76: -248615034
       student1_273: -1661233111
       student1_24: -1908471693
-      student1_242: -841534926
       student1_234: -1603084674
       student1_286: 2010977109
       student1_148: -878613106
@@ -6710,23 +6721,24 @@ TextureImporter:
       student1_104: -89590297
       student1_192: 904200639
       student1_211: 1956944544
+      student1_248: 1971646489
       student1_16: 1484710742
-      student1_18: 1524644064
       student1_169: 623463603
-      student1_137: 609136983
+      student1_18: 1524644064
       student1_128: -956365680
+      student1_137: 609136983
       student1_133: 2023226867
-      student1_181: -849916603
       student1_159: 2072526353
+      student1_181: -849916603
       student1_36: -916134531
-      student1_157: 836417614
       student1_199: 570132284
-      student1_241: 94492058
+      student1_157: 836417614
+      student1_272: -366896327
       student1_134: -197299179
       student1_30: -924337419
-      student1_43: 1466663046
-      student1_219: -348241338
       student1_94: -1832657557
+      student1_219: -348241338
+      student1_43: 1466663046
       student1_147: 1387985926
       student1_73: 1888926516
       student1_166: -1330496189
@@ -6734,14 +6746,13 @@ TextureImporter:
       student1_117: 2122963641
       student1_179: -1631816130
       student1_261: 719950311
-      student1_223: -21623041
+      student1_281: -1978141754
       student1_90: -1770589939
       student1_29: 557525402
+      student1_223: -21623041
       student1_183: 1746602900
+      student1_241: 94492058
       student1_221: 1308055184
-      student1_272: -366896327
-      student1_281: -1978141754
-      student1_248: 1971646489
       student1_186: -2130626840
       student1_143: -41862768
       student1_164: -622871287
@@ -6875,6 +6886,7 @@ TextureImporter:
       student1_8: -144468186
       student1_55: 735165006
       student1_189: 105439379
+      student1_242: -841534926
       student1_98: -235410878
       student1_89: 1489542583
       student1_231: 1585927302

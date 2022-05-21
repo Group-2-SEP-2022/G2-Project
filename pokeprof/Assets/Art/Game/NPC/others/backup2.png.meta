@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,6 +103,18 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -6282,12 +6294,12 @@ TextureImporter:
       push2: 746188164
       backup2_264: -770347710
       backup2_41: 1636341664
-      backup2_195: -1648473205
-      backup2_206: -646121735
-      backup2_217: -1855235573
       backup2_134: -933018003
-      backup2_154: 2132515965
       backup2_137: 1645065462
+      backup2_217: -1855235573
+      backup2_195: -1648473205
+      backup2_154: 2132515965
+      backup2_206: -646121735
       backup2_173: -1964760136
       backup2_52: -1131033512
       backup2_35: 1445156688
