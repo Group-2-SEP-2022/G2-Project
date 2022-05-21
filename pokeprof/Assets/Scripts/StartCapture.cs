@@ -14,6 +14,9 @@ public class StartCapture : MonoBehaviour
 
     public TextMeshProUGUI quest;
 
+    public GameObject backgroundMusic;
+    public GameObject battleMusic;
+
     Inventory iD;
 
     public void Capture() {
@@ -57,6 +60,8 @@ public class StartCapture : MonoBehaviour
 
         foreach(ItemData key in iD.itemDictionary.Keys) {
             if(key.displayName == pokeball) {
+                backgroundMusic.SetActive(false);
+                battleMusic.SetActive(true);
                 pokeprofCard.SetActive(false);
                 pokeprofCardOutline.SetActive(true);
                 pokeprof.SetActive(true);

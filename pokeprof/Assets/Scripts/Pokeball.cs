@@ -16,7 +16,7 @@ public class Pokeball : MonoBehaviour, ICollectible
 
     public void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Player") && !other.isTrigger) {
-            Pickup.PlaySound();
+            PickupSound.PlaySound();
         }
     }
 }
