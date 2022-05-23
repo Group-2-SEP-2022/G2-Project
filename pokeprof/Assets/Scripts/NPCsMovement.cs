@@ -25,9 +25,13 @@ public class NPCsMovement : MonoBehaviour
 
     private bool isStopped = false;
 
+    Animator anim;
+    
+
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
 
         waitCounter = waitTime;
@@ -102,6 +106,21 @@ public class NPCsMovement : MonoBehaviour
             waitCounter -= Time.deltaTime;
             myRigidbody.velocity = Vector2.zero;
 
+            switch(walkDirection) {
+            case 0:
+                anim.Play("Face_Up");   
+                break;
+            case 1:
+                anim.Play("Face_Right");
+                break;
+            case 2: 
+                anim.Play("Face_Down");
+                break;
+            case 3:
+                anim.Play("Face_Left");
+                break;
+            }
+
             if(waitCounter < 0)
             {
                 ChooseDirection();
@@ -114,6 +133,22 @@ public class NPCsMovement : MonoBehaviour
     public void ChooseDirection()
     {
         walkDirection = Random.Range(0, 4);
+
+        switch(walkDirection) {
+            case 0: 
+                anim.Play("Move_Up");    
+                break;
+            case 1:
+                anim.Play("Move_Right"); 
+                break;
+            case 2: 
+                anim.Play("Move_Down");
+                break;
+            case 3:
+                anim.Play("Move_Left");
+                break;
+        }
+
         isWalking = true;
         walkCounter = walkTime;
     }

@@ -6376,7 +6376,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       backup1_29: 1446856518
-      backup1_169: -359227217
       backup1_37: 5045049
       backup1_157: -1965549278
       backup1_67: -62974196
@@ -6393,7 +6392,6 @@ TextureImporter:
       backup1_84: -167640179
       backup1_168: 328113780
       backup1_22: -1217479985
-      backup1_209: 1020454655
       backup1_97: -1032203381
       backup1_72: 497131253
       backup1_20: 1345079286
@@ -6401,6 +6399,7 @@ TextureImporter:
       backup1_51: -1341136668
       backup1_75: 1046060289
       backup1_195: -552717651
+      backup1_119: -1233863185
       backup1_78: -245427664
       punch2: -26000198
       backup1_262: 1090452361
@@ -6413,6 +6412,7 @@ TextureImporter:
       backup1_17: -1183734362
       backup1_240: -427080732
       punch5: 185914376
+      backup1_41: -507686514
       backup1_188: -1034227217
       backup1_23: -742572698
       backup1_145: 2037411805
@@ -6529,8 +6529,8 @@ TextureImporter:
       backup1_89: -1069296587
       backup1_171: 387084753
       backup1_249: -393607022
-      backup1_191: -1189493341
       punch12: -1246630135
+      backup1_191: -1189493341
       backup1_150: 30702117
       backup1_56: -248582952
       backup1_182: 1825126040
@@ -6670,8 +6670,8 @@ TextureImporter:
       backup1_204: -59578119
       backup1_133: -1891358620
       backup1_177: -512167113
-      backup1_119: -1233863185
-      backup1_41: -507686514
+      backup1_169: -359227217
+      backup1_209: 1020454655
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
