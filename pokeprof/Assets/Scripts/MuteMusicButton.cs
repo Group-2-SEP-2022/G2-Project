@@ -12,4 +12,9 @@ public class MuteMusicButton : MonoBehaviour
     {
         musicData.isOff = isMusicOff;
     }
+
+    void OnApplicationQuit()
+    {
+        musicData.isOff = false;
+    }
 }

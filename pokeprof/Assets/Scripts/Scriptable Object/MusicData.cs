@@ -6,4 +6,9 @@ using UnityEngine;
 public class MusicData : ScriptableObject
 {
     public bool isOff;
+
+    private void OnEnable()
+     {
+         isOff = false;
+     }
 }
