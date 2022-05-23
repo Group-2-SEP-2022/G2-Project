@@ -159,6 +159,10 @@ public class NPCsMovement : MonoBehaviour
             isStopped = true;
             myRigidbody.mass = 2000;
         }
+
+        if(other.gameObject.tag == "Collider"){
+             isWalking = false;
+        }
     }
 
     void OnCollisionExit2D(Collision2D other)
@@ -167,6 +171,10 @@ public class NPCsMovement : MonoBehaviour
         {
             isStopped = false;
             myRigidbody.mass = 1;
+        }
+
+        if(other.gameObject.tag == "Collider"){
+             isWalking = true;
         }
     }
 }

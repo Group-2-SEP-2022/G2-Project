@@ -196,7 +196,7 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 624
-        width: 15
+        width: 16
         height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -6585,7 +6585,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      student2_122: -1005546335
+      student2_8: 1068967851
       student2_182: -1901596296
       student2_141: -993924988
       student2_88: 925983908
@@ -6734,21 +6734,21 @@ TextureImporter:
       student2_105: 790475201
       student2_277: 630024034
       student2_275: -1922792990
-      student2_226: -2064743715
       student2_149: -425235553
+      student2_226: -2064743715
       student2_232: -1073561495
-      student2_74: 1146693235
-      student2_62: -879108800
+      student2_252: 856579981
+      student2_3: 201691068
       student2_63: 1591594526
       student2_267: 1037154152
-      student2_3: 201691068
-      student2_252: 856579981
+      student2_62: -879108800
       student2_168: -677242759
       student2_207: 1237737164
       student2_12: 1024698691
       student2_68: 1518445549
       student2_199: -596923881
       student2_220: 720772189
+      student2_74: 1146693235
       student2_271: 536280097
       student2_76: -1753169653
       student2_69: 1689494322
@@ -6891,7 +6891,7 @@ TextureImporter:
       student2_125: -1379527903
       student2_38: 1676005604
       student2_153: -936370864
-      student2_8: 1068967851
+      student2_122: -1005546335
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
