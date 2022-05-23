@@ -9,16 +9,19 @@ public class InventorySlot : MonoBehaviour
     public Image icon;
     public TextMeshProUGUI stackSizeText;
 
-    public void ClearSlot() {
+    public void ClearSlot()
+    {
         icon.enabled = false;
         stackSizeText.enabled = false;
     }
 
-    public void DrawSlot(InventoryItem item) {
-        if(item == null) {
-             ClearSlot();
-             return;
-        } 
+    public void DrawSlot(InventoryItem item)
+    {
+        if (item == null)
+        {
+            ClearSlot();
+            return;
+        }
 
         icon.enabled = true;
         stackSizeText.enabled = true;

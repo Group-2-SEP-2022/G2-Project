@@ -7,8 +7,10 @@ public class QuestOne : MonoBehaviour
 {
     public TextMeshProUGUI quest;
 
-    public void OnTriggerEnter2D(Collider2D other) {
-        if(other.CompareTag("Player") && !other.isTrigger) {
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger)
+        {
             quest.color = new Color32(38, 215, 0, 255);
         }
     }

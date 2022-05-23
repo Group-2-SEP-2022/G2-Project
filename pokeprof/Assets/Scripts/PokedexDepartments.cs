@@ -9,8 +9,10 @@ public class PokedexDepartments : MonoBehaviour
     public GameObject borderEmpty;
     public GameObject borderColor;
 
-    public void OnTriggerEnter2D(Collider2D other) {
-        if(other.CompareTag("Player") && !other.isTrigger) {
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger)
+        {
             departmentEmpty.gameObject.SetActive(false);
             departmentColor.gameObject.SetActive(true);
             borderEmpty.gameObject.SetActive(false);

@@ -16,7 +16,6 @@ public class CameraController : MonoBehaviour
     private float halfHeight;
     private float halfWidth;
 
-    // Start is called before the first frame update
     void Start()
     {
         minBounds = boundBox.bounds.min;
@@ -25,17 +24,31 @@ public class CameraController : MonoBehaviour
         theCamera = GetComponent<Camera>();
         halfHeight = theCamera.orthographicSize;
         halfWidth = halfHeight * Screen.width / Screen.height;
-
     }
 
-    // Update is called once per frame
     void Update()
     {
-        targetPos = new Vector3(followTarget.transform.position.x, followTarget.transform.position.y, transform.position.z);
-        transform.position = Vector3.Lerp(transform.position, targetPos, moveSpeed * Time.deltaTime);
+        targetPos = new Vector3(
+            followTarget.transform.position.x,
+            followTarget.transform.position.y,
+            transform.position.z
+        );
+        transform.position = Vector3.Lerp(
+            transform.position,
+            targetPos,
+            moveSpeed * Time.deltaTime
+        );
 
-        float clampedX = Mathf.Clamp(transform.position.x, minBounds.x + halfWidth, maxBounds.x - halfWidth);
-        float clampedY = Mathf.Clamp(transform.position.y, minBounds.y + halfHeight, maxBounds.y - halfHeight);
+        float clampedX = Mathf.Clamp(
+            transform.position.x,
+            minBounds.x + halfWidth,
+            maxBounds.x - halfWidth
+        );
+        float clampedY = Mathf.Clamp(
+            transform.position.y,
+            minBounds.y + halfHeight,
+            maxBounds.y - halfHeight
+        );
         transform.position = new Vector3(clampedX, clampedY, transform.position.z);
     }
 }

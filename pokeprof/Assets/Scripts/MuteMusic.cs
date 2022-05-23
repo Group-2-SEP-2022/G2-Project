@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MuteMusic : MonoBehaviour
-{   
-    public GameObject music;   
+{
+    public GameObject music;
     public MusicData musicData;
 
     void Start()
     {
-        if(musicData.isOff) {
+        if (musicData.isOff)
+        {
             music.SetActive(false);
         }
     }

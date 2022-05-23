@@ -9,13 +9,16 @@ public class Pokeball : MonoBehaviour, ICollectible
     public delegate void HandlePokeballCollected(ItemData itemData);
     public ItemData pokeballData;
 
-    public void Collect() {
+    public void Collect()
+    {
         Destroy(gameObject);
         OnPokeballCollected?.Invoke(pokeballData);
     }
 
-    public void OnTriggerEnter2D(Collider2D other) {
-        if(other.CompareTag("Player") && !other.isTrigger) {
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger)
+        {
             PickupSound.PlaySound();
         }
     }

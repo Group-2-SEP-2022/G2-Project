@@ -12,8 +12,10 @@ public class PokedexCardsTwo : MonoBehaviour
 
     public GameObject trigger;
 
-    public void OnTriggerEnter2D(Collider2D other) {
-        if(other.CompareTag("Player") && !other.isTrigger) {
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger)
+        {
             cardEmpty1.gameObject.SetActive(false);
             cardColor1.gameObject.SetActive(true);
 

@@ -26,9 +26,7 @@ public class NPCsMovement : MonoBehaviour
     private bool isStopped = false;
 
     Animator anim;
-    
 
-    // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -45,103 +43,104 @@ public class NPCsMovement : MonoBehaviour
             maxWalkPoint = walkZone.bounds.max;
             hasWalkZone = true;
         }
-
     }
 
-    // Update is called once per frame
     void Update()
-    {   if (!isStopped) {
+    {
+        if (!isStopped)
+        {
             if (isWalking)
             {
-            walkCounter -= Time.deltaTime;
+                walkCounter -= Time.deltaTime;
 
-            switch (walkDirection)
+                switch (walkDirection)
+                {
+                    case 0:
+                        myRigidbody.velocity = new Vector2(0, moveSpeed);
+
+                        if (hasWalkZone && transform.position.y > maxWalkPoint.y)
+                        {
+                            isWalking = false;
+                            waitCounter = waitTime;
+                        }
+                        break;
+                    case 1:
+                        myRigidbody.velocity = new Vector2(moveSpeed, 0);
+
+                        if (hasWalkZone && transform.position.x > maxWalkPoint.x)
+                        {
+                            isWalking = false;
+                            waitCounter = waitTime;
+                        }
+                        break;
+                    case 2:
+                        myRigidbody.velocity = new Vector2(0, -moveSpeed);
+
+                        if (hasWalkZone && transform.position.y < minWalkPoint.y)
+                        {
+                            isWalking = false;
+                            waitCounter = waitTime;
+                        }
+                        break;
+                    case 3:
+                        myRigidbody.velocity = new Vector2(-moveSpeed, 0);
+
+                        if (hasWalkZone && transform.position.x < minWalkPoint.x)
+                        {
+                            isWalking = false;
+                            waitCounter = waitTime;
+                        }
+                        break;
+                }
+
+                if (walkCounter < 0)
+                {
+                    isWalking = false;
+                    waitCounter = waitTime;
+                }
+            }
+            else
             {
-                case 0:
-                    myRigidbody.velocity = new Vector2(0, moveSpeed);
+                waitCounter -= Time.deltaTime;
+                myRigidbody.velocity = Vector2.zero;
 
-                    if(hasWalkZone && transform.position.y > maxWalkPoint.y)
-                    {
-                        isWalking = false;
-                        waitCounter = waitTime;
-                    }
-                    break;
-                case 1:
-                    myRigidbody.velocity = new Vector2(moveSpeed, 0);
+                switch (walkDirection)
+                {
+                    case 0:
+                        anim.Play("Face_Up");
+                        break;
+                    case 1:
+                        anim.Play("Face_Right");
+                        break;
+                    case 2:
+                        anim.Play("Face_Down");
+                        break;
+                    case 3:
+                        anim.Play("Face_Left");
+                        break;
+                }
 
-                    if (hasWalkZone && transform.position.x > maxWalkPoint.x)
-                    {
-                        isWalking = false;
-                        waitCounter = waitTime;
-                    }
-                    break;
-                case 2:
-                    myRigidbody.velocity = new Vector2(0, -moveSpeed);
-
-                    if (hasWalkZone && transform.position.y < minWalkPoint.y)
-                    {
-                        isWalking = false;
-                        waitCounter = waitTime;
-                    }
-                    break;
-                case 3:
-                    myRigidbody.velocity = new Vector2(-moveSpeed, 0);
-
-                    if (hasWalkZone && transform.position.x < minWalkPoint.x)
-                    {
-                        isWalking = false;
-                        waitCounter = waitTime;
-                    }
-                    break;
-            }
-
-            if (walkCounter < 0)
-            {
-                isWalking = false;
-                waitCounter = waitTime;
-            }
-            }
-        else
-        {
-            waitCounter -= Time.deltaTime;
-            myRigidbody.velocity = Vector2.zero;
-
-            switch(walkDirection) {
-            case 0:
-                anim.Play("Face_Up");   
-                break;
-            case 1:
-                anim.Play("Face_Right");
-                break;
-            case 2: 
-                anim.Play("Face_Down");
-                break;
-            case 3:
-                anim.Play("Face_Left");
-                break;
-            }
-
-            if(waitCounter < 0)
-            {
-                ChooseDirection();
+                if (waitCounter < 0)
+                {
+                    ChooseDirection();
+                }
             }
         }
-        }
-        
     }
 
     public void ChooseDirection()
     {
         walkDirection = Random.Range(0, 4);
 
-        switch(walkDirection) {
-            case 0: 
-                anim.Play("Move_Up");    
+        switch (walkDirection)
+        {
+            case 0:
+                anim.Play("Move_Up");
                 break;
             case 1:
-                anim.Play("Move_Right"); 
+                anim.Play("Move_Right");
                 break;
-            case 2: 
+            case 2:
                 anim.Play("Move_Down");
                 break;
             case 3:
@@ -159,7 +158,7 @@ public class NPCsMovement : MonoBehaviour
         {
             isStopped = true;
             myRigidbody.mass = 2000;
-    	}
+        }
     }
 
     void OnCollisionExit2D(Collision2D other)
@@ -168,6 +167,6 @@ public class NPCsMovement : MonoBehaviour
         {
             isStopped = false;
             myRigidbody.mass = 1;
-    	}
+        }
     }
 }

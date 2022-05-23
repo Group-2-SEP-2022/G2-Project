@@ -8,7 +8,8 @@ public class MuteMusicButton : MonoBehaviour
 
     public bool isMusicOff;
 
-    public void Mute() {
+    public void Mute()
+    {
         musicData.isOff = isMusicOff;
     }
 }

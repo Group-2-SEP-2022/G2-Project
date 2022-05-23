@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Collector : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other){
-
+    private void OnTriggerEnter2D(Collider2D other)
+    {
         ICollectible collectible = other.GetComponent<ICollectible>();
-        if(collectible !=null) {
+        if (collectible != null)
+        {
             collectible.Collect();
         }
     }

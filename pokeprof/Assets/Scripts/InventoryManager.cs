@@ -7,35 +7,43 @@ public class InventoryManager : MonoBehaviour
     public GameObject slotPrefab;
     public List<InventorySlot> inventorySlots = new List<InventorySlot>(10);
 
-    private void OnEnable() {
+    private void OnEnable()
+    {
         Inventory.OnInventoryChange += DrawInventory;
     }
 
-    private void OnDisable() {
+    private void OnDisable()
+    {
         Inventory.OnInventoryChange -= DrawInventory;
     }
 
-    void ResetInventory() {
-        foreach(Transform childTransform in transform){
+    void ResetInventory()
+    {
+        foreach (Transform childTransform in transform)
+        {
             Destroy(childTransform.gameObject);
         }
 
         inventorySlots = new List<InventorySlot>(10);
     }
 
-    void DrawInventory(List<InventoryItem> inventory) {
+    void DrawInventory(List<InventoryItem> inventory)
+    {
         ResetInventory();
 
-        for (int i = 0; i < inventorySlots.Capacity; i++) {
+        for (int i = 0; i < inventorySlots.Capacity; i++)
+        {
             CreateInventorySlot();
         }
 
-        for (int i = 0; i < inventory.Count; i++) {
+        for (int i = 0; i < inventory.Count; i++)
+        {
             inventorySlots[i].DrawSlot(inventory[i]);
         }
     }
 
-    void CreateInventorySlot() {
+    void CreateInventorySlot()
+    {
         GameObject newSlot = Instantiate(slotPrefab);
         newSlot.transform.SetParent(transform, false);
 

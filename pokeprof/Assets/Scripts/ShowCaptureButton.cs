@@ -13,21 +13,21 @@ public class ShowCaptureButton : MonoBehaviour
 
     public PokeprofData pokeprofData;
 
-    public void OnTriggerEnter2D(Collider2D other){
-     
+    public void OnTriggerEnter2D(Collider2D other)
+    {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             pokedexButton.SetActive(false);
             captureButton.SetActive(true);
 
             pokeprofData.pokeprofName = pokeprof.name;
-            
-            captureButton.GetComponent<Image>().sprite = pokeball;            
+
+            captureButton.GetComponent<Image>().sprite = pokeball;
         }
     }
 
-    public void OnTriggerExit2D(Collider2D other){
-     
+    public void OnTriggerExit2D(Collider2D other)
+    {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             pokedexButton.SetActive(true);
