@@ -7,13 +7,13 @@ public class MuteMusicButton : MonoBehaviour
     public MusicData musicData;
 
     public bool isMusicOff;
-
+    
     public void Mute()
     {
         musicData.isOff = isMusicOff;
     }
 
-    void OnApplicationQuit()
+    void OnEnable()
     {
         musicData.isOff = false;
     }
