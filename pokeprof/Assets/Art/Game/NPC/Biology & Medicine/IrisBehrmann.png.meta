@@ -1,0 +1,7809 @@
+fileFormatVersion: 2
+guid: 4e265a83462ac46b58cae6c23c71751b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 211258640530728083
+    second: IrisBehrmann_0
+  - first:
+      213: 3371585304971554722
+    second: IrisBehrmann_1
+  - first:
+      213: -23221520224630403
+    second: IrisBehrmann_2
+  - first:
+      213: 7292703608982878033
+    second: IrisBehrmann_3
+  - first:
+      213: -6837619539017997994
+    second: IrisBehrmann_4
+  - first:
+      213: -425861117353432477
+    second: IrisBehrmann_5
+  - first:
+      213: -1774490028034213891
+    second: IrisBehrmann_6
+  - first:
+      213: 6151926583487137383
+    second: IrisBehrmann_7
+  - first:
+      213: -5937125356040945109
+    second: IrisBehrmann_8
+  - first:
+      213: 3512116468745797739
+    second: IrisBehrmann_9
+  - first:
+      213: 7334343259032498194
+    second: IrisBehrmann_10
+  - first:
+      213: 5076281938395115069
+    second: IrisBehrmann_11
+  - first:
+      213: 5957426346171113174
+    second: IrisBehrmann_12
+  - first:
+      213: -6742959552909444432
+    second: IrisBehrmann_13
+  - first:
+      213: 7554695239839147277
+    second: IrisBehrmann_14
+  - first:
+      213: -456192682031132618
+    second: IrisBehrmann_15
+  - first:
+      213: -6574648132785418880
+    second: IrisBehrmann_16
+  - first:
+      213: 1242435544332257788
+    second: IrisBehrmann_17
+  - first:
+      213: -2632147230929682469
+    second: IrisBehrmann_18
+  - first:
+      213: 2952828350860018134
+    second: IrisBehrmann_19
+  - first:
+      213: -8743437768757463173
+    second: IrisBehrmann_20
+  - first:
+      213: 7264183416355927048
+    second: IrisBehrmann_21
+  - first:
+      213: -4045445460467137552
+    second: IrisBehrmann_22
+  - first:
+      213: 3648184980824312571
+    second: IrisBehrmann_23
+  - first:
+      213: 4425725289807071116
+    second: IrisBehrmann_24
+  - first:
+      213: -3666520142954002069
+    second: IrisBehrmann_25
+  - first:
+      213: -4950035242987718247
+    second: IrisBehrmann_26
+  - first:
+      213: -2790868794477823832
+    second: IrisBehrmann_27
+  - first:
+      213: -2295871236957775658
+    second: IrisBehrmann_28
+  - first:
+      213: 5971160447384412460
+    second: IrisBehrmann_29
+  - first:
+      213: 3381034031045144149
+    second: IrisBehrmann_30
+  - first:
+      213: 7330970648182305944
+    second: IrisBehrmann_31
+  - first:
+      213: -1256314151987459204
+    second: IrisBehrmann_32
+  - first:
+      213: -7901798929519595678
+    second: IrisBehrmann_33
+  - first:
+      213: 6223620001130901163
+    second: IrisBehrmann_34
+  - first:
+      213: 8203234765335648063
+    second: IrisBehrmann_35
+  - first:
+      213: 478880537244124283
+    second: IrisBehrmann_36
+  - first:
+      213: 8241044385672245612
+    second: IrisBehrmann_37
+  - first:
+      213: 4732346970155493537
+    second: IrisBehrmann_38
+  - first:
+      213: 5311459805898340436
+    second: IrisBehrmann_39
+  - first:
+      213: 6094942250980174870
+    second: IrisBehrmann_40
+  - first:
+      213: -1718861998197754623
+    second: IrisBehrmann_41
+  - first:
+      213: -9092862731118406320
+    second: IrisBehrmann_42
+  - first:
+      213: 2738280487239881285
+    second: IrisBehrmann_43
+  - first:
+      213: 1273943658999984565
+    second: IrisBehrmann_44
+  - first:
+      213: -2614160550470959399
+    second: IrisBehrmann_45
+  - first:
+      213: -3041035582163455953
+    second: IrisBehrmann_46
+  - first:
+      213: 1409997852131583931
+    second: IrisBehrmann_47
+  - first:
+      213: -6217341290481783696
+    second: IrisBehrmann_48
+  - first:
+      213: 4088085381061556177
+    second: IrisBehrmann_49
+  - first:
+      213: 2547583031585505008
+    second: IrisBehrmann_50
+  - first:
+      213: 1144607976859914375
+    second: IrisBehrmann_51
+  - first:
+      213: -3212739338500365613
+    second: IrisBehrmann_52
+  - first:
+      213: -7069740173098760879
+    second: IrisBehrmann_53
+  - first:
+      213: 6729659530545684804
+    second: IrisBehrmann_54
+  - first:
+      213: 6056654744383303273
+    second: IrisBehrmann_55
+  - first:
+      213: 2371721937059612701
+    second: IrisBehrmann_56
+  - first:
+      213: 484748245895214298
+    second: IrisBehrmann_57
+  - first:
+      213: -1299665032291754996
+    second: IrisBehrmann_58
+  - first:
+      213: -3710431968924327659
+    second: IrisBehrmann_59
+  - first:
+      213: 3520891438933631839
+    second: IrisBehrmann_60
+  - first:
+      213: -7524390346683632542
+    second: IrisBehrmann_61
+  - first:
+      213: 8292030687347699584
+    second: IrisBehrmann_62
+  - first:
+      213: 4771149798154220313
+    second: IrisBehrmann_63
+  - first:
+      213: 2989521997569826854
+    second: IrisBehrmann_64
+  - first:
+      213: -9158671694512456123
+    second: IrisBehrmann_65
+  - first:
+      213: 2587147866511400350
+    second: IrisBehrmann_66
+  - first:
+      213: 263938835813050697
+    second: IrisBehrmann_67
+  - first:
+      213: -2478473735778879002
+    second: IrisBehrmann_68
+  - first:
+      213: -723534667062947452
+    second: IrisBehrmann_69
+  - first:
+      213: -3560152567469223906
+    second: IrisBehrmann_70
+  - first:
+      213: 3133911332952565951
+    second: IrisBehrmann_71
+  - first:
+      213: 5516991799427490558
+    second: IrisBehrmann_72
+  - first:
+      213: 6414139501538871743
+    second: IrisBehrmann_73
+  - first:
+      213: -8028460859173105339
+    second: IrisBehrmann_74
+  - first:
+      213: -4758450255341266084
+    second: IrisBehrmann_75
+  - first:
+      213: 405977191998390424
+    second: IrisBehrmann_76
+  - first:
+      213: 4351821446490035208
+    second: IrisBehrmann_77
+  - first:
+      213: 5646315145938098139
+    second: IrisBehrmann_78
+  - first:
+      213: -6390068128439276934
+    second: IrisBehrmann_79
+  - first:
+      213: -5296471807245787880
+    second: IrisBehrmann_80
+  - first:
+      213: 6408357615365795491
+    second: IrisBehrmann_81
+  - first:
+      213: 1170943526335814466
+    second: IrisBehrmann_82
+  - first:
+      213: -6347590328933303568
+    second: IrisBehrmann_83
+  - first:
+      213: 9105394080034905309
+    second: IrisBehrmann_84
+  - first:
+      213: 1993666984817203430
+    second: IrisBehrmann_85
+  - first:
+      213: 6644562089869531050
+    second: IrisBehrmann_86
+  - first:
+      213: 8229156418719939171
+    second: IrisBehrmann_87
+  - first:
+      213: 5009184505104436611
+    second: IrisBehrmann_88
+  - first:
+      213: 6280492371883930588
+    second: IrisBehrmann_89
+  - first:
+      213: -5851538944279540370
+    second: IrisBehrmann_90
+  - first:
+      213: 8144273824328203568
+    second: IrisBehrmann_91
+  - first:
+      213: -7790919950045375317
+    second: IrisBehrmann_92
+  - first:
+      213: -3915535741189991949
+    second: IrisBehrmann_93
+  - first:
+      213: -1950719133334397770
+    second: IrisBehrmann_94
+  - first:
+      213: -1035017723499464896
+    second: IrisBehrmann_95
+  - first:
+      213: 2752343786528176651
+    second: IrisBehrmann_96
+  - first:
+      213: 4050965526841609469
+    second: IrisBehrmann_97
+  - first:
+      213: 7277129586913831738
+    second: IrisBehrmann_98
+  - first:
+      213: 8313024434321570066
+    second: IrisBehrmann_99
+  - first:
+      213: -3462647538018666185
+    second: IrisBehrmann_100
+  - first:
+      213: 3636427366789992717
+    second: IrisBehrmann_101
+  - first:
+      213: -7507853997493704239
+    second: IrisBehrmann_102
+  - first:
+      213: -5619338728864727450
+    second: IrisBehrmann_103
+  - first:
+      213: 6857175757461021100
+    second: IrisBehrmann_104
+  - first:
+      213: 3402949239965988416
+    second: IrisBehrmann_105
+  - first:
+      213: -7543132983478379973
+    second: IrisBehrmann_106
+  - first:
+      213: -6346879126584630360
+    second: IrisBehrmann_107
+  - first:
+      213: -4702833539454702354
+    second: IrisBehrmann_108
+  - first:
+      213: 6693722184034849789
+    second: IrisBehrmann_109
+  - first:
+      213: -5662498383822580150
+    second: IrisBehrmann_110
+  - first:
+      213: -6722221106925704137
+    second: IrisBehrmann_111
+  - first:
+      213: -979967882671864779
+    second: IrisBehrmann_112
+  - first:
+      213: -5109758848556165667
+    second: IrisBehrmann_113
+  - first:
+      213: 1921521301801384215
+    second: IrisBehrmann_114
+  - first:
+      213: -7992308258712033924
+    second: IrisBehrmann_115
+  - first:
+      213: 8643154544108702361
+    second: IrisBehrmann_116
+  - first:
+      213: -7731032896666570112
+    second: IrisBehrmann_117
+  - first:
+      213: -2471265017229190574
+    second: IrisBehrmann_118
+  - first:
+      213: -4492627666027904798
+    second: IrisBehrmann_119
+  - first:
+      213: 7491437573334419421
+    second: IrisBehrmann_120
+  - first:
+      213: 983464010950184965
+    second: IrisBehrmann_121
+  - first:
+      213: 4280220208767961240
+    second: IrisBehrmann_122
+  - first:
+      213: 6500283405272127269
+    second: IrisBehrmann_123
+  - first:
+      213: -7815642524385824530
+    second: IrisBehrmann_124
+  - first:
+      213: -8717231688158517798
+    second: IrisBehrmann_125
+  - first:
+      213: 3938964564852283402
+    second: IrisBehrmann_126
+  - first:
+      213: -2603947257188646899
+    second: IrisBehrmann_127
+  - first:
+      213: 3679644741303682650
+    second: IrisBehrmann_128
+  - first:
+      213: -4779372734413670625
+    second: IrisBehrmann_129
+  - first:
+      213: -4676241581383528483
+    second: IrisBehrmann_130
+  - first:
+      213: -6497156504075180425
+    second: IrisBehrmann_131
+  - first:
+      213: 477478411688098993
+    second: IrisBehrmann_132
+  - first:
+      213: -1178727790833357976
+    second: IrisBehrmann_133
+  - first:
+      213: -8089700304086232596
+    second: IrisBehrmann_134
+  - first:
+      213: -1183645798632020976
+    second: IrisBehrmann_135
+  - first:
+      213: -174602206513362563
+    second: IrisBehrmann_136
+  - first:
+      213: -4387401946160666859
+    second: IrisBehrmann_137
+  - first:
+      213: 6497370215029280524
+    second: IrisBehrmann_138
+  - first:
+      213: -6840461953661871333
+    second: IrisBehrmann_139
+  - first:
+      213: 3139174192648622366
+    second: IrisBehrmann_140
+  - first:
+      213: 2341587166060857809
+    second: IrisBehrmann_141
+  - first:
+      213: 2363166656620725411
+    second: IrisBehrmann_142
+  - first:
+      213: -4983899394794363653
+    second: IrisBehrmann_143
+  - first:
+      213: -5073759370132833725
+    second: IrisBehrmann_144
+  - first:
+      213: 6245662549743066770
+    second: IrisBehrmann_145
+  - first:
+      213: 9041051540583245936
+    second: IrisBehrmann_146
+  - first:
+      213: -3707542604523308047
+    second: IrisBehrmann_147
+  - first:
+      213: 8937798939357673035
+    second: IrisBehrmann_148
+  - first:
+      213: 301040067311146365
+    second: IrisBehrmann_149
+  - first:
+      213: 3304944059119833473
+    second: IrisBehrmann_150
+  - first:
+      213: 7947977207716271498
+    second: IrisBehrmann_151
+  - first:
+      213: -8803897339234941256
+    second: IrisBehrmann_152
+  - first:
+      213: -1324245883460851582
+    second: IrisBehrmann_153
+  - first:
+      213: 425138981701439745
+    second: IrisBehrmann_154
+  - first:
+      213: -4543474240958793497
+    second: IrisBehrmann_155
+  - first:
+      213: -2855867992091268262
+    second: IrisBehrmann_156
+  - first:
+      213: -4151117972766317561
+    second: IrisBehrmann_157
+  - first:
+      213: 5838492397394100429
+    second: IrisBehrmann_158
+  - first:
+      213: -4617201411361563080
+    second: IrisBehrmann_159
+  - first:
+      213: 936328530479695762
+    second: IrisBehrmann_160
+  - first:
+      213: 2355019236042521863
+    second: IrisBehrmann_161
+  - first:
+      213: 9058782073793451526
+    second: IrisBehrmann_162
+  - first:
+      213: 2051059588070256505
+    second: IrisBehrmann_163
+  - first:
+      213: -5528413710268964860
+    second: IrisBehrmann_164
+  - first:
+      213: -2555799690078268129
+    second: IrisBehrmann_165
+  - first:
+      213: -2046509173362692783
+    second: IrisBehrmann_166
+  - first:
+      213: 8023573563021617066
+    second: IrisBehrmann_167
+  - first:
+      213: -2975173565998718156
+    second: IrisBehrmann_168
+  - first:
+      213: -7159823692055787207
+    second: IrisBehrmann_169
+  - first:
+      213: -680885599708680576
+    second: IrisBehrmann_170
+  - first:
+      213: -6966696130059382368
+    second: IrisBehrmann_171
+  - first:
+      213: 6625533616830851673
+    second: IrisBehrmann_172
+  - first:
+      213: 2825117550040546433
+    second: IrisBehrmann_173
+  - first:
+      213: 3509716535651526850
+    second: IrisBehrmann_174
+  - first:
+      213: -3966087721113342147
+    second: IrisBehrmann_175
+  - first:
+      213: -6138294893871565875
+    second: IrisBehrmann_176
+  - first:
+      213: -1465494695158672758
+    second: IrisBehrmann_177
+  - first:
+      213: -9012537946233464127
+    second: IrisBehrmann_178
+  - first:
+      213: 4790402496938813261
+    second: IrisBehrmann_179
+  - first:
+      213: 7323621314428661701
+    second: IrisBehrmann_180
+  - first:
+      213: -8134407790490644542
+    second: IrisBehrmann_181
+  - first:
+      213: 2852820327381304890
+    second: IrisBehrmann_182
+  - first:
+      213: 8713603980427919660
+    second: IrisBehrmann_183
+  - first:
+      213: 429756747166881023
+    second: IrisBehrmann_184
+  - first:
+      213: 6226572912515494785
+    second: IrisBehrmann_185
+  - first:
+      213: 4445512825497880965
+    second: IrisBehrmann_186
+  - first:
+      213: 6245637391689005489
+    second: IrisBehrmann_187
+  - first:
+      213: -1028390937236138267
+    second: IrisBehrmann_188
+  - first:
+      213: -2078662991972728197
+    second: IrisBehrmann_189
+  - first:
+      213: -1146898195225070412
+    second: IrisBehrmann_190
+  - first:
+      213: -3388193565246711578
+    second: IrisBehrmann_191
+  - first:
+      213: -2508156771667288209
+    second: IrisBehrmann_192
+  - first:
+      213: -6985231067557341954
+    second: IrisBehrmann_193
+  - first:
+      213: -2528137670434722521
+    second: IrisBehrmann_194
+  - first:
+      213: 6080009198407624855
+    second: IrisBehrmann_195
+  - first:
+      213: -8340698284659804872
+    second: IrisBehrmann_196
+  - first:
+      213: 6587104964619069444
+    second: IrisBehrmann_197
+  - first:
+      213: -2923083102236163243
+    second: IrisBehrmann_198
+  - first:
+      213: 5424055116206331226
+    second: IrisBehrmann_199
+  - first:
+      213: -6234036062465814404
+    second: IrisBehrmann_200
+  - first:
+      213: 3949012959424001789
+    second: IrisBehrmann_201
+  - first:
+      213: 2456633666830919171
+    second: IrisBehrmann_202
+  - first:
+      213: -4461291549066406110
+    second: IrisBehrmann_203
+  - first:
+      213: 4982513402695518231
+    second: IrisBehrmann_204
+  - first:
+      213: 8366599748244603049
+    second: IrisBehrmann_205
+  - first:
+      213: 4793704948384788825
+    second: IrisBehrmann_206
+  - first:
+      213: -6994472559333859479
+    second: IrisBehrmann_207
+  - first:
+      213: -4265094567272602048
+    second: IrisBehrmann_208
+  - first:
+      213: 1664990882204374852
+    second: IrisBehrmann_209
+  - first:
+      213: -4558703449455243147
+    second: IrisBehrmann_210
+  - first:
+      213: -4424200470227675822
+    second: IrisBehrmann_211
+  - first:
+      213: 8504256936015060824
+    second: IrisBehrmann_212
+  - first:
+      213: -6198858733204768991
+    second: IrisBehrmann_213
+  - first:
+      213: 4839460075001543023
+    second: IrisBehrmann_214
+  - first:
+      213: 1964718471822529214
+    second: IrisBehrmann_215
+  - first:
+      213: -2162923522228297704
+    second: IrisBehrmann_216
+  - first:
+      213: -6652484622730202326
+    second: IrisBehrmann_217
+  - first:
+      213: -7587273194978817990
+    second: IrisBehrmann_218
+  - first:
+      213: -216577167600282512
+    second: IrisBehrmann_219
+  - first:
+      213: 8622206244366698551
+    second: IrisBehrmann_220
+  - first:
+      213: -8655302902983375745
+    second: IrisBehrmann_221
+  - first:
+      213: 8105611244307135545
+    second: IrisBehrmann_222
+  - first:
+      213: -8746025760574080736
+    second: IrisBehrmann_223
+  - first:
+      213: 2962121655780419430
+    second: IrisBehrmann_224
+  - first:
+      213: -8730082428382205592
+    second: IrisBehrmann_225
+  - first:
+      213: -3988853758705056551
+    second: IrisBehrmann_226
+  - first:
+      213: -7047251927167503132
+    second: IrisBehrmann_227
+  - first:
+      213: -2533181190143672592
+    second: IrisBehrmann_228
+  - first:
+      213: -2332135631881456557
+    second: IrisBehrmann_229
+  - first:
+      213: 863293118146299538
+    second: IrisBehrmann_230
+  - first:
+      213: -3903101355213817531
+    second: IrisBehrmann_231
+  - first:
+      213: -8122361359310866159
+    second: IrisBehrmann_232
+  - first:
+      213: 9157260477924611714
+    second: IrisBehrmann_233
+  - first:
+      213: -9066015865939540541
+    second: IrisBehrmann_234
+  - first:
+      213: -2322248174345306013
+    second: IrisBehrmann_235
+  - first:
+      213: 6890844351911058680
+    second: IrisBehrmann_236
+  - first:
+      213: 2508801082060414707
+    second: IrisBehrmann_237
+  - first:
+      213: 9016914151929330115
+    second: IrisBehrmann_238
+  - first:
+      213: -3811126746638011041
+    second: IrisBehrmann_239
+  - first:
+      213: -1066457897180340760
+    second: IrisBehrmann_240
+  - first:
+      213: 7283100926740998341
+    second: IrisBehrmann_241
+  - first:
+      213: 9063973952223191450
+    second: IrisBehrmann_242
+  - first:
+      213: -6213376246545910510
+    second: IrisBehrmann_243
+  - first:
+      213: 1812612600326613229
+    second: IrisBehrmann_244
+  - first:
+      213: 3900643033568506895
+    second: IrisBehrmann_245
+  - first:
+      213: -4961575244355149750
+    second: IrisBehrmann_246
+  - first:
+      213: 6380357323936575191
+    second: IrisBehrmann_247
+  - first:
+      213: -7543573841739449938
+    second: IrisBehrmann_248
+  - first:
+      213: -3770826005652354167
+    second: IrisBehrmann_249
+  - first:
+      213: -5884103155019441170
+    second: IrisBehrmann_250
+  - first:
+      213: -1145691427380455438
+    second: IrisBehrmann_251
+  - first:
+      213: -1243960207728595736
+    second: IrisBehrmann_252
+  - first:
+      213: -5850466366391405990
+    second: IrisBehrmann_253
+  - first:
+      213: 7983016609149047679
+    second: IrisBehrmann_254
+  - first:
+      213: 1255281672091917431
+    second: IrisBehrmann_255
+  - first:
+      213: -3916339178077211637
+    second: IrisBehrmann_256
+  - first:
+      213: 1288804009283324034
+    second: IrisBehrmann_257
+  - first:
+      213: 2498442520060994117
+    second: IrisBehrmann_258
+  - first:
+      213: -4017106018854040602
+    second: IrisBehrmann_259
+  - first:
+      213: -8893799742588745423
+    second: IrisBehrmann_260
+  - first:
+      213: 9205652114760945111
+    second: IrisBehrmann_261
+  - first:
+      213: -3218277044445964744
+    second: IrisBehrmann_262
+  - first:
+      213: 866646603048833971
+    second: IrisBehrmann_263
+  - first:
+      213: 7229214547783416135
+    second: IrisBehrmann_264
+  - first:
+      213: 7151130156923956133
+    second: IrisBehrmann_265
+  - first:
+      213: 829062120901010616
+    second: IrisBehrmann_266
+  - first:
+      213: -6270756938488202338
+    second: IrisBehrmann_267
+  - first:
+      213: -8504328354750976365
+    second: IrisBehrmann_268
+  - first:
+      213: 2427753759182641807
+    second: IrisBehrmann_269
+  - first:
+      213: 9162226464591845517
+    second: IrisBehrmann_270
+  - first:
+      213: -8227362124848665209
+    second: IrisBehrmann_271
+  - first:
+      213: 1810874181569680923
+    second: IrisBehrmann_272
+  - first:
+      213: 8796685408477535604
+    second: IrisBehrmann_273
+  - first:
+      213: 3746269641091206247
+    second: IrisBehrmann_274
+  - first:
+      213: -513489876014305833
+    second: IrisBehrmann_275
+  - first:
+      213: 2289366268242643940
+    second: IrisBehrmann_276
+  - first:
+      213: 3729378995570817573
+    second: IrisBehrmann_277
+  - first:
+      213: 8386396672014055423
+    second: IrisBehrmann_278
+  - first:
+      213: -6246034617261415124
+    second: IrisBehrmann_279
+  - first:
+      213: -6808473756437813107
+    second: IrisBehrmann_280
+  - first:
+      213: -4986411339975900605
+    second: IrisBehrmann_281
+  - first:
+      213: 2030108394772933775
+    second: IrisBehrmann_282
+  - first:
+      213: 6764736504615882655
+    second: IrisBehrmann_283
+  - first:
+      213: 8564118322875647137
+    second: IrisBehrmann_284
+  - first:
+      213: -1938585511884533047
+    second: IrisBehrmann_285
+  - first:
+      213: -6618344422389546035
+    second: IrisBehrmann_286
+  - first:
+      213: -7916089682897217686
+    second: IrisBehrmann_287
+  - first:
+      213: 1079203079915694295
+    second: IrisBehrmann_288
+  - first:
+      213: -1738219549677232747
+    second: IrisBehrmann_289
+  - first:
+      213: 6193892808455366771
+    second: IrisBehrmann_290
+  - first:
+      213: 505058704633208048
+    second: IrisBehrmann_291
+  - first:
+      213: 2790782231652154088
+    second: IrisBehrmann_292
+  - first:
+      213: 7909740065179579397
+    second: IrisBehrmann_293
+  - first:
+      213: -1780698991448211226
+    second: IrisBehrmann_294
+  - first:
+      213: 1297925933363959403
+    second: IrisBehrmann_295
+  - first:
+      213: -2883436195041999229
+    second: IrisBehrmann_296
+  - first:
+      213: -5321338849930696064
+    second: IrisBehrmann_297
+  - first:
+      213: -2414796556203878730
+    second: IrisBehrmann_298
+  - first:
+      213: 6770292109513170623
+    second: IrisBehrmann_299
+  - first:
+      213: -8984914863799512778
+    second: IrisBehrmann_300
+  - first:
+      213: -8158891479786025682
+    second: IrisBehrmann_301
+  - first:
+      213: 1360385583194365193
+    second: IrisBehrmann_302
+  - first:
+      213: -6450521858063201285
+    second: IrisBehrmann_303
+  - first:
+      213: -3031108237419386302
+    second: IrisBehrmann_304
+  - first:
+      213: 3302377506682348588
+    second: IrisBehrmann_305
+  - first:
+      213: 5271957046862762642
+    second: IrisBehrmann_306
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IrisBehrmann_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 624
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394e0904d9a8ee200800000000000000
+      internalID: 211258640530728083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 624
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afa1c0b8f64ace20800000000000000
+      internalID: 3371585304971554722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 624
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79cddf76208daff0800000000000000
+      internalID: -23221520224630403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15732a14b43e43560800000000000000
+      internalID: 7292703608982878033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 592
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651ef8ba145eb11a0800000000000000
+      internalID: -6837619539017997994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 592
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a6f70f199071af0800000000000000
+      internalID: -425861117353432477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 592
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df73c8d98bebf57e0800000000000000
+      internalID: -1774490028034213891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 592
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766880522a8006550800000000000000
+      internalID: 6151926583487137383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 592
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b220736e1f71b9da0800000000000000
+      internalID: -5937125356040945109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 592
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b608461025b8db030800000000000000
+      internalID: 3512116468745797739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 592
+        width: 96
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210b967c552d8c560800000000000000
+      internalID: 7334343259032498194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 592
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ea5c51783927640800000000000000
+      internalID: 5076281938395115069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_12
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 592
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de1513b2b70da250800000000000000
+      internalID: 5957426346171113174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_13
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 592
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba710a23023c62a0800000000000000
+      internalID: -6742959552909444432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 592
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0562fc4b4ba7d860800000000000000
+      internalID: 7554695239839147277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 592
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630d6663c274ba9f0800000000000000
+      internalID: -456192682031132618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 592
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dc3227b5822c4a0800000000000000
+      internalID: -6574648132785418880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 592
+        width: 96
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf94e3c7b840e3110800000000000000
+      internalID: 1242435544332257788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 560
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf78e70a0cb87bd0800000000000000
+      internalID: -2632147230929682469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_19
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 561
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1c6b78dbd8af820800000000000000
+      internalID: 2952828350860018134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 560
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b773a7d8ca119a680800000000000000
+      internalID: -8743437768757463173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_21
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 560
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804bd2374509fc460800000000000000
+      internalID: 7264183416355927048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 561
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3c3a299c0bbd7c0800000000000000
+      internalID: -4045445460467137552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 560
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfac2f049e4f0a230800000000000000
+      internalID: 3648184980824312571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 560
+        width: 96
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87c96cd3b55b6d30800000000000000
+      internalID: 4425725289807071116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6989652b57ed1dc0800000000000000
+      internalID: -3666520142954002069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_26
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 561
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9997d044c21fd4bb0800000000000000
+      internalID: -4950035242987718247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_27
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 560
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a83d6a3e97d449d0800000000000000
+      internalID: -2790868794477823832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_28
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 560
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d85817264d6320e0800000000000000
+      internalID: -2295871236957775658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_29
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 561
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21e5335ac2ddd250800000000000000
+      internalID: 5971160447384412460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_30
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 560
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ee3f9a988dbee20800000000000000
+      internalID: 3381034031045144149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_31
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 560
+        width: 96
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894b8bf96f6dcb560800000000000000
+      internalID: 7330970648182305944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 541
+        width: 96
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bcd7c5feca09ee0800000000000000
+      internalID: -1256314151987459204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_33
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 545
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f2c673dbb275290800000000000000
+      internalID: -7901798929519595678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 528
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae6c68ba6dbe5650800000000000000
+      internalID: 6223620001130901163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 541
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3757f47e8eb7d170800000000000000
+      internalID: 8203234765335648063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 545
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74c848bf4355a600800000000000000
+      internalID: 478880537244124283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_37
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 532
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61b832b4321e5270800000000000000
+      internalID: 8241044385672245612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 528
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8a30e0f7caca140800000000000000
+      internalID: 4732346970155493537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_39
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 537
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458f5595d8816b940800000000000000
+      internalID: 5311459805898340436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 497
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c61345fa5959450800000000000000
+      internalID: 6094942250980174870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_41
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 497
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105318b9e106528e0800000000000000
+      internalID: -1718861998197754623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_42
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 497
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0559c48a589afc180800000000000000
+      internalID: -9092862731118406320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_43
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 497
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54211595893500620800000000000000
+      internalID: 2738280487239881285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_44
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 497
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b13e8a1205fda110800000000000000
+      internalID: 1273943658999984565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 497
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deb65b64d2a8bbd0800000000000000
+      internalID: -2614160550470959399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_46
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 497
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20f2d700421cc5d0800000000000000
+      internalID: -3041035582163455953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 497
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7ed567391519310800000000000000
+      internalID: 1409997852131583931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_48
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 497
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ce675890197b9a0800000000000000
+      internalID: -6217341290481783696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_49
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 497
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d734a59efbcbb830800000000000000
+      internalID: 4088085381061556177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_50
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 497
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe77710545da5320800000000000000
+      internalID: 2547583031585505008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_51
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 497
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78050dbf3e672ef00800000000000000
+      internalID: 1144607976859914375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 465
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d223cce79e0a63d0800000000000000
+      internalID: -3212739338500365613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_53
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 465
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155c32805cc33ed90800000000000000
+      internalID: -7069740173098760879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_54
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 465
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4416f7110bd846d50800000000000000
+      internalID: 6729659530545684804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_55
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 465
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ea626866f8d0450800000000000000
+      internalID: 6056654744383303273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_56
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 465
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18807c298c0ae020800000000000000
+      internalID: 2371721937059612701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 465
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4f31a16fb2ab600800000000000000
+      internalID: 484748245895214298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_58
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 465
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cd04ff989a6fde0800000000000000
+      internalID: -1299665032291754996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_59
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 465
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511230178c5e18cc0800000000000000
+      internalID: -3710431968924327659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_60
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 465
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f536a56fb18bcd030800000000000000
+      internalID: 3520891438933631839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_61
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 465
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2643b8a78def39790800000000000000
+      internalID: -7524390346683632542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_62
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 465
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f6ff12af5331370800000000000000
+      internalID: 8292030687347699584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_63
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 465
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913b8297677863240800000000000000
+      internalID: 4771149798154220313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 192
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620ad59ea6aec7920800000000000000
+      internalID: 2989521997569826854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_65
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 432
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ef82a5e9cd5e080800000000000000
+      internalID: -9158671694512456123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 192
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d52dcf64567e320800000000000000
+      internalID: 2587147866511400350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_67
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 400
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949211709f2b9a300800000000000000
+      internalID: 263938835813050697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_68
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 403
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9b3c1d441ba9dd0800000000000000
+      internalID: -2478473735778879002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_69
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 403
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4815803cd0d75f5f0800000000000000
+      internalID: -723534667062947452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_70
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 403
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e105dc53a1cc79ec0800000000000000
+      internalID: -3560152567469223906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_71
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 403
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8653ec0c3ed7b20800000000000000
+      internalID: 3133911332952565951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_72
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 403
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef26e91bfca409c40800000000000000
+      internalID: 5516991799427490558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_73
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 403
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb98601a4e9930950800000000000000
+      internalID: 6414139501538871743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_74
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 403
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5411cdb926d259090800000000000000
+      internalID: -8028460859173105339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_75
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 403
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b540144b696fdb0800000000000000
+      internalID: -4758450255341266084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_76
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 403
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89089fbea1252a500800000000000000
+      internalID: 405977191998390424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_77
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 404
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80417f37c86c46c30800000000000000
+      internalID: 4351821446490035208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_78
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 403
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd75c83b5bdbb5e40800000000000000
+      internalID: 5646315145938098139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_79
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 403
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ae4d9a4eae157a0800000000000000
+      internalID: -6390068128439276934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 368
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d5e3604f62f76b0800000000000000
+      internalID: -5296471807245787880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_81
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 369
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae2c895c4f0fe850800000000000000
+      internalID: 6408357615365795491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_82
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 368
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b1a4beee6004010800000000000000
+      internalID: 1170943526335814466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_83
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 368
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fab9301a34d8e7a0800000000000000
+      internalID: -6347590328933303568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_84
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 369
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcdc606cabdc5e70800000000000000
+      internalID: 9105394080034905309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_85
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 368
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8147e4f8deaab10800000000000000
+      internalID: 1993666984817203430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 96
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa753be240a363c50800000000000000
+      internalID: 6644562089869531050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_87
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 368
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a7de2b926d33270800000000000000
+      internalID: 8229156418719939171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_88
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 369
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d042184c2348540800000000000000
+      internalID: 5009184505104436611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_89
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 368
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd331b8698ac82750800000000000000
+      internalID: 6280492371883930588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_90
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 368
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d8adc35582bcea0800000000000000
+      internalID: -5851538944279540370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_91
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 369
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d389c94e5460170800000000000000
+      internalID: 8144273824328203568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_92
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 368
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba49a00659711e390800000000000000
+      internalID: -7790919950045375317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_93
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 368
+        width: 96
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f156012df839a9c0800000000000000
+      internalID: -3915535741189991949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_94
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 372
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc9b099847ade4e0800000000000000
+      internalID: -1950719133334397770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_95
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 372
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047b49e3dd0e2a1f0800000000000000
+      internalID: -1035017723499464896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_96
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 372
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0af3cf571a423620800000000000000
+      internalID: 2752343786528176651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_97
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 372
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc4fb80fabe73830800000000000000
+      internalID: 4050965526841609469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_98
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 372
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3beb7cadce8df460800000000000000
+      internalID: 7277129586913831738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_99
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 372
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21931e0cdabcd5370800000000000000
+      internalID: 8313024434321570066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_100
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 372
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739340af86432ffc0800000000000000
+      internalID: -3462647538018666185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_101
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 372
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01d6096c6f277230800000000000000
+      internalID: 3636427366789992717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_102
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 372
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d924ed419ebec790800000000000000
+      internalID: -7507853997493704239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_103
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 368
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e3c69d2391402b0800000000000000
+      internalID: -5619338728864727450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_104
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 368
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca162e14505992f50800000000000000
+      internalID: 6857175757461021100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_105
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 368
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046bbdcdd44b93f20800000000000000
+      internalID: 3402949239965988416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a1d3a4488615790800000000000000
+      internalID: -7543132983478379973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_107
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3e493cf0b5be7a0800000000000000
+      internalID: -6346879126584630360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_108
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 336
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec620300dd2cbeb0800000000000000
+      internalID: -4702833539454702354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_109
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 336
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df39c8c8cd0e4ec50800000000000000
+      internalID: 6693722184034849789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_110
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 336
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46180b98b3ca61b0800000000000000
+      internalID: -5662498383822580150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_111
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 336
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c6f04e48fd5b2a0800000000000000
+      internalID: -6722221106925704137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_112
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5344d0e17647662f0800000000000000
+      internalID: -979967882671864779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_113
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd596ef566d7619b0800000000000000
+      internalID: -5109758848556165667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_114
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719b73e717d9aaa10800000000000000
+      internalID: 1921521301801384215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_115
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c756c08dbfd951190800000000000000
+      internalID: -7992308258712033924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_116
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a0764b347a2f770800000000000000
+      internalID: 8643154544108702361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_117
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082745f8a8ad5b490800000000000000
+      internalID: -7731032896666570112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 192
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a54366f8d44bdd0800000000000000
+      internalID: -2471265017229190574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_119
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e08052d0faf6a1c0800000000000000
+      internalID: -4492627666027904798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_120
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7cc9718cee6f760800000000000000
+      internalID: 7491437573334419421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_121
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 336
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500111eae47f5ad00800000000000000
+      internalID: 983464010950184965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_122
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 336
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89800103a95666b30800000000000000
+      internalID: 4280220208767961240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_123
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 336
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5279c9e2155a53a50800000000000000
+      internalID: 6500283405272127269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_124
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 336
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0bb8a7882498390800000000000000
+      internalID: -7815642524385824530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_125
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5688a27fb260780800000000000000
+      internalID: -8717231688158517798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_126
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a081fd6f6630aa630800000000000000
+      internalID: 3938964564852283402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_127
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d000b6114cbecdbd0800000000000000
+      internalID: -2603947257188646899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_128
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a564a098569b01330800000000000000
+      internalID: 3679644741303682650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_129
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17f51cf1d14cadb0800000000000000
+      internalID: -4779372734413670625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_130
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 336
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf49b9be07aa1fb0800000000000000
+      internalID: -4676241581383528483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_131
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 336
+        width: 192
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776ea7c359675d5a0800000000000000
+      internalID: -6497156504075180425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_132
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc369ce51850a600800000000000000
+      internalID: 477478411688098993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_133
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b2f74c15154afe0800000000000000
+      internalID: -1178727790833357976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_134
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1129b3f6c9bbf80800000000000000
+      internalID: -8089700304086232596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_135
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014a7a8da68d29fe0800000000000000
+      internalID: -1183645798632020976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_136
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7985cfd730b39df0800000000000000
+      internalID: -174602206513362563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_137
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5176c38ec21dc13c0800000000000000
+      internalID: -4387401946160666859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_138
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f060939cb4b2a50800000000000000
+      internalID: 6497370215029280524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_139
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 304
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bd860781cc111a0800000000000000
+      internalID: -6840461953661871333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_140
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 304
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1115e0db46909b20800000000000000
+      internalID: 3139174192648622366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_141
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9cbab0f1dfe7020800000000000000
+      internalID: 2341587166060857809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_142
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 160
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a40de8bd87abc020800000000000000
+      internalID: 2363166656620725411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_143
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf46ff008e1a5dab0800000000000000
+      internalID: -4983899394794363653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_144
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a3c6b1cb26699b0800000000000000
+      internalID: -5073759370132833725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_145
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e55608ffc0da650800000000000000
+      internalID: 6245662549743066770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_146
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07866708974487d70800000000000000
+      internalID: 9041051540583245936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_147
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbf2c305a92c8cc0800000000000000
+      internalID: -3707542604523308047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_148
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46f646e7c0790c70800000000000000
+      internalID: 8937798939357673035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_149
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d759d33a8528d2400800000000000000
+      internalID: 301040067311146365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_150
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 304
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18110668c158ddd20800000000000000
+      internalID: 3304944059119833473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_151
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 304
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8554d40923ec4e60800000000000000
+      internalID: 7947977207716271498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_152
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 304
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b605e7d30642d580800000000000000
+      internalID: -8803897339234941256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_153
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 304
+        width: 160
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288ea0992655f9de0800000000000000
+      internalID: -1324245883460851582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_154
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 306
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1015c70c6a566e500800000000000000
+      internalID: 425138981701439745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_155
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 306
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8738d004652f0c0800000000000000
+      internalID: -4543474240958793497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bedf5313bed58d0800000000000000
+      internalID: -2855867992091268262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_157
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704268482344466c0800000000000000
+      internalID: -4151117972766317561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_158
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc08e7ad6ed760150800000000000000
+      internalID: 5838492397394100429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_159
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e9c5387c76cefb0800000000000000
+      internalID: -4617201411361563080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_160
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2974e4c66d18efc00800000000000000
+      internalID: 936328530479695762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_161
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70db68b8485bea020800000000000000
+      internalID: 2355019236042521863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_162
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6069226fc4247bd70800000000000000
+      internalID: 9058782073793451526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_163
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f261014d3d67c10800000000000000
+      internalID: 2051059588070256505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_164
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400e40475012743b0800000000000000
+      internalID: -5528413710268964860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_165
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15d4db19b9f78cd0800000000000000
+      internalID: -2555799690078268129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_166
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d632cefb65993e0800000000000000
+      internalID: -2046509173362692783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_167
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa76e1515a5795f60800000000000000
+      internalID: 8023573563021617066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_168
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433a385a76f06b6d0800000000000000
+      internalID: -2975173565998718156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_169
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939c694594233ac90800000000000000
+      internalID: -7159823692055787207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_170
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 272
+        width: 224
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e6fa097220d86f0800000000000000
+      internalID: -680885599708680576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_171
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1d8b5e7c2515f90800000000000000
+      internalID: -6966696130059382368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_172
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95aac9e88bf92fb50800000000000000
+      internalID: 6625533616830851673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_173
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c73e29175d43720800000000000000
+      internalID: 2825117550040546433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_174
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8e2d9089405b030800000000000000
+      internalID: 3509716535651526850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_175
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f200b1b30a5f8c0800000000000000
+      internalID: -3966087721113342147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_176
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3f03ce05560daa0800000000000000
+      internalID: -6138294893871565875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_177
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8219dad65489abe0800000000000000
+      internalID: -1465494695158672758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_178
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca96060d780de280800000000000000
+      internalID: -9012537946233464127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_179
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47ae29b0bdea7240800000000000000
+      internalID: 4790402496938813261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_180
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfeff388cab2a560800000000000000
+      internalID: 7323621314428661701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_181
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf82a56637cc1f80800000000000000
+      internalID: -8134407790490644542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_182
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36839d09f0479720800000000000000
+      internalID: 2852820327381304890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_183
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 272
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2106de47a0fce870800000000000000
+      internalID: 8713603980427919660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_184
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 272
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff495be0c7dc6f500800000000000000
+      internalID: 429756747166881023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_185
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 272
+        width: 224
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1833e8af21b396650800000000000000
+      internalID: 6226572912515494785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_186
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5898e388c52a1bd30800000000000000
+      internalID: 4445512825497880965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_187
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9358fed16fca650800000000000000
+      internalID: 6245637391689005489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_188
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e61fc724eb6ab1f0800000000000000
+      internalID: -1028390937236138267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_189
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7207b3a50b1723e0800000000000000
+      internalID: -2078662991972728197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_190
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4b2100b266510f0800000000000000
+      internalID: -1146898195225070412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_191
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8943167e7baf0d0800000000000000
+      internalID: -3388193565246711578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_192
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fd7c774bc313dd0800000000000000
+      internalID: -2508156771667288209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_193
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4d8387a597f0f90800000000000000
+      internalID: -6985231067557341954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_194
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d6472fe204aecd0800000000000000
+      internalID: -2528137670434722521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_195
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 240
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798a1361728806450800000000000000
+      internalID: 6080009198407624855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_196
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835742cd913ef3c80800000000000000
+      internalID: -8340698284659804872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_197
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408e45ab0191a6b50800000000000000
+      internalID: 6587104964619069444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_198
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553444ad76f1f67d0800000000000000
+      internalID: -2923083102236163243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_199
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a555e9be36d164b40800000000000000
+      internalID: 5424055116206331226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_200
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 224
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7010c30b314c79a0800000000000000
+      internalID: -6234036062465814404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_201
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6b1e32d56bdc630800000000000000
+      internalID: 3949012959424001789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_202
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306e8bedd47b71220800000000000000
+      internalID: 2456633666830919171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_203
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227d17a19fe4612c0800000000000000
+      internalID: -4461291549066406110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_204
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7180a409a81752540800000000000000
+      internalID: 4982513402695518231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_205
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a00ef394222c1470800000000000000
+      internalID: 8366599748244603049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_206
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951f18e9049a68240800000000000000
+      internalID: 4793704948384788825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_207
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f10bdf344aeee90800000000000000
+      internalID: -6994472559333859479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_208
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046a448a6175fc4c0800000000000000
+      internalID: -4265094567272602048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_209
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4475e08c26c3b1710800000000000000
+      internalID: 1664990882204374852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_210
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 240
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5705fd2ad5b3cb0c0800000000000000
+      internalID: -4558703449455243147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_211
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25596fcdc151a92c0800000000000000
+      internalID: -4424200470227675822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_212
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 240
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f54d530a0350670800000000000000
+      internalID: 8504256936015060824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_213
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127708a33da39f9a0800000000000000
+      internalID: -6198858733204768991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_214
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 240
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69f6233c47392340800000000000000
+      internalID: 4839460075001543023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_215
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 240
+        width: 224
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb251a46a05144b10800000000000000
+      internalID: 1964718471822529214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_216
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 208
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810ee352480cbf1e0800000000000000
+      internalID: -2162923522228297704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_217
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 208
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23fa646b70ada3a0800000000000000
+      internalID: -6652484622730202326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_218
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 208
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38c17f6a3794b690800000000000000
+      internalID: -7587273194978817990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_219
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 208
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07499baa6309efcf0800000000000000
+      internalID: -216577167600282512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_220
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 208
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738c1a795ea38a770800000000000000
+      internalID: 8622206244366698551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_221
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 208
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74c4441edf22e780800000000000000
+      internalID: -8655302902983375745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_222
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 96
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cb6583b7aec7070800000000000000
+      internalID: 8105611244307135545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_223
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 208
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029f090c8efdf9680800000000000000
+      internalID: -8746025760574080736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_224
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 208
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667a842b3f19b1920800000000000000
+      internalID: 2962121655780419430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_225
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 208
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869266c094488d680800000000000000
+      internalID: -8730082428382205592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_226
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4476be3aeb4a8c0800000000000000
+      internalID: -3988853758705056551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_227
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e47e7ec5b1233e90800000000000000
+      internalID: -7047251927167503132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_228
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 208
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fef8c1012558dcd0800000000000000
+      internalID: -2533181190143672592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_229
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 96
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354bcadbff692afd0800000000000000
+      internalID: -2332135631881456557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_230
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 176
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296462c54880bfb00800000000000000
+      internalID: 863293118146299538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_231
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 176
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54972283ff565d9c0800000000000000
+      internalID: -3903101355213817531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_232
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 176
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119bae8b063974f80800000000000000
+      internalID: -8122361359310866159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_233
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 176
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2869b6e23ef151f70800000000000000
+      internalID: 9157260477924611714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_234
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 176
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c54e9e8a9a0f2280800000000000000
+      internalID: -9066015865939540541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_235
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 176
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36049d7d697b5cfd0800000000000000
+      internalID: -2322248174345306013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_236
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 96
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc5a26cd6231af50800000000000000
+      internalID: 6890844351911058680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_237
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 176
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe935cba4d01d220800000000000000
+      internalID: 2508801082060414707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_238
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 176
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9b0f3c5a3822d70800000000000000
+      internalID: 9016914151929330115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_239
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 176
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55b6a88a682c1bc0800000000000000
+      internalID: -3811126746638011041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_240
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edd7ae513e2331f0800000000000000
+      internalID: -1066457897180340760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_241
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 176
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c827b194b5c21560800000000000000
+      internalID: 7283100926740998341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_242
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 176
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9128ab5944b9cd70800000000000000
+      internalID: 9063973952223191450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_243
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 96
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215f7c04937a5c9a0800000000000000
+      internalID: -6213376246545910510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_244
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de86ddd6e81b72910800000000000000
+      internalID: 1812612600326613229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_245
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 144
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04f37b2c2ed12630800000000000000
+      internalID: 3900643033568506895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_246
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 144
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40e6d15a91f42bb0800000000000000
+      internalID: -4961575244355149750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_247
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 144
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de2d497e259b8850800000000000000
+      internalID: 6380357323936575191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_248
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 144
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9f03afe87df4790800000000000000
+      internalID: -7543573841739449938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_249
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 144
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b494ff9b55babc0800000000000000
+      internalID: -3770826005652354167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_250
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 96
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb9f471b57775ea0800000000000000
+      internalID: -5884103155019441170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_251
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 144
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f717c887bfa910f0800000000000000
+      internalID: -1145691427380455438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_252
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 144
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecad9728c09cbee0800000000000000
+      internalID: -1243960207728595736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_253
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 144
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52bedc36d7fecea0800000000000000
+      internalID: -5850466366391405990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_254
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f735f586f4f59ce60800000000000000
+      internalID: 7983016609149047679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_255
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cd81ea708ab6110800000000000000
+      internalID: 1255281672091917431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_256
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 144
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0433c6644e56a9c0800000000000000
+      internalID: -3916339178077211637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_257
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 96
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2888e660b60c2e110800000000000000
+      internalID: 1288804009283324034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_258
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 146
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542a7f31c304ca220800000000000000
+      internalID: 2498442520060994117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_259
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 145
+        width: 72
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb0f110c5f5048c0800000000000000
+      internalID: -4017106018854040602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_260
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 146
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13989876140e29480800000000000000
+      internalID: -8893799742588745423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_261
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 146
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd462223db01cf70800000000000000
+      internalID: 9205652114760945111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_262
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 148
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836110944126653d0800000000000000
+      internalID: -3218277044445964744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_263
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 144
+        width: 60
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b356886e72f60c00800000000000000
+      internalID: 866646603048833971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_264
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 150
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74977b54454535460800000000000000
+      internalID: 7229214547783416135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_265
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 146
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab290a4dfaed3360800000000000000
+      internalID: 7151130156923956133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_266
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 146
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4690d3b9b618b00800000000000000
+      internalID: 829062120901010616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_267
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 145
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b3890d9cbc9f8a0800000000000000
+      internalID: -6270756938488202338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_268
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 146
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e29c15b6e8af980800000000000000
+      internalID: -8504328354750976365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_269
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 145
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a53326e2d11b120800000000000000
+      internalID: 2427753759182641807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_270
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 112
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d881ead0d64c62f70800000000000000
+      internalID: 9162226464591845517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_271
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 112
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d64e5ecb982dd80800000000000000
+      internalID: -8227362124848665209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_272
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 112
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1613654974812910800000000000000
+      internalID: 1810874181569680923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_273
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 112
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d5a2da5ca141a70800000000000000
+      internalID: 8796685408477535604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_274
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c4216d36c6df330800000000000000
+      internalID: 3746269641091206247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_275
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 112
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd6868ada7bfd8f0800000000000000
+      internalID: -513489876014305833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_276
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 112
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb4d5bcd7675cf10800000000000000
+      internalID: 2289366268242643940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_277
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 112
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a3dc7ff6a61c330800000000000000
+      internalID: 3729378995570817573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_278
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 112
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff77ae41757726470800000000000000
+      internalID: 8386396672014055423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_279
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c252757cb90a159a0800000000000000
+      internalID: -6246034617261415124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_280
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8864fcf0317381a0800000000000000
+      internalID: -6808473756437813107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_281
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342c1c03e45bccab0800000000000000
+      internalID: -4986411339975900605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_282
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 80
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8caafd34d46c2c10800000000000000
+      internalID: 2030108394772933775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_283
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 80
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f4fb4820c21ed50800000000000000
+      internalID: 6764736504615882655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_284
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 80
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4ca617d3cd9d670800000000000000
+      internalID: 8564118322875647137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_285
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 80
+        width: 126
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2576d7fb2c815e0800000000000000
+      internalID: -1938585511884533047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_286
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3884630dae624a0800000000000000
+      internalID: -6618344422389546035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_287
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67d6c8ef56642290800000000000000
+      internalID: -7916089682897217686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_288
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8e1eabb791afe00800000000000000
+      internalID: 1079203079915694295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_289
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d59df678a90e7e0800000000000000
+      internalID: -1738219549677232747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_290
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37824d051b025f550800000000000000
+      internalID: 6193892808455366771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_291
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 96
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc91684734520700800000000000000
+      internalID: 505058704633208048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_292
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 48
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea391b47a9dab620800000000000000
+      internalID: 2790782231652154088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_293
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 48
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50434b28eaa05cd60800000000000000
+      internalID: 7909740065179579397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_294
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 48
+        width: 78
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e045daa3bfa947e0800000000000000
+      internalID: -1780698991448211226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_295
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b661dea72c8230210800000000000000
+      internalID: 1297925933363959403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_296
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3868406ce0afbf7d0800000000000000
+      internalID: -2883436195041999229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_297
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 57
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a2568728ec626b0800000000000000
+      internalID: -5321338849930696064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_298
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 16
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b691a6835bec7ed0800000000000000
+      internalID: -2414796556203878730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_299
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 16
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe99259dc8e4fd50800000000000000
+      internalID: 6770292109513170623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_300
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 16
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6315a16198b2f4380800000000000000
+      internalID: -8984914863799512778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_301
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d84624d6bc5ce80800000000000000
+      internalID: -8158891479786025682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_302
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 16
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ddcd3fa7f01e210800000000000000
+      internalID: 1360385583194365193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_303
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 16
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb0042eb842b76a0800000000000000
+      internalID: -6450521858063201285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_304
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 16
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a6bd81e175fe5d0800000000000000
+      internalID: -3031108237419386302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_305
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24aa0878d664dd20800000000000000
+      internalID: 3302377506682348588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IrisBehrmann_306
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 23
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2925f598001c92940800000000000000
+      internalID: 5271957046862762642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IrisBehrmann_249: -3770826005652354167
+      IrisBehrmann_281: -4986411339975900605
+      IrisBehrmann_51: 1144607976859914375
+      IrisBehrmann_91: 8144273824328203568
+      IrisBehrmann_301: -8158891479786025682
+      IrisBehrmann_150: 3304944059119833473
+      IrisBehrmann_209: 1664990882204374852
+      IrisBehrmann_69: -723534667062947452
+      IrisBehrmann_305: 3302377506682348588
+      IrisBehrmann_216: -2162923522228297704
+      IrisBehrmann_34: 6223620001130901163
+      IrisBehrmann_156: -2855867992091268262
+      IrisBehrmann_9: 3512116468745797739
+      IrisBehrmann_262: -3218277044445964744
+      IrisBehrmann_180: 7323621314428661701
+      IrisBehrmann_284: 8564118322875647137
+      IrisBehrmann_67: 263938835813050697
+      IrisBehrmann_94: -1950719133334397770
+      IrisBehrmann_295: 1297925933363959403
+      IrisBehrmann_275: -513489876014305833
+      IrisBehrmann_80: -5296471807245787880
+      IrisBehrmann_191: -3388193565246711578
+      IrisBehrmann_277: 3729378995570817573
+      IrisBehrmann_40: 6094942250980174870
+      IrisBehrmann_13: -6742959552909444432
+      IrisBehrmann_224: 2962121655780419430
+      IrisBehrmann_170: -680885599708680576
+      IrisBehrmann_75: -4758450255341266084
+      IrisBehrmann_272: 1810874181569680923
+      IrisBehrmann_250: -5884103155019441170
+      IrisBehrmann_48: -6217341290481783696
+      IrisBehrmann_108: -4702833539454702354
+      IrisBehrmann_117: -7731032896666570112
+      IrisBehrmann_45: -2614160550470959399
+      IrisBehrmann_230: 863293118146299538
+      IrisBehrmann_140: 3139174192648622366
+      IrisBehrmann_19: 2952828350860018134
+      IrisBehrmann_223: -8746025760574080736
+      IrisBehrmann_235: -2322248174345306013
+      IrisBehrmann_221: -8655302902983375745
+      IrisBehrmann_10: 7334343259032498194
+      IrisBehrmann_76: 405977191998390424
+      IrisBehrmann_11: 5076281938395115069
+      IrisBehrmann_24: 4425725289807071116
+      IrisBehrmann_52: -3212739338500365613
+      IrisBehrmann_92: -7790919950045375317
+      IrisBehrmann_210: -4558703449455243147
+      IrisBehrmann_32: -1256314151987459204
+      IrisBehrmann_158: 5838492397394100429
+      IrisBehrmann_109: 6693722184034849789
+      IrisBehrmann_238: 9016914151929330115
+      IrisBehrmann_53: -7069740173098760879
+      IrisBehrmann_31: 7330970648182305944
+      IrisBehrmann_29: 5971160447384412460
+      IrisBehrmann_128: 3679644741303682650
+      IrisBehrmann_175: -3966087721113342147
+      IrisBehrmann_286: -6618344422389546035
+      IrisBehrmann_204: 4982513402695518231
+      IrisBehrmann_234: -9066015865939540541
+      IrisBehrmann_172: 6625533616830851673
+      IrisBehrmann_206: 4793704948384788825
+      IrisBehrmann_256: -3916339178077211637
+      IrisBehrmann_254: 7983016609149047679
+      IrisBehrmann_257: 1288804009283324034
+      IrisBehrmann_280: -6808473756437813107
+      IrisBehrmann_219: -216577167600282512
+      IrisBehrmann_236: 6890844351911058680
+      IrisBehrmann_251: -1145691427380455438
+      IrisBehrmann_98: 7277129586913831738
+      IrisBehrmann_95: -1035017723499464896
+      IrisBehrmann_220: 8622206244366698551
+      IrisBehrmann_214: 4839460075001543023
+      IrisBehrmann_288: 1079203079915694295
+      IrisBehrmann_306: 5271957046862762642
+      IrisBehrmann_50: 2547583031585505008
+      IrisBehrmann_303: -6450521858063201285
+      IrisBehrmann_232: -8122361359310866159
+      IrisBehrmann_188: -1028390937236138267
+      IrisBehrmann_2: -23221520224630403
+      IrisBehrmann_297: -5321338849930696064
+      IrisBehrmann_218: -7587273194978817990
+      IrisBehrmann_25: -3666520142954002069
+      IrisBehrmann_298: -2414796556203878730
+      IrisBehrmann_120: 7491437573334419421
+      IrisBehrmann_304: -3031108237419386302
+      IrisBehrmann_173: 2825117550040546433
+      IrisBehrmann_243: -6213376246545910510
+      IrisBehrmann_22: -4045445460467137552
+      IrisBehrmann_152: -8803897339234941256
+      IrisBehrmann_138: 6497370215029280524
+      IrisBehrmann_252: -1243960207728595736
+      IrisBehrmann_112: -979967882671864779
+      IrisBehrmann_134: -8089700304086232596
+      IrisBehrmann_241: 7283100926740998341
+      IrisBehrmann_217: -6652484622730202326
+      IrisBehrmann_192: -2508156771667288209
+      IrisBehrmann_247: 6380357323936575191
+      IrisBehrmann_137: -4387401946160666859
+      IrisBehrmann_82: 1170943526335814466
+      IrisBehrmann_113: -5109758848556165667
+      IrisBehrmann_276: 2289366268242643940
+      IrisBehrmann_242: 9063973952223191450
+      IrisBehrmann_46: -3041035582163455953
+      IrisBehrmann_118: -2471265017229190574
+      IrisBehrmann_294: -1780698991448211226
+      IrisBehrmann_47: 1409997852131583931
+      IrisBehrmann_58: -1299665032291754996
+      IrisBehrmann_208: -4265094567272602048
+      IrisBehrmann_41: -1718861998197754623
+      IrisBehrmann_135: -1183645798632020976
+      IrisBehrmann_174: 3509716535651526850
+      IrisBehrmann_177: -1465494695158672758
+      IrisBehrmann_176: -6138294893871565875
+      IrisBehrmann_61: -7524390346683632542
+      IrisBehrmann_110: -5662498383822580150
+      IrisBehrmann_107: -6346879126584630360
+      IrisBehrmann_237: 2508801082060414707
+      IrisBehrmann_157: -4151117972766317561
+      IrisBehrmann_159: -4617201411361563080
+      IrisBehrmann_189: -2078662991972728197
+      IrisBehrmann_106: -7543132983478379973
+      IrisBehrmann_227: -7047251927167503132
+      IrisBehrmann_26: -4950035242987718247
+      IrisBehrmann_268: -8504328354750976365
+      IrisBehrmann_207: -6994472559333859479
+      IrisBehrmann_226: -3988853758705056551
+      IrisBehrmann_3: 7292703608982878033
+      IrisBehrmann_33: -7901798929519595678
+      IrisBehrmann_132: 477478411688098993
+      IrisBehrmann_231: -3903101355213817531
+      IrisBehrmann_73: 6414139501538871743
+      IrisBehrmann_114: 1921521301801384215
+      IrisBehrmann_193: -6985231067557341954
+      IrisBehrmann_225: -8730082428382205592
+      IrisBehrmann_168: -2975173565998718156
+      IrisBehrmann_185: 6226572912515494785
+      IrisBehrmann_4: -6837619539017997994
+      IrisBehrmann_37: 8241044385672245612
+      IrisBehrmann_121: 983464010950184965
+      IrisBehrmann_264: 7229214547783416135
+      IrisBehrmann_211: -4424200470227675822
+      IrisBehrmann_261: 9205652114760945111
+      IrisBehrmann_130: -4676241581383528483
+      IrisBehrmann_244: 1812612600326613229
+      IrisBehrmann_259: -4017106018854040602
+      IrisBehrmann_274: 3746269641091206247
+      IrisBehrmann_8: -5937125356040945109
+      IrisBehrmann_38: 4732346970155493537
+      IrisBehrmann_165: -2555799690078268129
+      IrisBehrmann_290: 6193892808455366771
+      IrisBehrmann_87: 8229156418719939171
+      IrisBehrmann_116: 8643154544108702361
+      IrisBehrmann_255: 1255281672091917431
+      IrisBehrmann_145: 6245662549743066770
+      IrisBehrmann_17: 1242435544332257788
+      IrisBehrmann_146: 9041051540583245936
+      IrisBehrmann_93: -3915535741189991949
+      IrisBehrmann_12: 5957426346171113174
+      IrisBehrmann_245: 3900643033568506895
+      IrisBehrmann_81: 6408357615365795491
+      IrisBehrmann_126: 3938964564852283402
+      IrisBehrmann_124: -7815642524385824530
+      IrisBehrmann_65: -9158671694512456123
+      IrisBehrmann_102: -7507853997493704239
+      IrisBehrmann_187: 6245637391689005489
+      IrisBehrmann_79: -6390068128439276934
+      IrisBehrmann_111: -6722221106925704137
+      IrisBehrmann_68: -2478473735778879002
+      IrisBehrmann_148: 8937798939357673035
+      IrisBehrmann_190: -1146898195225070412
+      IrisBehrmann_155: -4543474240958793497
+      IrisBehrmann_240: -1066457897180340760
+      IrisBehrmann_15: -456192682031132618
+      IrisBehrmann_149: 301040067311146365
+      IrisBehrmann_260: -8893799742588745423
+      IrisBehrmann_28: -2295871236957775658
+      IrisBehrmann_213: -6198858733204768991
+      IrisBehrmann_27: -2790868794477823832
+      IrisBehrmann_142: 2363166656620725411
+      IrisBehrmann_1: 3371585304971554722
+      IrisBehrmann_151: 7947977207716271498
+      IrisBehrmann_101: 3636427366789992717
+      IrisBehrmann_199: 5424055116206331226
+      IrisBehrmann_84: 9105394080034905309
+      IrisBehrmann_90: -5851538944279540370
+      IrisBehrmann_169: -7159823692055787207
+      IrisBehrmann_57: 484748245895214298
+      IrisBehrmann_200: -6234036062465814404
+      IrisBehrmann_265: 7151130156923956133
+      IrisBehrmann_39: 5311459805898340436
+      IrisBehrmann_279: -6246034617261415124
+      IrisBehrmann_198: -2923083102236163243
+      IrisBehrmann_248: -7543573841739449938
+      IrisBehrmann_228: -2533181190143672592
+      IrisBehrmann_287: -7916089682897217686
+      IrisBehrmann_70: -3560152567469223906
+      IrisBehrmann_133: -1178727790833357976
+      IrisBehrmann_153: -1324245883460851582
+      IrisBehrmann_201: 3949012959424001789
+      IrisBehrmann_285: -1938585511884533047
+      IrisBehrmann_49: 4088085381061556177
+      IrisBehrmann_167: 8023573563021617066
+      IrisBehrmann_62: 8292030687347699584
+      IrisBehrmann_71: 3133911332952565951
+      IrisBehrmann_123: 6500283405272127269
+      IrisBehrmann_161: 2355019236042521863
+      IrisBehrmann_203: -4461291549066406110
+      IrisBehrmann_166: -2046509173362692783
+      IrisBehrmann_154: 425138981701439745
+      IrisBehrmann_282: 2030108394772933775
+      IrisBehrmann_88: 5009184505104436611
+      IrisBehrmann_136: -174602206513362563
+      IrisBehrmann_291: 505058704633208048
+      IrisBehrmann_0: 211258640530728083
+      IrisBehrmann_7: 6151926583487137383
+      IrisBehrmann_16: -6574648132785418880
+      IrisBehrmann_127: -2603947257188646899
+      IrisBehrmann_83: -6347590328933303568
+      IrisBehrmann_74: -8028460859173105339
+      IrisBehrmann_299: 6770292109513170623
+      IrisBehrmann_125: -8717231688158517798
+      IrisBehrmann_263: 866646603048833971
+      IrisBehrmann_96: 2752343786528176651
+      IrisBehrmann_144: -5073759370132833725
+      IrisBehrmann_44: 1273943658999984565
+      IrisBehrmann_72: 5516991799427490558
+      IrisBehrmann_179: 4790402496938813261
+      IrisBehrmann_23: 3648184980824312571
+      IrisBehrmann_129: -4779372734413670625
+      IrisBehrmann_77: 4351821446490035208
+      IrisBehrmann_66: 2587147866511400350
+      IrisBehrmann_300: -8984914863799512778
+      IrisBehrmann_122: 4280220208767961240
+      IrisBehrmann_269: 2427753759182641807
+      IrisBehrmann_6: -1774490028034213891
+      IrisBehrmann_184: 429756747166881023
+      IrisBehrmann_202: 2456633666830919171
+      IrisBehrmann_292: 2790782231652154088
+      IrisBehrmann_56: 2371721937059612701
+      IrisBehrmann_289: -1738219549677232747
+      IrisBehrmann_139: -6840461953661871333
+      IrisBehrmann_160: 936328530479695762
+      IrisBehrmann_100: -3462647538018666185
+      IrisBehrmann_147: -3707542604523308047
+      IrisBehrmann_105: 3402949239965988416
+      IrisBehrmann_54: 6729659530545684804
+      IrisBehrmann_229: -2332135631881456557
+      IrisBehrmann_55: 6056654744383303273
+      IrisBehrmann_85: 1993666984817203430
+      IrisBehrmann_86: 6644562089869531050
+      IrisBehrmann_131: -6497156504075180425
+      IrisBehrmann_270: 9162226464591845517
+      IrisBehrmann_97: 4050965526841609469
+      IrisBehrmann_36: 478880537244124283
+      IrisBehrmann_60: 3520891438933631839
+      IrisBehrmann_215: 1964718471822529214
+      IrisBehrmann_64: 2989521997569826854
+      IrisBehrmann_296: -2883436195041999229
+      IrisBehrmann_222: 8105611244307135545
+      IrisBehrmann_43: 2738280487239881285
+      IrisBehrmann_162: 9058782073793451526
+      IrisBehrmann_141: 2341587166060857809
+      IrisBehrmann_273: 8796685408477535604
+      IrisBehrmann_30: 3381034031045144149
+      IrisBehrmann_212: 8504256936015060824
+      IrisBehrmann_293: 7909740065179579397
+      IrisBehrmann_5: -425861117353432477
+      IrisBehrmann_194: -2528137670434722521
+      IrisBehrmann_103: -5619338728864727450
+      IrisBehrmann_246: -4961575244355149750
+      IrisBehrmann_283: 6764736504615882655
+      IrisBehrmann_42: -9092862731118406320
+      IrisBehrmann_197: 6587104964619069444
+      IrisBehrmann_99: 8313024434321570066
+      IrisBehrmann_253: -5850466366391405990
+      IrisBehrmann_143: -4983899394794363653
+      IrisBehrmann_182: 2852820327381304890
+      IrisBehrmann_183: 8713603980427919660
+      IrisBehrmann_195: 6080009198407624855
+      IrisBehrmann_233: 9157260477924611714
+      IrisBehrmann_278: 8386396672014055423
+      IrisBehrmann_63: 4771149798154220313
+      IrisBehrmann_205: 8366599748244603049
+      IrisBehrmann_78: 5646315145938098139
+      IrisBehrmann_266: 829062120901010616
+      IrisBehrmann_267: -6270756938488202338
+      IrisBehrmann_115: -7992308258712033924
+      IrisBehrmann_239: -3811126746638011041
+      IrisBehrmann_181: -8134407790490644542
+      IrisBehrmann_258: 2498442520060994117
+      IrisBehrmann_271: -8227362124848665209
+      IrisBehrmann_186: 4445512825497880965
+      IrisBehrmann_35: 8203234765335648063
+      IrisBehrmann_14: 7554695239839147277
+      IrisBehrmann_196: -8340698284659804872
+      IrisBehrmann_163: 2051059588070256505
+      IrisBehrmann_59: -3710431968924327659
+      IrisBehrmann_178: -9012537946233464127
+      IrisBehrmann_302: 1360385583194365193
+      IrisBehrmann_21: 7264183416355927048
+      IrisBehrmann_20: -8743437768757463173
+      IrisBehrmann_171: -6966696130059382368
+      IrisBehrmann_89: 6280492371883930588
+      IrisBehrmann_164: -5528413710268964860
+      IrisBehrmann_104: 6857175757461021100
+      IrisBehrmann_119: -4492627666027904798
+      IrisBehrmann_18: -2632147230929682469
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

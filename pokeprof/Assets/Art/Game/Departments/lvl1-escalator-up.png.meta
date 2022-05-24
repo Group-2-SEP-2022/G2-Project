@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: 402de359e2ab9db4f81689ea6b2a2188
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1887424080215651974
+    second: animated_escalator_up_0
+  - first:
+      213: -6071213102074041253
+    second: animated_escalator_up_1
+  - first:
+      213: -2838696604807562444
+    second: animated_escalator_up_2
+  - first:
+      213: 3157098187093626206
+    second: animated_escalator_up_3
+  - first:
+      213: -7545708014520746061
+    second: animated_escalator_up_4
+  - first:
+      213: -8868701474979958856
+    second: animated_escalator_up_5
+  - first:
+      213: 6013154816818514031
+    second: animated_escalator_up_6
+  - first:
+      213: -2661696190195471361
+    second: animated_escalator_up_7
+  - first:
+      213: 2647319703112994491
+    second: animated_escalator_up_8
+  - first:
+      213: 3399167467595944266
+    second: animated_escalator_up_9
+  - first:
+      213: -1029590308500358526
+    second: animated_escalator_up_10
+  - first:
+      213: -958477783542036600
+    second: animated_escalator_up_11
+  - first:
+      213: -6561898845813680619
+    second: animated_escalator_up_12
+  - first:
+      213: -7342252306463134857
+    second: animated_escalator_up_13
+  - first:
+      213: -8570400758520097556
+    second: animated_escalator_up_14
+  - first:
+      213: -7045006556471411854
+    second: animated_escalator_up_15
+  - first:
+      213: 8396647973917151350
+    second: animated_escalator_up_16
+  - first:
+      213: -1435263603372013655
+    second: animated_escalator_up_17
+  - first:
+      213: 8017053620559877494
+    second: animated_escalator_up_18
+  - first:
+      213: 5467286878008049492
+    second: animated_escalator_up_19
+  - first:
+      213: 4429739115037087727
+    second: animated_escalator_up_20
+  - first:
+      213: 7452158100127642013
+    second: animated_escalator_up_21
+  - first:
+      213: 2798853936643637708
+    second: animated_escalator_up_22
+  - first:
+      213: -7986330817174024738
+    second: animated_escalator_up_23
+  - first:
+      213: 3483333508169092571
+    second: animated_escalator_up_24
+  - first:
+      213: -5637359975210927069
+    second: animated_escalator_up_25
+  - first:
+      213: 123718649028445156
+    second: animated_escalator_up_26
+  - first:
+      213: -4845086363752179405
+    second: animated_escalator_up_27
+  - first:
+      213: 6104230111912898795
+    second: animated_escalator_up_28
+  - first:
+      213: 159369278051352376
+    second: animated_escalator_up_29
+  - first:
+      213: -237824899663880895
+    second: animated_escalator_up_30
+  - first:
+      213: -9155178918524402054
+    second: animated_escalator_up_31
+  - first:
+      213: -1160966228974385285
+    second: animated_escalator_up_32
+  - first:
+      213: -5929441359333996407
+    second: animated_escalator_up_33
+  - first:
+      213: 1897621388877435044
+    second: animated_escalator_up_34
+  - first:
+      213: 143330478256881936
+    second: animated_escalator_up_35
+  - first:
+      213: -1276114182958496116
+    second: animated_escalator_up_36
+  - first:
+      213: -3659094318056258659
+    second: animated_escalator_up_37
+  - first:
+      213: 4352865028696808094
+    second: animated_escalator_up_38
+  - first:
+      213: 4557934972083541534
+    second: animated_escalator_up_39
+  - first:
+      213: -8950436005234946974
+    second: animated_escalator_up_40
+  - first:
+      213: -8633017966734697425
+    second: animated_escalator_up_41
+  - first:
+      213: -6875834479196366886
+    second: animated_escalator_up_42
+  - first:
+      213: -6068273685026608585
+    second: animated_escalator_up_43
+  - first:
+      213: 7501416221488704475
+    second: animated_escalator_up_44
+  - first:
+      213: 3026018363656517258
+    second: animated_escalator_up_45
+  - first:
+      213: -4533054808168051056
+    second: animated_escalator_up_46
+  - first:
+      213: -1366796896268121708
+    second: animated_escalator_up_47
+  - first:
+      213: -629694878488252689
+    second: animated_escalator_up_48
+  - first:
+      213: 7464264564133986258
+    second: animated_escalator_up_49
+  - first:
+      213: 8508154999605126441
+    second: animated_escalator_up_50
+  - first:
+      213: 3534733526204854125
+    second: animated_escalator_up_51
+  - first:
+      213: -3254817162009655535
+    second: animated_escalator_up_52
+  - first:
+      213: 3330830072816786808
+    second: animated_escalator_up_53
+  - first:
+      213: -2303985711695362204
+    second: animated_escalator_up_54
+  - first:
+      213: 6752545080180071191
+    second: animated_escalator_up_55
+  - first:
+      213: -1249714991057502012
+    second: animated_escalator_up_56
+  - first:
+      213: -3590480371411969555
+    second: animated_escalator_up_57
+  - first:
+      213: -5647385241225897715
+    second: animated_escalator_up_58
+  - first:
+      213: -2436434262282906609
+    second: animated_escalator_up_59
+  - first:
+      213: 283205155110141262
+    second: animated_escalator_up_60
+  - first:
+      213: -2958028390986844476
+    second: animated_escalator_up_61
+  - first:
+      213: 6624998175503920886
+    second: animated_escalator_up_62
+  - first:
+      213: 5246767199369332458
+    second: animated_escalator_up_63
+  - first:
+      213: 6625300349687843059
+    second: animated_escalator_up_64
+  - first:
+      213: 945172036369146019
+    second: animated_escalator_up_65
+  - first:
+      213: 7010604944093513381
+    second: animated_escalator_up_66
+  - first:
+      213: -115956821078798563
+    second: animated_escalator_up_67
+  - first:
+      213: 1751527076490200125
+    second: animated_escalator_up_68
+  - first:
+      213: -5703187550566126225
+    second: animated_escalator_up_69
+  - first:
+      213: 8957480222704102717
+    second: animated_escalator_up_70
+  - first:
+      213: 1819873375376699419
+    second: animated_escalator_up_71
+  - first:
+      213: 7660844014623219056
+    second: animated_escalator_up_72
+  - first:
+      213: -4796660111479731451
+    second: animated_escalator_up_73
+  - first:
+      213: -6993386768323549725
+    second: animated_escalator_up_74
+  - first:
+      213: -2755380101933084918
+    second: animated_escalator_up_75
+  - first:
+      213: -8393954181312163665
+    second: animated_escalator_up_76
+  - first:
+      213: 4221314218038905073
+    second: animated_escalator_up_77
+  - first:
+      213: -6996467542494789767
+    second: animated_escalator_up_78
+  - first:
+      213: 771349662083158030
+    second: animated_escalator_up_79
+  - first:
+      213: -5672522572662636330
+    second: animated_escalator_up_80
+  - first:
+      213: 7247889666722601958
+    second: animated_escalator_up_81
+  - first:
+      213: -8836805071970265515
+    second: animated_escalator_up_82
+  - first:
+      213: 6876718335307907214
+    second: animated_escalator_up_83
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animated_escalator_up_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 14
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686b5c1733a713a10800000000000000
+      internalID: 1887424080215651974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated_escalator_up_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 14
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ced2fa9d7bebba0800000000000000
+      internalID: -6071213102074041253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated_escalator_up_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 14
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b765d5a7cea98d0800000000000000
+      internalID: -2838696604807562444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated_escalator_up_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 14
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dcebaf21440db20800000000000000
+      internalID: 3157098187093626206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated_escalator_up_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 14
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf3ca72a82484790800000000000000
+      internalID: -7545708014520746061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated_escalator_up_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 14
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf26d43ffa0ce480800000000000000
+      internalID: -8868701474979958856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      animated_escalator_up_3: 3157098187093626206
+      animated_escalator_up_5: -8868701474979958856
+      animated_escalator_up_1: -6071213102074041253
+      animated_escalator_up_4: -7545708014520746061
+      animated_escalator_up_2: -2838696604807562444
+      animated_escalator_up_0: 1887424080215651974
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

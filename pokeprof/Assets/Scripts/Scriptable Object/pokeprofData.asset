@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64380929de91074c866604b8e5105da, type: 3}
+  m_Name: pokeprofData
+  m_EditorClassIdentifier: 
+  icon: {fileID: -3732359476537108353, guid: cab5031a06632ef43b4e5930b34694f7, type: 3}
+  pokeprofName: "Volker M\xDCLLER"

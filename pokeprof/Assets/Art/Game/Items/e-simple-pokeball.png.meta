@@ -75,6 +75,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -520,6 +521,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      e-simple-pokeball_2: 445125079279704393
+      e-simple-pokeball_11: 7469351107228684296
+      e-simple-pokeball_6: 2646689099173194610
+      e-simple-pokeball_16: -4458387836063942310
+      e-simple-pokeball_8: -5304091195213993554
+      e-simple-pokeball_15: 8036834098730679171
+      e-simple-pokeball_13: 8620967516708128474
+      e-simple-pokeball_3: 406389152396155141
+      e-simple-pokeball_1: -6375655587558281804
+      e-simple-pokeball_4: 7747582127402360995
+      e-simple-pokeball_12: 2282171902711216966
+      e-simple-pokeball_14: 6580978148268175819
+      e-simple-pokeball_5: 3250172236096700751
+      e-simple-pokeball_0: -5299419686384882736
+      e-simple-pokeball_7: -4831655994582396875
+      e-simple-pokeball_10: -6206477384867761678
+      e-simple-pokeball_9: -254423052054064657
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
