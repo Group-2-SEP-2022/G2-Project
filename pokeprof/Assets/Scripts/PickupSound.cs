@@ -8,6 +8,7 @@ public class PickupSound : MonoBehaviour
 
     static AudioSource audioSrc;
 
+    //load the pickup sound and find the audio source
     void Start()
     {
         pickupSound = Resources.Load<AudioClip>("pickup");
@@ -15,6 +16,7 @@ public class PickupSound : MonoBehaviour
         audioSrc = GetComponent<AudioSource>();
     }
 
+    //play the pickup sound
     public static void PlaySound()
     {
         audioSrc.PlayOneShot(pickupSound);

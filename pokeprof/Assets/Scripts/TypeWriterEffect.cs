@@ -20,6 +20,7 @@ public class TypeWriterEffect : MonoBehaviour
     {
         if (!stop)
         {
+            //check if the opacity is 1 to prevent from writing even if we don't see the dialogue text box
             if (this.GetComponent<Text>().color.a == 1f)
             {
                 Write();
@@ -28,6 +29,7 @@ public class TypeWriterEffect : MonoBehaviour
         }
     }
 
+    //show the text letter by letter
     IEnumerator ShowText()
     {
         for (int i = 0; i < fullText.Length + 1; i++)

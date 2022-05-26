@@ -11,11 +11,13 @@ public class Player : MonoBehaviour
 
     private Animator anim;
 
+    //find the animator
     void Start()
     {
         anim = GetComponent<Animator>();
     }
 
+    //check every frame if the player is moving or not and set the correct animation
     void Update()
     {
         playerMoving = false;

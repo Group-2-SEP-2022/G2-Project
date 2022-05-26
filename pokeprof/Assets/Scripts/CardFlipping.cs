@@ -21,7 +21,7 @@ public class CardFlipping : MonoBehaviour
         mFront.transform.eulerAngles = new Vector3(0, 90, 0);
         mBack.transform.eulerAngles = Vector3.zero;
     }
-
+    
     private void Start()
     {
         Init();
@@ -34,6 +34,7 @@ public class CardFlipping : MonoBehaviour
         StartCoroutine(ToFront());
     }
 
+    //flip the card from back to front
     IEnumerator ToFront()
     {
         isActive = true;

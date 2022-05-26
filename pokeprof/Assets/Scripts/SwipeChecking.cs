@@ -8,6 +8,7 @@ public class SwipeChecking : MonoBehaviour
         endTouchPosition;
     public Animator startAnim;
 
+    //check if the user swipe up in a certain threshold
     public void SwipeCheck()
     {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
@@ -25,6 +26,7 @@ public class SwipeChecking : MonoBehaviour
         }
     }
 
+    //check SwipeCheck() every frame
     void Update()
     {
         SwipeCheck();

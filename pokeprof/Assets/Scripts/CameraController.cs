@@ -16,6 +16,7 @@ public class CameraController : MonoBehaviour
     private float halfHeight;
     private float halfWidth;
 
+    //set the camera boundaries
     void Start()
     {
         minBounds = boundBox.bounds.min;
@@ -26,6 +27,7 @@ public class CameraController : MonoBehaviour
         halfWidth = halfHeight * Screen.width / Screen.height;
     }
 
+    //move the camera according to the player and stop the camera when hitting the boundaries
     void Update()
     {
         targetPos = new Vector3(

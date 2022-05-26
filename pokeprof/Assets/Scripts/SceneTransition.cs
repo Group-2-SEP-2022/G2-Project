@@ -17,7 +17,8 @@ public class SceneTransition : MonoBehaviour
     {
         pressed = true;
     }
-
+    
+    //check every frame if the tap to play screen is pressed
     void Update()
     {
         if (pressed)
@@ -26,6 +27,7 @@ public class SceneTransition : MonoBehaviour
         }
     }
 
+    //trigger the animation, wait for 1.5s for the animation to finish then change the scene
     IEnumerator LoadScene(string sceneName)
     {
         transitionAnim.SetTrigger("end");
@@ -33,6 +35,7 @@ public class SceneTransition : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    //when quit button is pressed in main menu then quit the app
     public void QuitGame()
     {
         Application.Quit();

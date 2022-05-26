@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Collector : MonoBehaviour
 {
+    //collect the item when entering the trigger
     private void OnTriggerEnter2D(Collider2D other)
     {
         ICollectible collectible = other.GetComponent<ICollectible>();

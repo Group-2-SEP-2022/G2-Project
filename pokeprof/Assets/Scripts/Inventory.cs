@@ -23,7 +23,8 @@ public class Inventory : MonoBehaviour
     {
         Pokeball.OnPokeballCollected -= Add;
     }
-
+    
+    //add item to the list of item
     public void Add(ItemData itemData)
     {
         if (itemDictionary.TryGetValue(itemData, out InventoryItem item))
@@ -40,6 +41,7 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    //remove item to the list of item
     public void Remove(ItemData itemData)
     {
         if (itemDictionary.TryGetValue(itemData, out InventoryItem item))
@@ -54,6 +56,7 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    //check every frame if there is one item in the inventory
     void Update()
     {
         if (inventory.Count >= 1)
@@ -62,6 +65,7 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    //set the quest to completed
     public void QuestTwo()
     {
         quest.color = new Color32(38, 215, 0, 255);

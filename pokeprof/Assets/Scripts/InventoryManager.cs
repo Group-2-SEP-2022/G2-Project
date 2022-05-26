@@ -7,16 +7,19 @@ public class InventoryManager : MonoBehaviour
     public GameObject slotPrefab;
     public List<InventorySlot> inventorySlots = new List<InventorySlot>(10);
 
+    //add all the inventory slots
     private void OnEnable()
     {
         Inventory.OnInventoryChange += DrawInventory;
     }
 
+    //remove all the inventory slots
     private void OnDisable()
     {
         Inventory.OnInventoryChange -= DrawInventory;
     }
 
+    //reset the inventory slots
     void ResetInventory()
     {
         foreach (Transform childTransform in transform)
@@ -26,7 +29,8 @@ public class InventoryManager : MonoBehaviour
 
         inventorySlots = new List<InventorySlot>(10);
     }
-
+    
+    //draw all the inventory slots according the capacity
     void DrawInventory(List<InventoryItem> inventory)
     {
         ResetInventory();
@@ -42,6 +46,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
+    //create all inventory slots
     void CreateInventorySlot()
     {
         GameObject newSlot = Instantiate(slotPrefab);
