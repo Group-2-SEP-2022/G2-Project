@@ -9,6 +9,7 @@ public class InventoryItem
     public ItemData itemData;
     public int stackSize;
 
+    //set the item to the itemData in scriptable object
     public InventoryItem(ItemData item)
     {
         itemData = item;

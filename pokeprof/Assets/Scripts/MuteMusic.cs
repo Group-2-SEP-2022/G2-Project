@@ -10,11 +10,15 @@ public class MuteMusic : MonoBehaviour
 
     void Start()
     {
+        //return the list of all inactive game objects
         musicListInactive = FindInActiveObjectsByTag("Music");
+         //return the list of all active game objects
         musicList = GameObject.FindGameObjectsWithTag("Music");
-
+        
+        //check if the music should be off
         if (musicData.isOff)
-        {
+        {   
+            //if off then mute the music
             foreach (GameObject musicInactive in musicListInactive)
             {
                 musicInactive.GetComponent<AudioSource>().mute = true;
@@ -25,6 +29,7 @@ public class MuteMusic : MonoBehaviour
                 music.GetComponent<AudioSource>().mute = true;
             }
         } else {
+            //if on then unmute the music
             foreach (GameObject musicInactive in musicListInactive)
             {
                 musicInactive.GetComponent<AudioSource>().mute = false;
@@ -37,6 +42,7 @@ public class MuteMusic : MonoBehaviour
         }
     }
 
+    //find all inactive game object according to their tag
     GameObject[] FindInActiveObjectsByTag(string tag)
     {
         List<GameObject> validTransforms = new List<GameObject>();

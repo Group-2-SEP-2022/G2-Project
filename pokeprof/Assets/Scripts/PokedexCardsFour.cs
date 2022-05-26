@@ -17,7 +17,8 @@ public class PokedexCardsFour : MonoBehaviour
     public GameObject cardColor4;
 
     public GameObject trigger;
-
+    
+    //show the card color in the pokedex for department with 4 cards
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)

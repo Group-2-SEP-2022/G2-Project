@@ -12,7 +12,8 @@ public class ShowCaptureButton : MonoBehaviour
     public Sprite pokeball;
 
     public PokeprofData pokeprofData;
-
+    
+    //show the correct pokeball according to the pokeprof when the player enter the trigger
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)
@@ -26,6 +27,7 @@ public class ShowCaptureButton : MonoBehaviour
         }
     }
 
+    //show the pokedex icon when the player leaves the pokeprof trigger
     public void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)

@@ -19,6 +19,7 @@ public class StartCapture : MonoBehaviour
 
     Inventory iD;
 
+    //start the capture game
     public void Capture()
     {
         pokeprof = FindInActiveObjectByName(pokeprofData.pokeprofName);
@@ -26,6 +27,7 @@ public class StartCapture : MonoBehaviour
         pokeprofCardOutline = FindInActiveObjectByName($"{pokeprofData.pokeprofName} Back Outline");
         pokeprofCard = FindInActiveObjectByName($"{pokeprofData.pokeprofName} Back");
 
+        //set the pokeball logo according to the pokeprof the player is close to.
         switch (pokeprofData.pokeprofName)
         {
             default:
@@ -68,9 +70,11 @@ public class StartCapture : MonoBehaviour
         iD = ID.GetComponent<Inventory>();
 
         List<ItemData> toRemove = new List<ItemData>();
-
+        
+        //display the capture game, remove the background music, start the battle music and add the card to the pokedex to be flipped
         foreach (ItemData key in iD.itemDictionary.Keys)
-        {
+        {   
+            //check if the pokeball is present in the inventory
             if (key.displayName == pokeball)
             {
                 backgroundMusic.SetActive(false);
@@ -81,14 +85,18 @@ public class StartCapture : MonoBehaviour
                 toRemove.Add(key);
             }
         }
+
+        //remove the pokeball from the inventory
         foreach (ItemData key in toRemove)
         {
             iD.Remove(key);
         }
 
+        //complete the capture quest
         quest.color = new Color32(38, 215, 0, 255);
     }
 
+    //find all inactive gameobject since unity only have a function to the active gameobject
     GameObject FindInActiveObjectByName(string name)
     {
         Transform[] objs = Resources.FindObjectsOfTypeAll<Transform>() as Transform[];

@@ -8,11 +8,13 @@ public class MuteMusicButton : MonoBehaviour
 
     public bool isMusicOff;
     
+    //set the scriptable object bool property
     public void Mute()
     {
         musicData.isOff = isMusicOff;
     }
 
+    //when the game start set to false
     void OnEnable()
     {
         musicData.isOff = false;

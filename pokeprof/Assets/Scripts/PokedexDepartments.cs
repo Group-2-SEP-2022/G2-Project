@@ -9,6 +9,7 @@ public class PokedexDepartments : MonoBehaviour
     public GameObject borderEmpty;
     public GameObject borderColor;
 
+    //show the department color in the pokedex
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)

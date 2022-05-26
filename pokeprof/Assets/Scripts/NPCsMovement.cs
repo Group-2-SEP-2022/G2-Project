@@ -53,8 +53,9 @@ public class NPCsMovement : MonoBehaviour
             {
                 walkCounter -= Time.deltaTime;
 
+                //set the player movement speed and check if the NPC is still in his walkzone otherwise stop him
                 switch (walkDirection)
-                {
+                {   
                     case 0:
                         myRigidbody.velocity = new Vector2(0, moveSpeed);
 
@@ -104,6 +105,7 @@ public class NPCsMovement : MonoBehaviour
                 waitCounter -= Time.deltaTime;
                 myRigidbody.velocity = Vector2.zero;
 
+                //when the NPC stops moving keeps is face pointing the direction he was walking
                 switch (walkDirection)
                 {
                     case 0:
@@ -132,6 +134,7 @@ public class NPCsMovement : MonoBehaviour
     {
         walkDirection = Random.Range(0, 4);
 
+        //play the walking animation accordind to the random direction
         switch (walkDirection)
         {
             case 0:
@@ -152,6 +155,7 @@ public class NPCsMovement : MonoBehaviour
         walkCounter = walkTime;
     }
 
+    //stop the NPC from walking when he collides with the player or a collider
     void OnCollisionStay2D(Collision2D other)
     {
         if (other.gameObject.tag == "Player")
@@ -165,6 +169,7 @@ public class NPCsMovement : MonoBehaviour
         }
     }
 
+    //resume NPC movement
     void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.tag == "Player")
